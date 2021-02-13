@@ -1,5 +1,9 @@
 package com.posicube.robi.reception.domain.br.staffer;
 
+import com.posicube.robi.reception.domain.br.AllUserData;
+import com.posicube.robi.reception.domain.br.PhoneBook;
+import java.util.Set;
+
 public class BrStaffer {
 
     private Long id;
@@ -31,4 +35,11 @@ public class BrStaffer {
     private String branchId;
 
     private String jobs;
+
+//    private static Set<BrStaffer> initPhoneBookAllUserData(Set<PhoneBook> phoneBookSet,
+//        Set<AllUserData> allUserDataSet) {
+//        for (PhoneBook phoneBook : phoneBookSet) {
+//
+//        }
+//    }
 }
