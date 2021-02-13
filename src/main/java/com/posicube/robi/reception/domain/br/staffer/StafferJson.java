@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.staffer;
+package com.posicube.robi.reception.domain.br.staffer;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

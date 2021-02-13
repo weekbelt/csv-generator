@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.department;
+package com.posicube.robi.reception.domain.br.department;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.JsonNode;

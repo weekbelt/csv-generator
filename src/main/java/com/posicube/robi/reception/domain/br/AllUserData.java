@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.util.br;
+package com.posicube.robi.reception.domain.br;
 
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
@@ -7,8 +7,7 @@ import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -31,10 +30,11 @@ public class AllUserData {
 
     private String jobs;
 
-    public static  List<AllUserData> init() throws CsvValidationException {
+    public static void init() throws CsvValidationException {
         ClassPathResource allUserDataResource = new ClassPathResource("csv/br/rowData/allUserData.csv");
 
-        List<AllUserData> series = new ArrayList<>();
+//        List<AllUserData> series = new ArrayList<>();
+        Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
 
         String csvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/correctedAllUserData.csv";
         try (
@@ -44,7 +44,8 @@ public class AllUserData {
             // column 명 제외
             csvReader.readNext();
             // column 명 포함
-            correctedAllUserCsvWriter.writeNext(new String[]{"stafferId", "departmentCode", "stafferName", "position", "phoneNumber", "jobs"});
+            correctedAllUserCsvWriter.writeNext(
+                new String[]{"stafferId", "departmentCode", "stafferName", "position", "phoneNumber", "jobs"});
 
             String[] nextLine;
             while ((nextLine = csvReader.readNext()) != null) {
@@ -55,7 +56,7 @@ public class AllUserData {
                 String phoneNumber = nextLine[7];
                 String jobs = nextLine[13];
 
-                if (!stafferName.contains("gamsa") && !stafferName.contains("감사")) {
+                if (!stafferName.contains("gamsa") && !stafferName.contains("감사") || !stafferName.equals("고용복지+센터")) {
                     // allUserData를 리스트에 저장
                     AllUserData allUserData = AllUserData.builder()
                         .stafferId(stafferId)
@@ -65,7 +66,7 @@ public class AllUserData {
                         .phoneNumber(phoneNumber)
                         .jobs(jobs)
                         .build();
-                    series.add(allUserData);
+                    allUserDataSet.add(allUserData);
 
                     // csv 파일에 row 단위로 삽입
                     String[] row = {stafferId, departmentCode, stafferName, position, phoneNumber, jobs};
@@ -75,7 +76,5 @@ public class AllUserData {
         } catch (IOException e) {
             throw new CsvFileHandlingException("Csv file reading failed!!", e);
         }
-
-        return series;
     }
 }
