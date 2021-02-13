@@ -1,5 +1,6 @@
 package com.posicube.robi.reception.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.opencsv.exceptions.CsvValidationException;
 import com.posicube.robi.reception.service.DirectoryGeneratorService;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +16,7 @@ public class DirectoryController {
     private final DirectoryGeneratorService directoryGeneratorService;
 
     @GetMapping("/directory/init/correctedData")
-    public void initDirectoryCsv() throws CsvValidationException {
+    public void initDirectoryCsv() throws CsvValidationException, JsonProcessingException {
         directoryGeneratorService.initCorrectedCsv();
     }
 
