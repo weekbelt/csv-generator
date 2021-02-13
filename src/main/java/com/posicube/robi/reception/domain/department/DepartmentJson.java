@@ -70,4 +70,5 @@ public class DepartmentJson {
         private String number;
     }
 
+
 }
