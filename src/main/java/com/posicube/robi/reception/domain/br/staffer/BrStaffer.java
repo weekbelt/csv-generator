@@ -3,12 +3,14 @@ package com.posicube.robi.reception.domain.br.staffer;
 import com.opencsv.CSVWriter;
 import com.posicube.robi.reception.domain.br.AllUserData;
 import com.posicube.robi.reception.domain.br.BRRepository;
+import com.posicube.robi.reception.domain.br.Department;
 import com.posicube.robi.reception.domain.br.PhoneBook;
 import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
@@ -44,6 +46,8 @@ public class BrStaffer {
     private String parentDepartmentId;
 
     private String parentDepartmentName;
+
+    private String parentDepartmentCode;
     // 여기까지 나중에
 
     private String isAdmin;
@@ -62,7 +66,8 @@ public class BrStaffer {
         try (CSVWriter correctedBrStafferWriter = new CSVWriter(new FileWriter(csvFilePath))) {
             correctedBrStafferWriter.writeNext(
                 new String[]{"id", "firstName", "lastName", "title", "phoneNumber", "phoneTypeId", "phoneTypeName",
-                    "departmentId", "departmentName", "parentDepartmentId", "parentDepartmentName", "email", "isAdmin",
+                    "departmentId", "departmentName", "parentDepartmentId", "parentDepartmentName",
+                    "parentDepartmentCode", "email", "isAdmin",
                     "personalId", "branchId", "jobs"});
 
             Long stafferId = 1L;
@@ -87,9 +92,13 @@ public class BrStaffer {
                 String phoneTypeName = phoneInfo[2];
 
                 String departmentId = "";
-                String departmentName = "";
+                String departmentName = phoneBook.getDepartmentName();
+                String departmentCode = "";
                 String parentDepartmentId = "";
-                String parentDepartmentName = "";
+                String parentDepartmentName = phoneBook.getCompany();
+//                Map<String, Department> departmentMap = BRRepository.departmentMap;
+//                String parentDepartmentName = departmentMap.get(allUserData.getDepartmentCode().trim()).getDepartmentName();
+                String parentDepartmentCode = allUserData.getDepartmentCode();
 
                 String email = correctedEmail(allUserData.getStafferId());
                 String isAdmin = getAdmin(phoneBook.getLastName());
@@ -113,6 +122,7 @@ public class BrStaffer {
                     .departmentName(departmentName)
                     .parentDepartmentId(parentDepartmentId)
                     .parentDepartmentName(parentDepartmentName)
+                    .parentDepartmentCode(parentDepartmentCode)
                     .email(email)
                     .isAdmin(isAdmin)
                     .personalId(personalId)
@@ -122,7 +132,8 @@ public class BrStaffer {
                 brStafferSet.add(brStaffer);
 
                 String[] row = {String.valueOf(id), firstName, lastName, title, phoneNumber, phoneTypeId, phoneTypeName,
-                    departmentId, departmentName, parentDepartmentId, parentDepartmentName, email, isAdmin, personalId,
+                    departmentId, departmentName, parentDepartmentId, parentDepartmentName, parentDepartmentCode, email,
+                    isAdmin, personalId,
                     branchId, jobs};
                 correctedBrStafferWriter.writeNext(row);
             }

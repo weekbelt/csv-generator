@@ -4,11 +4,10 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvValidationException;
 import com.posicube.robi.reception.domain.br.AllUserData;
-import com.posicube.robi.reception.domain.br.BRRepository;
 import com.posicube.robi.reception.domain.br.Department;
+import com.posicube.robi.reception.domain.br.DepartmentAllUserData;
 import com.posicube.robi.reception.domain.br.PhoneBook;
-import com.posicube.robi.reception.domain.br.staffer.BrStaffer;
-import java.util.Set;
+import com.posicube.robi.reception.domain.br.PhoneBookDepartmentAllUserData;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -25,9 +24,19 @@ public class DirectoryGeneratorService {
         AllUserData.init();
         PhoneBook.init();
 
-        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
-        Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
-        BrStaffer.initPhoneBookAllUserDataExceptDepartment(phoneBookSet, allUserDataSet);
+        DepartmentAllUserData.initDepartmentAllUserData();
+        PhoneBookDepartmentAllUserData.initDepartmentAllUserData();
+
+        // detail한 department 삽입하기
+
+
+//        // department를 제외한 Staffer csv 파일 생성
+//        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
+//        Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
+//        BrStaffer.initPhoneBookAllUserDataExceptDepartment(phoneBookSet, allUserDataSet);
+
+        // department 완성
+
     }
 
 }

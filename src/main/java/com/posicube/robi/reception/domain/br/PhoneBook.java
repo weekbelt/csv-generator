@@ -58,7 +58,7 @@ public class PhoneBook {
                 String departmentName = correctedDepartmentName(company, housePhone).trim();
 
                 // 빈 row 입력 x
-                if (StringUtils.isNotBlank(lastName) && hasDepartment(company)) {
+                if (StringUtils.isNotBlank(lastName) && hasDepartment(company) && !lastName.endsWith("테이블")) {
                     PhoneBook phoneBook = PhoneBook.builder()
                         .station(station)
                         .lastName(lastName)
@@ -94,7 +94,7 @@ public class PhoneBook {
 
     public static String correctLastName(String lastName, String housePhone) {
         if (lastName.contains("fax") || lastName.contains("FAX") || lastName.contains("FXA") || housePhone
-            .contains("FAX")) {
+            .contains("FAX") || lastName.contains("fxa")) {
             return "팩스";
         } else if (lastName.endsWith("팀장") || lastName.endsWith("공익")) {
             return lastName.substring(0, lastName.length() - 2).trim();

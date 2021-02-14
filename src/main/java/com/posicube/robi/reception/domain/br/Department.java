@@ -4,20 +4,23 @@ import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvValidationException;
 import com.posicube.robi.reception.exception.CsvFileHandlingException;
+import com.posicube.robi.reception.util.CsvReaderUtil;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.io.ClassPathResource;
 
 @Builder
 @Getter
 @Setter
 public class Department {
+    private String departmentId;
 
     private String departmentCode;
 
@@ -39,16 +42,18 @@ public class Department {
             // column 명 제외
             csvReader.readNext();
             // column 명 포함
-            correctedDepartmentCsvWriter.writeNext(new String[]{"departmentCode", "parentCode", "departmentName"});
+            correctedDepartmentCsvWriter.writeNext(new String[]{"departmentId", "departmentCode", "parentCode", "departmentName"});
 
             String[] nextLine;
             while ((nextLine = csvReader.readNext()) != null) {
+                String departmentId = nextLine[4];
                 String departmentCode = nextLine[1];
                 String parentCode = nextLine[2];
                 String departmentName = correctedDepartmentName(nextLine[3]);
 
                 // department를 리스트에 저장
                 Department department = Department.builder()
+                    .departmentId(departmentId)
                     .departmentCode(departmentCode)
                     .parentCode(parentCode)
                     .departmentName(departmentName)
@@ -56,7 +61,7 @@ public class Department {
                 departmentMap.put(departmentCode, department);
 
                 // csv 파일에 row 단위로 삽입
-                String[] row = {departmentCode, parentCode, departmentName};
+                String[] row = {departmentId, departmentCode, parentCode, departmentName};
                 correctedDepartmentCsvWriter.writeNext(row);
             }
         } catch (IOException e) {
@@ -73,5 +78,25 @@ public class Department {
             departmentName += "실";
         }
         return departmentName;
+    }
+
+    public static void addDepartment() throws CsvValidationException {
+        ClassPathResource phonebookDepartmentAllUserDataResource = new ClassPathResource("csv/br/correctedData/phoneBookDepartmentAllUserData.csv");
+
+        CsvReaderUtil csvReaderUtil = new CsvReaderUtil();
+        List<String[]> phoneBookDepartmentAllUserDataList = csvReaderUtil.convertCsvResourceToDataFrame(phonebookDepartmentAllUserDataResource);
+        Map<String, Department> departmentMap = BRRepository.departmentMap;
+
+        int endPointNumber = 1;
+        for (String[] phoneBookDepartmentAllUserData : phoneBookDepartmentAllUserDataList) {
+            String departmentName = phoneBookDepartmentAllUserData[3];
+            String departmentCode = phoneBookDepartmentAllUserData[1];
+            String detailDepartmentName = phoneBookDepartmentAllUserData[12];
+            if (!departmentName.equals(detailDepartmentName) && StringUtils.isNotBlank(detailDepartmentName)) {
+                departmentCode = departmentCode + "." + endPointNumber;
+                endPointNumber++;
+            }
+        }
+
     }
 }
