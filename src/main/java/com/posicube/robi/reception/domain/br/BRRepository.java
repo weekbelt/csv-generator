@@ -1,5 +1,6 @@
 package com.posicube.robi.reception.domain.br;
 
+import com.posicube.robi.reception.domain.br.staffer.BrStaffer;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -13,4 +14,5 @@ public class BRRepository {
 
     public static Set<PhoneBook> phoneBookSet = new HashSet<>();
 
+    public static Set<BrStaffer> brStafferSet = new HashSet<>();
 }

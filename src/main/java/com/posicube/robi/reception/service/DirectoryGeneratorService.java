@@ -7,6 +7,7 @@ import com.posicube.robi.reception.domain.br.AllUserData;
 import com.posicube.robi.reception.domain.br.BRRepository;
 import com.posicube.robi.reception.domain.br.Department;
 import com.posicube.robi.reception.domain.br.PhoneBook;
+import com.posicube.robi.reception.domain.br.staffer.BrStaffer;
 import java.util.Set;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -24,11 +25,9 @@ public class DirectoryGeneratorService {
         AllUserData.init();
         PhoneBook.init();
 
-//        Set<Department> departmentSet = BRRepository.departmentMap;
-//        Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
-//        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
-//
-//
+        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
+        Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
+        BrStaffer.initPhoneBookAllUserDataExceptDepartment(phoneBookSet, allUserDataSet);
     }
 
 }
