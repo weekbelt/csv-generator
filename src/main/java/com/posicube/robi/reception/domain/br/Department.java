@@ -7,6 +7,7 @@ import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Map;
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
@@ -27,8 +28,7 @@ public class Department {
     public static void init() throws CsvValidationException {
         ClassPathResource departmentResource = new ClassPathResource("csv/br/rowData/department.csv");
 
-//        List<Department> series = new ArrayList<>();
-        Set<Department> departments = BRRepository.departmentSet;
+        Map<String, Department> departmentMap = BRRepository.departmentMap;
 
         String csvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/correctedDepartment.csv";
 
@@ -53,8 +53,7 @@ public class Department {
                     .parentCode(parentCode)
                     .departmentName(departmentName)
                     .build();
-                departments.add(department);
-//                series.add(department);
+                departmentMap.put(departmentCode, department);
 
                 // csv 파일에 row 단위로 삽입
                 String[] row = {departmentCode, parentCode, departmentName};

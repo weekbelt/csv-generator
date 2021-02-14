@@ -7,10 +7,12 @@ import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Map;
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.io.ClassPathResource;
 
 @Builder
@@ -21,6 +23,8 @@ public class AllUserData {
     private String stafferId;
 
     private String departmentCode;
+
+    private String departmentName;
 
     private String stafferName;
 
@@ -47,24 +51,26 @@ public class AllUserData {
             csvReader.readNext();
             // column 명 포함
             correctedAllUserCsvWriter.writeNext(
-                new String[]{"stafferId", "departmentCode", "stafferName", "position", "phoneType", "phoneNumber",
-                    "jobs"});
+                new String[]{"stafferId", "departmentCode", "departmentName", "stafferName", "position", "phoneType",
+                    "phoneNumber", "jobs"});
 
             String[] nextLine;
             while ((nextLine = csvReader.readNext()) != null) {
                 String stafferId = nextLine[1];
                 String departmentCode = nextLine[2];
+                String departmentName = correctedDepartmentName(nextLine[2]);
                 String stafferName = nextLine[3];
                 String position = nextLine[5];
                 String phoneType = correctedPhoneType(nextLine[7]);
                 String phoneNumber = correctedPhoneNumber(nextLine[7]);
                 String jobs = nextLine[13];
 
-                if (allUserDataFilter(stafferName)) {
+                if (allUserDataFilter(stafferName) && StringUtils.isNotBlank(departmentName)) {
                     // allUserData를 리스트에 저장
                     AllUserData allUserData = AllUserData.builder()
                         .stafferId(stafferId)
                         .departmentCode(departmentCode)
+                        .departmentName(departmentName)
                         .stafferName(stafferName)
                         .position(position)
                         .phoneType(phoneType)
@@ -74,13 +80,23 @@ public class AllUserData {
                     allUserDataSet.add(allUserData);
 
                     // csv 파일에 row 단위로 삽입
-                    String[] row = {stafferId, departmentCode, stafferName, position, phoneType, phoneNumber, jobs};
+                    String[] row = {stafferId, departmentCode, departmentName, stafferName, position, phoneType,
+                        phoneNumber, jobs};
                     correctedAllUserCsvWriter.writeNext(row);
                 }
             }
         } catch (IOException e) {
             throw new CsvFileHandlingException("Csv file reading failed!!", e);
         }
+    }
+
+    private static String correctedDepartmentName(String departmentCode) {
+        Map<String, Department> departmentMap = BRRepository.departmentMap;
+        Department department = departmentMap.get(departmentCode);
+        if (department != null){
+            return department.getDepartmentName();
+        }
+        return "";
     }
 
     public static boolean allUserDataFilter(String stafferName) {
@@ -117,7 +133,7 @@ public class AllUserData {
             }
         } else if (phoneNumber.length() == 7) {
             if (phoneNumber.startsWith("930")) {
-                return phoneNumber.substring(phoneNumber.length() - 3);
+                return phoneNumber.substring(phoneNumber.length() - 4);
             } else {
                 return "041-" + phoneNumber.substring(0, 3) + "-" + phoneNumber.substring(3);
             }

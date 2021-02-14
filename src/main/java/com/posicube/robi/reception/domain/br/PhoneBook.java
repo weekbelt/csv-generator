@@ -7,6 +7,7 @@ import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Map;
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
@@ -129,8 +130,10 @@ public class PhoneBook {
     }
 
     public static boolean hasDepartment(String company) {
-        Set<Department> departmentSet = BRRepository.departmentSet;
-        for (Department department : departmentSet) {
+        Map<String, Department> departmentMap = BRRepository.departmentMap;
+        Set<String> departmentCodeSet = departmentMap.keySet();
+        for (String departmentCode : departmentCodeSet) {
+            Department department = departmentMap.get(departmentCode);
             if (department.getDepartmentName().equals(company)) {
                 return true;
             }

@@ -24,11 +24,11 @@ public class DirectoryGeneratorService {
         AllUserData.init();
         PhoneBook.init();
 
-        Set<Department> departmentSet = BRRepository.departmentSet;
-        Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
-        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
-
-
+//        Set<Department> departmentSet = BRRepository.departmentMap;
+//        Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
+//        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
+//
+//
     }
 
 }

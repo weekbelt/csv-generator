@@ -36,10 +36,17 @@ public class BrStaffer {
 
     private String jobs;
 
-//    private static Set<BrStaffer> initPhoneBookAllUserData(Set<PhoneBook> phoneBookSet,
+//    public static Set<BrStaffer> initPhoneBookAllUserData(Set<PhoneBook> phoneBookSet,
 //        Set<AllUserData> allUserDataSet) {
 //        for (PhoneBook phoneBook : phoneBookSet) {
 //
 //        }
+//    }
+//
+//    private static boolean hasUser(PhoneBook phoneBook, Set<AllUserData> allUserDataSet) {
+//        for (AllUserData allUserData : allUserDataSet) {
+//
+//        }
+//        return false;
 //    }
 }
