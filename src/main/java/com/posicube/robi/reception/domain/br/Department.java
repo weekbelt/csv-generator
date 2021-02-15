@@ -3,6 +3,8 @@ package com.posicube.robi.reception.domain.br;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvValidationException;
+import com.posicube.robi.reception.domain.br.department.DepartmentBR;
+import com.posicube.robi.reception.domain.br.department.DepartmentBRRepository;
 import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import com.posicube.robi.reception.util.CsvReaderUtil;
 import java.io.FileReader;
@@ -28,7 +30,7 @@ public class Department {
 
     private String departmentName;
 
-    public static void init() throws CsvValidationException {
+    public static void init(DepartmentBRRepository departmentBRRepository) throws CsvValidationException {
         ClassPathResource departmentResource = new ClassPathResource("csv/br/rowData/department.csv");
 
         Map<String, Department> departmentMap = BRRepository.departmentMap;
@@ -51,14 +53,14 @@ public class Department {
                 String parentCode = nextLine[2];
                 String departmentName = correctedDepartmentName(nextLine[3]);
 
-                // department를 리스트에 저장
-                Department department = Department.builder()
-                    .departmentId(departmentId)
+                // DepartmentBR를 DB에 저장
+                DepartmentBR departmentBR = DepartmentBR.builder()
+                    .departmentId(Long.parseLong(departmentId))
                     .departmentCode(departmentCode)
                     .parentCode(parentCode)
                     .departmentName(departmentName)
                     .build();
-                departmentMap.put(departmentCode, department);
+                departmentBRRepository.save(departmentBR);
 
                 // csv 파일에 row 단위로 삽입
                 String[] row = {departmentId, departmentCode, parentCode, departmentName};
