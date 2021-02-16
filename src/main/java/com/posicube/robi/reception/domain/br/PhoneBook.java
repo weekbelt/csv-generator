@@ -3,11 +3,11 @@ package com.posicube.robi.reception.domain.br;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvValidationException;
+import com.posicube.robi.reception.domain.br.department.DepartmentBRRepository;
 import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Map;
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
@@ -30,10 +30,9 @@ public class PhoneBook {
 
     private String departmentName;
 
-    public static void init() throws CsvValidationException {
+    public static void init(DepartmentBRRepository departmentBRRepository) throws CsvValidationException {
         ClassPathResource phoneBookResource = new ClassPathResource("csv/br/rowData/phoneBook.csv");
 
-//        List<PhoneBook> series = new ArrayList<>();
         Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
 
         String correctedCsvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/correctedPhoneBook.csv";
@@ -58,7 +57,7 @@ public class PhoneBook {
                 String departmentName = correctedDepartmentName(company, housePhone).trim();
 
                 // 빈 row 입력 x
-                if (StringUtils.isNotBlank(lastName) && hasDepartment(company) && !lastName.endsWith("테이블")) {
+                if (StringUtils.isNotBlank(lastName) && departmentBRRepository.existsDepartmentBRByDepartmentName(departmentName)) {
                     PhoneBook phoneBook = PhoneBook.builder()
                         .station(station)
                         .lastName(lastName)
@@ -96,10 +95,8 @@ public class PhoneBook {
         if (lastName.contains("fax") || lastName.contains("FAX") || lastName.contains("FXA") || housePhone
             .contains("FAX") || lastName.contains("fxa")) {
             return "팩스";
-        } else if (lastName.endsWith("팀장") || lastName.endsWith("공익")) {
+        } else if (lastName.endsWith("팀장")) {
             return lastName.substring(0, lastName.length() - 2).trim();
-        } else if (lastName.startsWith("관제센타")) {
-            return lastName.substring(4);
         }
         return lastName;
     }
@@ -128,17 +125,4 @@ public class PhoneBook {
         }
         return housePhone;
     }
-
-    public static boolean hasDepartment(String company) {
-        Map<String, Department> departmentMap = BRRepository.departmentMap;
-        Set<String> departmentCodeSet = departmentMap.keySet();
-        for (String departmentCode : departmentCodeSet) {
-            Department department = departmentMap.get(departmentCode);
-            if (department.getDepartmentName().equals(company)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
 }

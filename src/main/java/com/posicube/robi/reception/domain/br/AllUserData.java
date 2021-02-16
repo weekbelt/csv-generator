@@ -3,11 +3,13 @@ package com.posicube.robi.reception.domain.br;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvValidationException;
+import com.posicube.robi.reception.domain.br.department.DepartmentBR;
+import com.posicube.robi.reception.domain.br.department.DepartmentBRRepository;
 import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
@@ -36,10 +38,9 @@ public class AllUserData {
 
     private String jobs;
 
-    public static void init() throws CsvValidationException {
+    public static void init(DepartmentBRRepository departmentBRRepository) throws CsvValidationException {
         ClassPathResource allUserDataResource = new ClassPathResource("csv/br/rowData/allUserData.csv");
 
-//        List<AllUserData> series = new ArrayList<>();
         Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
 
         String csvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/correctedAllUserData.csv";
@@ -58,7 +59,7 @@ public class AllUserData {
             while ((nextLine = csvReader.readNext()) != null) {
                 String stafferId = nextLine[1];
                 String departmentCode = nextLine[2];
-                String departmentName = correctedDepartmentName(nextLine[2]);
+                String departmentName = correctedDepartmentName(nextLine[2], departmentBRRepository);
                 String stafferName = nextLine[3];
                 String position = nextLine[5];
                 String phoneType = correctedPhoneType(nextLine[7]);
@@ -90,11 +91,11 @@ public class AllUserData {
         }
     }
 
-    private static String correctedDepartmentName(String departmentCode) {
-        Map<String, Department> departmentMap = BRRepository.departmentMap;
-        Department department = departmentMap.get(departmentCode);
-        if (department != null){
-            return department.getDepartmentName();
+    private static String correctedDepartmentName(String departmentCode, DepartmentBRRepository departmentBRRepository) {
+        Optional<DepartmentBR> optionalDepartmentBR = departmentBRRepository.findDepartmentBRByDepartmentCode(departmentCode);
+        if (optionalDepartmentBR.isPresent()) {
+            DepartmentBR departmentBR = optionalDepartmentBR.get();
+            return departmentBR.getDepartmentName();
         }
         return "";
     }

@@ -8,6 +8,7 @@ import com.posicube.robi.reception.domain.br.Department;
 import com.posicube.robi.reception.domain.br.DepartmentAllUserData;
 import com.posicube.robi.reception.domain.br.PhoneBook;
 import com.posicube.robi.reception.domain.br.PhoneBookDepartmentAllUserData;
+import com.posicube.robi.reception.domain.br.department.DepartmentBRRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -18,17 +19,17 @@ import org.springframework.stereotype.Service;
 public class DirectoryGeneratorService {
 
     private final ObjectMapper objectMapper;
+    private final DepartmentBRRepository departmentBRRepository;
 
     public void initCorrectedCsv() throws CsvValidationException, JsonProcessingException {
-        Department.init();
-        AllUserData.init();
-        PhoneBook.init();
+        Department.init(departmentBRRepository);
+        AllUserData.init(departmentBRRepository);
+        PhoneBook.init(departmentBRRepository);
 
-        DepartmentAllUserData.initDepartmentAllUserData();
-        PhoneBookDepartmentAllUserData.initDepartmentAllUserData();
+//        DepartmentAllUserData.initDepartmentAllUserData();
+//        PhoneBookDepartmentAllUserData.initDepartmentAllUserData();
 
         // detail한 department 삽입하기
-
 
 //        // department를 제외한 Staffer csv 파일 생성
 //        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
