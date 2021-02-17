@@ -85,7 +85,7 @@ public class BrStaffer {
                 String isAdmin = BrStafferFilter.getAdmin(allUserData[4]);
                 String personalId = allUserData[1];
                 String branchId = "0dbf43a0-a168-11e9-a893-49ac915e00a7";
-                String jobs = BrStafferFilter.correctedJobs(allUserData[9]);
+                String jobs = BrStafferFilter.correctedJobs(allUserData[9].trim());
                 String[] phoneBook = getPhoneBook(allUserData, phoneBookSeries);
                 if (phoneBook == null) {
                     String[] row = {id, firstName, lastName, title, phoneNumber, phoneTypeId, phoneTypeName,

@@ -7,10 +7,12 @@ import com.posicube.robi.reception.domain.br.department.DepartmentBRRepository;
 import com.posicube.robi.reception.domain.br.department.DepartmentJson.Hierarchy;
 import com.posicube.robi.reception.domain.br.phoneBook.PhoneBook;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.stream.Collectors;
 import org.apache.commons.lang3.StringUtils;
 
 public class BrStafferFilter {
@@ -165,13 +167,14 @@ public class BrStafferFilter {
     }
 
     public static String correctedJobs(String jobs) {
-        List<String> jobList = new ArrayList<>();
-        String[] splitJobs = jobs.split("ㆍ-/,·\"(\")@\\s");
-        for (String splitJob : splitJobs) {
-            if (splitJob.length() != 1 && !isInAccuracy(splitJob)) {
-                jobList.add(splitJob);
-            }
-        }
+        String[] splitJobs = jobs.split(",|\\s+");
+        List<String> jobList = Arrays.stream(splitJobs)
+            .map(job -> job.split("[ㆍ\\-/,·\"()@\\\\s+○.]"))
+            .flatMap(Arrays::stream)
+            .filter(job -> !isInAccuracy(job))
+            .distinct()
+            .collect(Collectors.toList());
+
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < jobList.size(); i++) {
             if (i != jobList.size() - 1) {
