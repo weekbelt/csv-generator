@@ -8,4 +8,6 @@ public interface DepartmentBRRepository extends JpaRepository<DepartmentBR, Long
     Optional<DepartmentBR> findDepartmentBRByDepartmentCode(String departmentCode);
 
     boolean existsDepartmentBRByDepartmentName(String departmentName);
+
+    boolean existsByDepartmentName(String departmentName);
 }

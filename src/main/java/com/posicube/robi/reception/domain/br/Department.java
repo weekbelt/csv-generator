@@ -22,6 +22,7 @@ import org.springframework.core.io.ClassPathResource;
 @Getter
 @Setter
 public class Department {
+
     private String departmentId;
 
     private String departmentCode;
@@ -61,6 +62,14 @@ public class Department {
                     .departmentName(departmentName)
                     .build();
                 departmentBRRepository.save(departmentBR);
+
+                // deparmentMap에 department 저장
+                departmentMap.put(departmentCode, Department.builder()
+                    .departmentId(departmentId)
+                    .departmentCode(departmentCode)
+                    .parentCode(parentCode)
+                    .departmentName(departmentName)
+                    .build());
 
                 // csv 파일에 row 단위로 삽입
                 String[] row = {departmentId, departmentCode, parentCode, departmentName};

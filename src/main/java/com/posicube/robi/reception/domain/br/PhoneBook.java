@@ -8,6 +8,7 @@ import com.posicube.robi.reception.exception.CsvFileHandlingException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Map;
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
@@ -33,7 +34,6 @@ public class PhoneBook {
     public static void init(DepartmentBRRepository departmentBRRepository) throws CsvValidationException {
         ClassPathResource phoneBookResource = new ClassPathResource("csv/br/rowData/phoneBook.csv");
 
-        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
 
         String correctedCsvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/correctedPhoneBook.csv";
         String exceptedCsvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/exceptedPhoneBook.csv";
@@ -47,8 +47,11 @@ public class PhoneBook {
             // column 명 포함
             correctedPhoneBookWriter
                 .writeNext(new String[]{"station", "lastName", "company", "housePhone", "departmentName"});
+            exceptedPhoneBookWriter
+                .writeNext(new String[]{"station", "lastName", "company", "housePhone", "departmentName"});
 
             String[] nextLine;
+            Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
             while ((nextLine = csvReader.readNext()) != null) {
                 String station = nextLine[0].trim();
                 String lastName = correctLastName(nextLine[2], nextLine[4]).trim();
@@ -57,7 +60,9 @@ public class PhoneBook {
                 String departmentName = correctedDepartmentName(company, housePhone).trim();
 
                 // 빈 row 입력 x
-                if (StringUtils.isNotBlank(lastName) && departmentBRRepository.existsDepartmentBRByDepartmentName(departmentName)) {
+//                if (StringUtils.isNotBlank(lastName) && departmentBRRepository.existsDepartmentBRByDepartmentName(departmentName)) {
+                if (StringUtils.isNotBlank(lastName) && departmentBRRepository.existsByDepartmentName(company)) {
+//                if (StringUtils.isNotBlank(lastName) && hasDepartment(company)) {
                     PhoneBook phoneBook = PhoneBook.builder()
                         .station(station)
                         .lastName(lastName)
@@ -66,16 +71,7 @@ public class PhoneBook {
                         .departmentName(departmentName)
                         .build();
 
-                    boolean isUnique = true;
-                    for (PhoneBook element : phoneBookSet) {
-                        if (element.getLastName().equals(phoneBook.getLastName()) &&
-                            element.getCompany().equals(phoneBook.getCompany())) {
-                            isUnique = false;
-                            break;
-                        }
-                    }
-
-                    if (isUnique) {
+                    if (isUnique(phoneBookSet, phoneBook)) {
                         phoneBookSet.add(phoneBook);
 
                         String[] row = {station, lastName, company, housePhone, departmentName};
@@ -124,5 +120,29 @@ public class PhoneBook {
             return "의회사무국";
         }
         return housePhone;
+    }
+
+    public static boolean hasDepartment(String departmentName) {
+        Map<String, Department> departmentMap = BRRepository.departmentMap;
+        Set<String> departmentCodeKeySet = departmentMap.keySet();
+        for (String departmentCode : departmentCodeKeySet) {
+            Department department = departmentMap.get(departmentCode);
+            if (department.getDepartmentName().equals(departmentName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean isUnique(Set<PhoneBook> phoneBookSet, PhoneBook phoneBook) {
+        boolean isUnique = true;
+        for (PhoneBook element : phoneBookSet) {
+            if (element.getLastName().equals(phoneBook.getLastName()) &&
+                element.getCompany().equals(phoneBook.getCompany())) {
+                isUnique = false;
+                break;
+            }
+        }
+        return isUnique;
     }
 }
