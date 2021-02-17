@@ -1,9 +1,15 @@
 package com.posicube.robi.reception.domain.br.staffer;
 
+import com.posicube.robi.reception.domain.br.BRRepository;
 import com.posicube.robi.reception.domain.br.allUserData.AllUserData;
+import com.posicube.robi.reception.domain.br.department.DepartmentBR;
+import com.posicube.robi.reception.domain.br.department.DepartmentBRRepository;
+import com.posicube.robi.reception.domain.br.department.DepartmentJson.Hierarchy;
 import com.posicube.robi.reception.domain.br.phoneBook.PhoneBook;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import org.apache.commons.lang3.StringUtils;
 
@@ -111,6 +117,42 @@ public class BrStafferFilter {
 
     public static String correctedEmail(String personalId) {
         return personalId + "@generated.email";
+    }
+
+    public static DepartmentBR getDepartmentBR(String allUserDepartmentName, String allUserDepartmentCode, String allUSerDepartmentId, String phoneBookHousePhone, DepartmentBRRepository departmentBRRepository) {
+        // departmentName과 housePhone이 일치하지 않다면 housePhone이 departmentName의 하부 부서라는 이야기
+        if (!allUserDepartmentName.equals(phoneBookHousePhone)) {
+            // 하부 부서가 이미 저장되어있는지 확인하는 로직
+            Optional<DepartmentBR> department = departmentBRRepository.findDepartmentBRByParentCodeAndDepartmentName(allUserDepartmentCode, phoneBookHousePhone);
+            if (department.isPresent()) {       // 존재한다면 찾아서 반환
+                return department.get();
+            } else {                            // 존재하지 않는다면 새로 생성 후 반환
+                DepartmentBR departmentBR = departmentBRRepository.findTopByOrderByDepartmentIdDesc();
+                Long newDepartmentId = departmentBR.getDepartmentId() + 1;
+                String newDepartmentCode = departmentBR.getDepartmentCode() + "." + newDepartmentId;
+
+                // hierarchy에 저장
+                Map<Long, List<Hierarchy>> hierarchyMap = BRRepository.hierarchyMap;
+                List<Hierarchy> hierarchyList = hierarchyMap.get(Long.valueOf(allUSerDepartmentId));
+                hierarchyList.add(Hierarchy.builder()
+                    .id(allUSerDepartmentId)
+                    .name(allUserDepartmentName)
+                    .build());
+                hierarchyMap.put(newDepartmentId, hierarchyList);
+
+                // 영속성컨텍스트에 저장
+                return departmentBRRepository.save(DepartmentBR.builder()
+                    .departmentId(newDepartmentId)
+                    .departmentCode(newDepartmentCode)
+                    .departmentName(phoneBookHousePhone)
+                    .parentCode(allUserDepartmentCode)
+                    .build());
+            }
+
+        } else {
+            return departmentBRRepository.findById(Long.valueOf(allUSerDepartmentId))
+                .orElseThrow(() -> new IllegalArgumentException("해당하는 부서가 존재하지 않습니다. departmentId: " + allUSerDepartmentId));
+        }
     }
 
     public static String getAdmin(String lastName) {
