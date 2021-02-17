@@ -3,12 +3,19 @@ package com.posicube.robi.reception.service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvValidationException;
+import com.posicube.robi.reception.domain.br.BRRepository;
 import com.posicube.robi.reception.domain.br.DepartmentAllUserData;
 import com.posicube.robi.reception.domain.br.allUserData.AllUserData;
 import com.posicube.robi.reception.domain.br.department.Department;
+import com.posicube.robi.reception.domain.br.department.DepartmentBR;
 import com.posicube.robi.reception.domain.br.department.DepartmentBRRepository;
+import com.posicube.robi.reception.domain.br.department.DepartmentJson.Hierarchy;
 import com.posicube.robi.reception.domain.br.phoneBook.PhoneBook;
+import com.posicube.robi.reception.domain.br.staffer.BrStaffer;
 import com.posicube.robi.reception.util.CsvReaderUtil;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -28,18 +35,16 @@ public class DirectoryGeneratorService {
         PhoneBook.init(departmentBRRepository);
 
         DepartmentAllUserData.initDepartmentAllUserData(departmentBRRepository);
+        BrStaffer.initPhoneBookAllUserDataExceptDepartment(csvReaderUtil, departmentBRRepository);
 
-//        DepartmentAllUserData.initDepartmentAllUserData();
-//        PhoneBookDepartmentAllUserData.initDepartmentAllUserData();
+        // 로그
+        Map<Long, List<Hierarchy>> hierarchyMap = BRRepository.hierarchyMap;
+        for (Long key : hierarchyMap.keySet()) {
+            System.out.println(objectMapper.writeValueAsString(hierarchyMap.get(key)));
+        }
 
-        // detail한 department 삽입하기
-
-//        // department를 제외한 Staffer csv 파일 생성
-//        Set<PhoneBook> phoneBookSet = BRRepository.phoneBookSet;
-//        Set<AllUserData> allUserDataSet = BRRepository.allUserDataSet;
-//        BrStaffer.initPhoneBookAllUserDataExceptDepartment(phoneBookSet, allUserDataSet);
-
-        // department 완성
+        final List<DepartmentBR> all = departmentBRRepository.findAll();
+        System.out.println(objectMapper.writeValueAsString(all));
 
     }
 

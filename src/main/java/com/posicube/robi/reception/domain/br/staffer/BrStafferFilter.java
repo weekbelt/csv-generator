@@ -44,7 +44,7 @@ public class BrStafferFilter {
         } else if (position.equals("과장") || position.equals("단장") || position.equals("국장") || position.equals("팀장")) {
             List<String> positions = new ArrayList<>();
             positions.add(position);
-            positions.add(housePhone + "장");
+            positions.add(housePhone);
 
             return makeTitle(title, positions);
         } else if (position.equals("동장")) {
@@ -129,16 +129,18 @@ public class BrStafferFilter {
             } else {                            // 존재하지 않는다면 새로 생성 후 반환
                 DepartmentBR departmentBR = departmentBRRepository.findTopByOrderByDepartmentIdDesc();
                 Long newDepartmentId = departmentBR.getDepartmentId() + 1;
-                String newDepartmentCode = departmentBR.getDepartmentCode() + "." + newDepartmentId;
+                String newDepartmentCode = allUserDepartmentCode + "." + newDepartmentId;
+//                String newDepartmentCode = departmentBR.getDepartmentCode();
 
                 // hierarchy에 저장
                 Map<Long, List<Hierarchy>> hierarchyMap = BRRepository.hierarchyMap;
                 List<Hierarchy> hierarchyList = hierarchyMap.get(Long.valueOf(allUSerDepartmentId));
-                hierarchyList.add(Hierarchy.builder()
+                List<Hierarchy> newHierarchyList = new ArrayList<>(hierarchyList);
+                newHierarchyList.add(Hierarchy.builder()
                     .id(allUSerDepartmentId)
                     .name(allUserDepartmentName)
                     .build());
-                hierarchyMap.put(newDepartmentId, hierarchyList);
+                hierarchyMap.put(newDepartmentId, newHierarchyList);
 
                 // 영속성컨텍스트에 저장
                 return departmentBRRepository.save(DepartmentBR.builder()
@@ -163,31 +165,8 @@ public class BrStafferFilter {
     }
 
     public static String correctedJobs(String jobs) {
-//        List<String> jobList = new ArrayList<>();
-//        for (String job : jobs.split("[,.○]")) {
-//            job = job.trim();
-//            if (job.contains("@")) {
-//                String[] split = job.split("[@]");
-//                if (split.length >= 2) {
-//                    jobList.add(split[1]);
-//                }
-//            } else {
-//                jobList.add(job);
-//            }
-//        }
-//
-//        StringBuilder stringBuilder = new StringBuilder();
-//        for (int i = 0; i < jobList.size(); i++) {
-//            if (i != jobList.size() - 1) {
-//                stringBuilder.append(jobList.get(i)).append(",");
-//            } else {
-//                stringBuilder.append(jobList.get(i));
-//            }
-//        }
-//        jobs = stringBuilder.toString();
-
         List<String> jobList = new ArrayList<>();
-        String[] splitJobs = jobs.split("ㆍ-/,·\\(\\)@");
+        String[] splitJobs = jobs.split("ㆍ-/,·\"(\")@\\s");
         for (String splitJob : splitJobs) {
             if (splitJob.length() != 1 && !isInAccuracy(splitJob)) {
                 jobList.add(splitJob);
