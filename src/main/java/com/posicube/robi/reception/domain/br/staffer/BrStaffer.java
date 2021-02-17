@@ -1,21 +1,25 @@
 package com.posicube.robi.reception.domain.br.staffer;
 
+import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
-import com.posicube.robi.reception.domain.br.AllUserData;
+import com.opencsv.exceptions.CsvValidationException;
+import com.posicube.robi.reception.domain.br.allUserData.AllUserData;
 import com.posicube.robi.reception.domain.br.BRRepository;
-import com.posicube.robi.reception.domain.br.Department;
-import com.posicube.robi.reception.domain.br.PhoneBook;
+import com.posicube.robi.reception.domain.br.department.DepartmentBRRepository;
+import com.posicube.robi.reception.domain.br.phoneBook.PhoneBook;
 import com.posicube.robi.reception.exception.CsvFileHandlingException;
+import com.posicube.robi.reception.util.CsvReaderUtil;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.core.io.ClassPathResource;
 
 @Setter
 @Getter
@@ -38,7 +42,6 @@ public class BrStaffer {
 
     private String email;
 
-    // department 관련부분은 나중에
     private String departmentId;
 
     private String departmentName;
@@ -46,9 +49,6 @@ public class BrStaffer {
     private String parentDepartmentId;
 
     private String parentDepartmentName;
-
-    private String parentDepartmentCode;
-    // 여기까지 나중에
 
     private String isAdmin;
 
@@ -58,88 +58,76 @@ public class BrStaffer {
 
     private String jobs;
 
-    public static void initPhoneBookAllUserDataExceptDepartment(Set<PhoneBook> phoneBookSet,
-        Set<AllUserData> allUserDataSet) {
-        Set<BrStaffer> brStafferSet = BRRepository.brStafferSet;
+    public static void initPhoneBookAllUserDataExceptDepartment(CsvReaderUtil csvReaderUtil, DepartmentBRRepository departmentBRRepository) throws CsvValidationException {
         // phoneBook과 allUserData를 조합하여 BrStaffer를 생성
+        ClassPathResource phoneBookResource = new ClassPathResource("csv/br/correctedData/correctedPhoneBook.csv");
+        ClassPathResource departmentAllUserData = new ClassPathResource("csv/br/correctedData/departmentAllUserData.csv");
+        List<String[]> phoneBookSeries = csvReaderUtil.convertCsvResourceToDataFrame(phoneBookResource);
+        List<String[]> allUserDataSeries = csvReaderUtil.convertCsvResourceToDataFrame(departmentAllUserData);
+
         String csvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/correctedBrStaffer.csv";
-        try (CSVWriter correctedBrStafferWriter = new CSVWriter(new FileWriter(csvFilePath))) {
-            correctedBrStafferWriter.writeNext(
-                new String[]{"id", "firstName", "lastName", "title", "phoneNumber", "phoneTypeId", "phoneTypeName",
-                    "departmentId", "departmentName", "parentDepartmentId", "parentDepartmentName",
-                    "parentDepartmentCode", "email", "isAdmin",
-                    "personalId", "branchId", "jobs"});
+        String exceptCsvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/exceptCorrectedBrStaffer.csv";
+        try (
+            CSVWriter correctedBrStafferWriter = new CSVWriter(new FileWriter(csvFilePath));
+            CSVWriter exceptBrStafferWriter = new CSVWriter(new FileWriter(exceptCsvFilePath));
+        ) {
+            correctedBrStafferWriter.writeNext(new String[]{"id", "firstName", "lastName", "title", "phoneNumber", "phoneTypeId", "phoneTypeName",
+                "email", "departmentId", "departmentName", "parentDepartmentId", "parentDepartmentName", "isAdmin", "personalId", "branchId", "jobs"});
+            exceptBrStafferWriter.writeNext(new String[]{"id", "firstName", "lastName", "title", "phoneNumber", "phoneTypeId", "phoneTypeName",
+                "email", "departmentId", "departmentName", "parentDepartmentId", "parentDepartmentName", "isAdmin", "personalId", "branchId", "jobs"});
 
-            Long stafferId = 1L;
-            for (PhoneBook phoneBook : phoneBookSet) {
-                AllUserData allUserData = getAllUserData(phoneBook, allUserDataSet);
-
-                Long id = stafferId;
-                stafferId++;
-
-                String firstName = correctedFirstName(phoneBook.getLastName());
-                String lastName = correctedLastName(phoneBook.getLastName());
-
+            for (String[] allUserData : allUserDataSeries) {
+                String id = allUserData[0];
+                String firstName = BrStafferFilter.correctedFirstName(allUserData[5]);
+                String lastName = BrStafferFilter.correctedLastName(allUserData[5]);
                 String title = "";
-                if (allUserData.getPosition() != null && phoneBook.getHousePhone() != null) {
-                    title = correctedTitle(allUserData.getPosition(), phoneBook.getHousePhone());
-                }
-
-                String[] phoneInfo = getPhoneInfo(phoneBook.getLastName(), allUserData.getPhoneType(),
-                    allUserData.getPhoneNumber(), phoneBook.getStation());
-                String phoneNumber = phoneInfo[0];
-                String phoneTypeId = phoneInfo[1];
-                String phoneTypeName = phoneInfo[2];
-
+                String phoneNumber = "";
+                String phoneTypeId = "";
+                String phoneTypeName = "";
+                String email = BrStafferFilter.correctedEmail(allUserData[1]);
                 String departmentId = "";
-                String departmentName = phoneBook.getDepartmentName();
-                String departmentCode = "";
+                String departmentName = "";
                 String parentDepartmentId = "";
-                String parentDepartmentName = phoneBook.getCompany();
-//                Map<String, Department> departmentMap = BRRepository.departmentMap;
-//                String parentDepartmentName = departmentMap.get(allUserData.getDepartmentCode().trim()).getDepartmentName();
-                String parentDepartmentCode = allUserData.getDepartmentCode();
-
-                String email = correctedEmail(allUserData.getStafferId());
-                String isAdmin = getAdmin(phoneBook.getLastName());
-                String personalId = allUserData.getStafferId();
+                String parentDepartmentName = "";
+                String isAdmin = BrStafferFilter.getAdmin(allUserData[4]);
+                String personalId = allUserData[1];
                 String branchId = "0dbf43a0-a168-11e9-a893-49ac915e00a7";
+                String jobs = BrStafferFilter.correctedJobs(allUserData[9]);
+                String[] phoneBook = getPhoneBook(allUserData, phoneBookSeries);
+                if (phoneBook == null) {
 
-                String jobs = "";
-                if (allUserData.getJobs() != null) {
-                    jobs = correctedJobs(allUserData.getJobs());
+                } else {
+                    title = BrStafferFilter.correctedTitle(allUserData[6], phoneBook[3]);
+                    String[] phoneInfo = BrStafferFilter.getPhoneInfo(allUserData[5], allUserData[7], allUserData[8], phoneBook[0]);
+                    phoneNumber = phoneInfo[0];
+                    phoneTypeId = phoneInfo[1];
+                    phoneTypeName = phoneInfo[2];
+
                 }
-
-                BrStaffer brStaffer = BrStaffer.builder()
-                    .id(id)
-                    .firstName(firstName)
-                    .lastName(lastName)
-                    .title(title)
-                    .phoneNumber(phoneNumber)
-                    .phoneTypeId(phoneTypeId)
-                    .phoneTypeName(phoneTypeName)
-                    .departmentId(departmentId)
-                    .departmentName(departmentName)
-                    .parentDepartmentId(parentDepartmentId)
-                    .parentDepartmentName(parentDepartmentName)
-                    .parentDepartmentCode(parentDepartmentCode)
-                    .email(email)
-                    .isAdmin(isAdmin)
-                    .personalId(personalId)
-                    .branchId(branchId)
-                    .jobs(jobs)
-                    .build();
-                brStafferSet.add(brStaffer);
-
-                String[] row = {String.valueOf(id), firstName, lastName, title, phoneNumber, phoneTypeId, phoneTypeName,
-                    departmentId, departmentName, parentDepartmentId, parentDepartmentName, parentDepartmentCode, email,
-                    isAdmin, personalId,
-                    branchId, jobs};
-                correctedBrStafferWriter.writeNext(row);
             }
+
+//                String[] row = {String.valueOf(id), firstName, lastName, title, phoneNumber, phoneTypeId, phoneTypeName,
+//                    departmentId, departmentName, parentDepartmentId, parentDepartmentName, parentDepartmentCode, email,
+//                    isAdmin, personalId,
+//                    branchId, jobs};
+//                correctedBrStafferWriter.writeNext(row);
         } catch (IOException e) {
             throw new CsvFileHandlingException("Csv file writing failed!!", e);
         }
+    }
+
+    private static String[] getPhoneBook(String[] allUserData, List<String[]> phoneBookSeries) {
+        String allUserDataStafferName = allUserData[5];
+        String allUserDataStafferDepartmentName = allUserData[4];
+
+        for (String[] phoneBook : phoneBookSeries) {
+            String phoneBookStafferName = phoneBook[1];
+            String phoneBookDepartmentName = phoneBook[2];
+            if (allUserDataStafferDepartmentName.equals(phoneBookDepartmentName) && allUserDataStafferName.equals(phoneBookStafferName)) {
+                return phoneBook;
+            }
+        }
+        return null;
     }
 
     private static String correctedJobs(String jobs) {

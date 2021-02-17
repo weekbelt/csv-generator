@@ -1,0 +1,9507 @@
+[
+  {
+    "depth": 0,
+    "hierarchy": [
+      {
+        "id": "",
+        "name": ""
+      }
+    ],
+    "deptName": "보령시",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 1,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3114"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "383",
+        "name": "건축허가과"
+      }
+    ],
+    "depth": 4,
+    "departmentID": 1021,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "parentDept": {
+      "name": "건축허가과",
+      "phone": {
+        "number": "3760",
+        "type": "내선"
+      },
+      "id": 383
+    },
+    "deptName": "건축행정팀",
+    "phone": {
+      "number": "3751",
+      "type": 2
+    }
+  },
+  {
+    "parentDept": {
+      "phone": {
+        "type": "내선",
+        "number": "3760"
+      },
+      "id": 383,
+      "name": "건축허가과"
+    },
+    "departmentID": 1022,
+    "phone": {
+      "type": 2,
+      "number": "3755"
+    },
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "주택팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "383",
+        "name": "건축허가과"
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "건축허가과",
+        "id": "383"
+      }
+    ],
+    "phone": {
+      "number": "3756",
+      "type": 2
+    },
+    "parentDept": {
+      "id": 383,
+      "phone": {
+        "number": "3760",
+        "type": "내선"
+      },
+      "name": "건축허가과"
+    },
+    "departmentID": 1023,
+    "deptName": "토지이용남부팀"
+  },
+  {
+    "phone": {
+      "number": "3757",
+      "type": 2
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "383",
+        "name": "건축허가과"
+      }
+    ],
+    "departmentID": 1024,
+    "deptName": "토지이용북부팀",
+    "parentDept": {
+      "name": "건축허가과",
+      "id": 383,
+      "phone": {
+        "type": "내선",
+        "number": "3760"
+      }
+    },
+    "depth": 4
+  },
+  {
+    "parentDept": {
+      "name": "기획감사실",
+      "id": 306,
+      "phone": {
+        "number": "3110",
+        "type": "내선"
+      }
+    },
+    "deptName": "예산팀",
+    "depth": 3,
+    "departmentID": 1025,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "306",
+        "name": "기획감사실"
+      }
+    ],
+    "phone": {
+      "type": 2,
+      "number": "3104"
+    }
+  },
+  {
+    "phone": {
+      "number": "6703",
+      "type": 2
+    },
+    "depth": 4,
+    "departmentID": 1026,
+    "parentDept": {
+      "phone": {
+        "number": "6710",
+        "type": "내선"
+      },
+      "name": "미래사업과",
+      "id": 431
+    },
+    "deptName": "해양관광개발팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "name": "미래사업과",
+        "id": "431"
+      }
+    ]
+  },
+  {
+    "departmentID": 1027,
+    "parentDept": {
+      "phone": {
+        "type": "내선",
+        "number": "3114"
+      },
+      "name": "보령시",
+      "id": 1
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "6860",
+      "type": 2
+    },
+    "deptName": "원산도출장소",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "depth": 1
+  },
+  {
+    "parentDept": {
+      "id": 300,
+      "phone": {
+        "number": "3114",
+        "type": "내선"
+      },
+      "name": "시청"
+    },
+    "departmentID": 1028,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      }
+    ],
+    "phone": {
+      "number": "3031",
+      "type": 2
+    },
+    "depth": 2,
+    "deptName": "안전행정국",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "안전행정국",
+        "id": "1028"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "3610",
+      "type": 2
+    },
+    "parentDept": {
+      "id": 1028,
+      "name": "안전행정국",
+      "phone": {
+        "number": "3031",
+        "type": "외부국선"
+      }
+    },
+    "depth": 3,
+    "deptName": "사회복지과",
+    "departmentID": 1029
+  },
+  {
+    "phone": {
+      "number": "3603",
+      "type": 2
+    },
+    "deptName": "보육지원팀",
+    "parentDept": {
+      "id": 1029,
+      "name": "사회복지과",
+      "phone": {
+        "type": "외부국선",
+        "number": "3610"
+      }
+    },
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "안전행정국",
+        "id": "1028"
+      },
+      {
+        "id": "1029",
+        "name": "사회복지과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 1030
+  },
+  {
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "아동친화드림팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      },
+      {
+        "id": "1029",
+        "name": "사회복지과"
+      }
+    ],
+    "departmentID": 1031,
+    "phone": {
+      "number": "3604",
+      "type": 2
+    },
+    "parentDept": {
+      "name": "사회복지과",
+      "id": 1029,
+      "phone": {
+        "number": "3610",
+        "type": "외부국선"
+      }
+    }
+  },
+  {
+    "depth": 4,
+    "deptName": "장애인지원팀",
+    "departmentID": 1032,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "parentDept": {
+      "name": "사회복지과",
+      "id": 1029,
+      "phone": {
+        "type": "외부국선",
+        "number": "3610"
+      }
+    },
+    "phone": {
+      "type": 2,
+      "number": "3605"
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "안전행정국",
+        "id": "1028"
+      },
+      {
+        "name": "사회복지과",
+        "id": "1029"
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3,
+    "deptName": "자치행정과",
+    "parentDept": {
+      "id": 1028,
+      "phone": {
+        "type": "외부국선",
+        "number": "3031"
+      },
+      "name": "안전행정국"
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      }
+    ],
+    "departmentID": 1033,
+    "phone": {
+      "number": "3210",
+      "type": 2
+    }
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 1034,
+    "depth": 3,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      }
+    ],
+    "parentDept": {
+      "phone": {
+        "type": "외부국선",
+        "number": "3031"
+      },
+      "name": "안전행정국",
+      "id": 1028
+    },
+    "phone": {
+      "number": "3260",
+      "type": 2
+    },
+    "deptName": "안전총괄과"
+  },
+  {
+    "depth": 3,
+    "parentDept": {
+      "id": 1028,
+      "name": "안전행정국",
+      "phone": {
+        "type": "외부국선",
+        "number": "3031"
+      }
+    },
+    "departmentID": 1035,
+    "deptName": "교육체육과",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "3310",
+      "type": 2
+    }
+  },
+  {
+    "parentDept": {
+      "name": "안전행정국",
+      "phone": {
+        "number": "3031",
+        "type": "외부국선"
+      },
+      "id": 1028
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3,
+    "departmentID": 1036,
+    "deptName": "주민생활지원과",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      }
+    ],
+    "phone": {
+      "number": "3360",
+      "type": 2
+    }
+  },
+  {
+    "departmentID": 1037,
+    "parentDept": {
+      "phone": {
+        "type": "외부국선",
+        "number": "3031"
+      },
+      "id": 1028,
+      "name": "안전행정국"
+    },
+    "deptName": "문화새마을과",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3,
+    "phone": {
+      "type": 2,
+      "number": "3410"
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      }
+    ]
+  },
+  {
+    "parentDept": {
+      "name": "안전행정국",
+      "phone": {
+        "number": "3031",
+        "type": "외부국선"
+      },
+      "id": 1028
+    },
+    "phone": {
+      "number": "3460",
+      "type": 2
+    },
+    "deptName": "민원지적과",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      }
+    ],
+    "departmentID": 1038
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "parentDept": {
+      "id": 1028,
+      "name": "안전행정국",
+      "phone": {
+        "type": "외부국선",
+        "number": "3031"
+      }
+    },
+    "phone": {
+      "number": "3510",
+      "type": 2
+    },
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      }
+    ],
+    "departmentID": 1039,
+    "deptName": "세무과"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "회계과",
+    "departmentID": 1040,
+    "depth": 3,
+    "parentDept": {
+      "id": 1028,
+      "name": "안전행정국",
+      "phone": {
+        "type": "외부국선",
+        "number": "3031"
+      }
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "안전행정국",
+        "id": "1028"
+      }
+    ],
+    "phone": {
+      "type": 2,
+      "number": "3560"
+    }
+  },
+  {
+    "parentDept": {
+      "phone": {
+        "type": "외부국선",
+        "number": "3031"
+      },
+      "name": "안전행정국",
+      "id": 1028
+    },
+    "phone": {
+      "number": "3660",
+      "type": 2
+    },
+    "deptName": "환경보호과",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1028",
+        "name": "안전행정국"
+      }
+    ],
+    "depth": 3,
+    "departmentID": 1041
+  },
+  {
+    "departmentID": 1042,
+    "parentDept": {
+      "id": 300,
+      "name": "시청",
+      "phone": {
+        "type": "내선",
+        "number": "3114"
+      }
+    },
+    "phone": {
+      "type": 1,
+      "number": "3026"
+    },
+    "deptName": "박람회지원본부",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1042",
+        "name": "박람회지원본부"
+      }
+    ],
+    "depth": 3,
+    "departmentID": 1043,
+    "parentDept": {
+      "phone": {
+        "number": "3026",
+        "type": "내선"
+      },
+      "id": 1042,
+      "name": "박람회지원본부"
+    },
+    "deptName": "박람회기획단",
+    "phone": {
+      "number": "3060",
+      "type": 1
+    }
+  },
+  {
+    "phone": {
+      "number": "3080",
+      "type": 1
+    },
+    "depth": 3,
+    "deptName": "박람회시설단",
+    "departmentID": 1044,
+    "parentDept": {
+      "id": 1042,
+      "phone": {
+        "type": "내선",
+        "number": "3026"
+      },
+      "name": "박람회지원본부"
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "1042",
+        "name": "박람회지원본부"
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "deptName": "행정지원팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 1045,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1042",
+        "name": "박람회지원본부"
+      },
+      {
+        "id": "639",
+        "name": "박람회지원단"
+      },
+      {
+        "id": "1043",
+        "name": "박람회기획단"
+      }
+    ],
+    "phone": {
+      "type": 1,
+      "number": "3051"
+    },
+    "parentDept": {
+      "phone": {
+        "type": "내선",
+        "number": "3060"
+      },
+      "name": "박람회기획단",
+      "id": 1043
+    }
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "박람회지원본부",
+        "id": "1042"
+      },
+      {
+        "id": "1043",
+        "name": "박람회기획단"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "phone": {
+      "number": "3052",
+      "type": 1
+    },
+    "deptName": "홍보마케팅팀",
+    "departmentID": 1046,
+    "parentDept": {
+      "phone": {
+        "number": "3060",
+        "type": "내선"
+      },
+      "id": 1043,
+      "name": "박람회기획단"
+    }
+  },
+  {
+    "parentDept": {
+      "name": "기획감사실",
+      "id": 306,
+      "phone": {
+        "number": "3110",
+        "type": "내선"
+      }
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "306",
+        "name": "기획감사실"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3,
+    "phone": {
+      "number": "3103",
+      "type": 1
+    },
+    "departmentID": 1047,
+    "deptName": "조사팀"
+  },
+  {
+    "parentDept": {
+      "phone": {
+        "type": "내선",
+        "number": "0815"
+      },
+      "id": 591,
+      "name": "대천5동주민센터"
+    },
+    "deptName": "맞춤형복지팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "대천5동주민센터",
+        "id": "591"
+      }
+    ],
+    "departmentID": 1048,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "4973",
+      "type": 1
+    },
+    "depth": 2
+  },
+  {
+    "deptName": "맞춤형복지팀",
+    "parentDept": {
+      "phone": {
+        "type": "내선",
+        "number": "0810"
+      },
+      "id": 570,
+      "name": "성주면사무소"
+    },
+    "phone": {
+      "number": "4825",
+      "type": 1
+    },
+    "depth": 2,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "성주면사무소",
+        "id": "570"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 1049
+  },
+  {
+    "depth": 2,
+    "departmentID": 1050,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "531",
+        "name": "오천면사무소"
+      }
+    ],
+    "parentDept": {
+      "phone": {
+        "number": "0803",
+        "type": "내선"
+      },
+      "name": "오천면사무소",
+      "id": 531
+    },
+    "phone": {
+      "number": "4605",
+      "type": 1
+    },
+    "deptName": "맞춤형복지팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "맞춤형복지팀",
+    "parentDept": {
+      "id": 560,
+      "phone": {
+        "number": "0808",
+        "type": "내선"
+      },
+      "name": "주산면사무소"
+    },
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "주산면사무소",
+        "id": "560"
+      }
+    ],
+    "departmentID": 1051,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "4765",
+      "type": 1
+    },
+    "depth": 2
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "538",
+        "name": "천북면사무소"
+      }
+    ],
+    "parentDept": {
+      "name": "천북면사무소",
+      "id": 538,
+      "phone": {
+        "type": "내선",
+        "number": "0804"
+      }
+    },
+    "deptName": "맞춤형복지팀",
+    "phone": {
+      "number": "4645",
+      "type": 1
+    },
+    "depth": 2,
+    "departmentID": 1052,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "parentDept": {
+      "name": "청라면사무소",
+      "id": 549,
+      "phone": {
+        "number": "0806",
+        "type": "내선"
+      }
+    },
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "549",
+        "name": "청라면사무소"
+      }
+    ],
+    "phone": {
+      "type": 1,
+      "number": "4705"
+    },
+    "deptName": "맞춤형복지팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 1053
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "총무팀",
+    "parentDept": {
+      "id": 1027,
+      "phone": {
+        "type": "외부국선",
+        "number": "6860"
+      },
+      "name": "원산도출장소"
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "1027",
+        "name": "원산도출장소"
+      }
+    ],
+    "phone": {
+      "number": "6851",
+      "type": 1
+    },
+    "depth": 2,
+    "departmentID": 1054
+  },
+  {
+    "deptName": "민원복지팀",
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "parentDept": {
+      "phone": {
+        "number": "6860",
+        "type": "외부국선"
+      },
+      "id": 1027,
+      "name": "원산도출장소"
+    },
+    "phone": {
+      "type": 1,
+      "number": "6852"
+    },
+    "departmentID": 1055,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "1027",
+        "name": "원산도출장소"
+      }
+    ]
+  },
+  {
+    "phone": {
+      "type": 1,
+      "number": "6853"
+    },
+    "departmentID": 1056,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "원산도출장소",
+        "id": "1027"
+      }
+    ],
+    "depth": 2,
+    "deptName": "산업팀",
+    "parentDept": {
+      "id": 1027,
+      "phone": {
+        "number": "6860",
+        "type": "외부국선"
+      },
+      "name": "원산도출장소"
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "508",
+        "name": "시의회"
+      },
+      {
+        "id": "510",
+        "name": "의회사무국"
+      }
+    ],
+    "departmentID": 1057,
+    "phone": {
+      "number": "4026",
+      "type": 1
+    },
+    "deptName": "홍보팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "parentDept": {
+      "id": 510,
+      "phone": {
+        "number": "4024",
+        "type": "내선"
+      },
+      "name": "의회사무국"
+    }
+  },
+  {
+    "departmentID": 1058,
+    "deptName": "건축물유지관리팀",
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "건축허가과",
+        "id": "383"
+      }
+    ],
+    "phone": {
+      "type": 1,
+      "number": "3754"
+    },
+    "parentDept": {
+      "id": 383,
+      "name": "건축허가과",
+      "phone": {
+        "number": "3760",
+        "type": "내선"
+      }
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "대외교류팀",
+    "departmentID": 1059,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "3053",
+      "type": 1
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "1042",
+        "name": "박람회지원본부"
+      },
+      {
+        "id": "1043",
+        "name": "박람회기획단"
+      }
+    ],
+    "depth": 4,
+    "parentDept": {
+      "id": 1043,
+      "name": "박람회기획단",
+      "phone": {
+        "number": "3060",
+        "type": "내선"
+      }
+    }
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "name": "수산과",
+        "id": "435"
+      }
+    ],
+    "phone": {
+      "type": 1,
+      "number": "6755"
+    },
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 1060,
+    "parentDept": {
+      "name": "수산과",
+      "phone": {
+        "type": "내선",
+        "number": "6760"
+      },
+      "id": 435
+    },
+    "deptName": "어촌어향팀"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "안전행정국",
+        "id": "1028"
+      },
+      {
+        "name": "사회복지과",
+        "id": "1029"
+      }
+    ],
+    "deptName": "여성청소년팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "type": 1,
+      "number": "3602"
+    },
+    "parentDept": {
+      "id": 1029,
+      "name": "사회복지과",
+      "phone": {
+        "number": "3610",
+        "type": "외부국선"
+      }
+    },
+    "depth": 4,
+    "departmentID": 1061
+  },
+  {
+    "depth": 3,
+    "phone2": {
+      "number": "3160",
+      "type": "내선"
+    },
+    "deptName": "유지보수",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 1062,
+    "phone": {
+      "number": "",
+      "type": "없음"
+    },
+    "hierarchy": [
+      {
+        "id": 1,
+        "name": "보령시"
+      },
+      {
+        "id": 300,
+        "name": "시청"
+      },
+      {
+        "id": 314,
+        "name": "홍보미디어실"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "depth": 1,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "departmentID": 300,
+    "deptName": "시청",
+    "phone": "3114"
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      }
+    ],
+    "deptName": "시장실",
+    "phone": "3004",
+    "departmentID": 301,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 302,
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "부시장실",
+    "phone": "3011",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      }
+    ]
+  },
+  {
+    "phone": "3032",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      }
+    ],
+    "deptName": "경제도시국",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "departmentID": 304
+  },
+  {
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "해양수산관광국",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "3033",
+    "departmentID": 305
+  },
+  {
+    "departmentID": 306,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "deptName": "기획감사실",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "3110"
+  },
+  {
+    "deptName": "정책기획팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "306",
+        "name": "기획감사실"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "phone": "3101",
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 307
+  },
+  {
+    "phone": "3102",
+    "deptName": "감사팀",
+    "departmentID": 308,
+    "depth": 3,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "306",
+        "name": "기획감사실"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "deptName": "의회법무팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "306",
+        "name": "기획감사실"
+      }
+    ],
+    "departmentID": 311,
+    "phone": "3105",
+    "depth": 3
+  },
+  {
+    "deptName": "인구정책팀",
+    "phone": "3106",
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "306",
+        "name": "기획감사실"
+      }
+    ],
+    "departmentID": 312
+  },
+  {
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "phone": "3107",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "기획감사실",
+        "id": "306"
+      }
+    ],
+    "departmentID": 313,
+    "deptName": "국비TF팀"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      }
+    ],
+    "phone": "3160",
+    "deptName": "홍보미디어실",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "departmentID": 314
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "314",
+        "name": "홍보미디어실"
+      }
+    ],
+    "departmentID": 315,
+    "phone": "3151",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "deptName": "홍보팀",
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 3,
+    "departmentID": 316,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "홍보미디어실",
+        "id": "314"
+      }
+    ],
+    "deptName": "미디어팀",
+    "phone": "3152",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "deptName": "전산팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "314",
+        "name": "홍보미디어실"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3,
+    "departmentID": 317,
+    "phone": "3153",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "depth": 3,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 318,
+    "phone": "3154",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "홍보미디어실",
+        "id": "314"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "정보통신팀"
+  },
+  {
+    "depth": 4,
+    "deptName": "서무팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 320,
+    "phone": "3201",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "자치행정과",
+        "id": "319"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "319",
+        "name": "자치행정과"
+      }
+    ],
+    "phone": "3202",
+    "depth": 4,
+    "deptName": "시정팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 321
+  },
+  {
+    "deptName": "인사팀",
+    "depth": 4,
+    "phone": "3203",
+    "departmentID": 322,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "319",
+        "name": "자치행정과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "deptName": "특사경지원팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 323,
+    "phone": "3204",
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "자치행정과",
+        "id": "319"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "324",
+        "name": "안전총괄과"
+      }
+    ],
+    "departmentID": 325,
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3251",
+    "deptName": "안전정책팀"
+  },
+  {
+    "deptName": "복구지원팀",
+    "depth": 4,
+    "departmentID": 326,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "3252",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "324",
+        "name": "안전총괄과"
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "departmentID": 327,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "3253",
+    "deptName": "민방위팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "324",
+        "name": "안전총괄과"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "324",
+        "name": "안전총괄과"
+      }
+    ],
+    "phone": "3254",
+    "depth": 4,
+    "deptName": "통합관제팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 328,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "departmentID": 330,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "329",
+        "name": "교육체육과"
+      }
+    ],
+    "phone": "3301",
+    "deptName": "평생교육팀"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "교육체육과",
+        "id": "329"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 331,
+    "deptName": "도서관팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "phone": "3302"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 332,
+    "depth": 4,
+    "phone": "3303",
+    "deptName": "체육지원팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "329",
+        "name": "교육체육과"
+      }
+    ]
+  },
+  {
+    "deptName": "체육시설관리팀",
+    "departmentID": 333,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "329",
+        "name": "교육체육과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 4,
+    "phone": "3304"
+  },
+  {
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 335,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3351",
+    "deptName": "복지기획팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "334",
+        "name": "주민생활지원과"
+      }
+    ]
+  },
+  {
+    "phone": "3352",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 336,
+    "deptName": "자활의료팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "주민생활지원과",
+        "id": "334"
+      }
+    ]
+  },
+  {
+    "phone": "3353",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 337,
+    "deptName": "통합조사관리팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "334",
+        "name": "주민생활지원과"
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 338,
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "3354",
+    "deptName": "행복키움지원팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "주민생활지원과",
+        "id": "334"
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "phone": "3355",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 339,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "334",
+        "name": "주민생활지원과"
+      }
+    ],
+    "deptName": "종합복지관팀"
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "340",
+        "name": "문화새마을과"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 341,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "문화예술팀",
+    "depth": 4,
+    "phone": "3401"
+  },
+  {
+    "departmentID": 342,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "문화새마을과",
+        "id": "340"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "새마을팀",
+    "phone": "3402"
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "depth": 4,
+    "deptName": "문예회관팀",
+    "departmentID": 343,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "문화새마을과",
+        "id": "340"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3403"
+  },
+  {
+    "phone": "3404",
+    "deptName": "문화의전당팀",
+    "departmentID": 344,
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "문화새마을과",
+        "id": "340"
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "민원지적과",
+        "id": "345"
+      }
+    ],
+    "phone": "3451",
+    "deptName": "민원봉사팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 346,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "가족관계등록팀",
+    "departmentID": 347,
+    "phone": "3452",
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "345",
+        "name": "민원지적과"
+      }
+    ]
+  },
+  {
+    "phone": "3453",
+    "departmentID": 348,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "차량등록팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "345",
+        "name": "민원지적과"
+      }
+    ]
+  },
+  {
+    "phone": "3454",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 4,
+    "departmentID": 349,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "345",
+        "name": "민원지적과"
+      }
+    ],
+    "deptName": "토지정책팀"
+  },
+  {
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "345",
+        "name": "민원지적과"
+      }
+    ],
+    "deptName": "지적관리팀",
+    "phone": "3455",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 350
+  },
+  {
+    "deptName": "지적정보팀",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 351,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "345",
+        "name": "민원지적과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3456"
+  },
+  {
+    "deptName": "지적재조사팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "345",
+        "name": "민원지적과"
+      }
+    ],
+    "phone": "3457",
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 352
+  },
+  {
+    "phone": "3501",
+    "depth": 4,
+    "deptName": "세정팀",
+    "departmentID": 354,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "세무과",
+        "id": "353"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "세무과",
+        "id": "353"
+      }
+    ],
+    "phone": "3502",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "재산과표팀",
+    "departmentID": 355
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "징수팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "세무과",
+        "id": "353"
+      }
+    ],
+    "phone": "3503",
+    "depth": 4,
+    "departmentID": 356,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "세무과",
+        "id": "353"
+      }
+    ],
+    "deptName": "세외수입체납팀",
+    "phone": "3504",
+    "departmentID": 357,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4
+  },
+  {
+    "departmentID": 358,
+    "depth": 4,
+    "deptName": "세입관리팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "3505",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "353",
+        "name": "세무과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "353",
+        "name": "세무과"
+      }
+    ],
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "phone": "3506",
+    "departmentID": 359,
+    "deptName": "세원관리팀"
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "3551",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "360",
+        "name": "회계과"
+      }
+    ],
+    "depth": 4,
+    "deptName": "경리팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 361
+  },
+  {
+    "phone": "3552",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "360",
+        "name": "회계과"
+      }
+    ],
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "deptName": "계약팀",
+    "departmentID": 362,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 4,
+    "departmentID": 363,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "deptName": "재산관리팀",
+    "phone": "3553",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "360",
+        "name": "회계과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 364,
+    "depth": 4,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "360",
+        "name": "회계과"
+      }
+    ],
+    "phone": "3554",
+    "deptName": "청사관리팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 366,
+    "phone": "3601",
+    "depth": 4,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "365",
+        "name": "사회복지과"
+      }
+    ],
+    "deptName": "경로복지팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "370",
+        "name": "환경보호과"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 4,
+    "phone": "3651",
+    "deptName": "환경관리팀",
+    "departmentID": 371,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "대기환경팀",
+    "phone": "3652",
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "370",
+        "name": "환경보호과"
+      }
+    ],
+    "departmentID": 372,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "phone": "3653",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "환경보호과",
+        "id": "370"
+      }
+    ],
+    "deptName": "환경지도팀",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 373,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "청소환경팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "3654",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "departmentID": 374,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "환경보호과",
+        "id": "370"
+      }
+    ]
+  },
+  {
+    "departmentID": 375,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "환경보호과",
+        "id": "370"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "수질관리팀",
+    "phone": "3655",
+    "depth": 4
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      }
+    ],
+    "departmentID": 376,
+    "phone": "3710",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "지역경제과",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "phone": "3701",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 377,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "지역경제팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "name": "지역경제과",
+        "id": "376"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 378,
+    "depth": 4,
+    "phone": "3702",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "376",
+        "name": "지역경제과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "기업유치팀"
+  },
+  {
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "376",
+        "name": "지역경제과"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "deptName": "일자리정책팀",
+    "departmentID": 379,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3703"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "name": "지역경제과",
+        "id": "376"
+      }
+    ],
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 380,
+    "deptName": "산업단지조성팀",
+    "phone": "3704"
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "deptName": "기업지원팀",
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "name": "지역경제과",
+        "id": "376"
+      }
+    ],
+    "phone": "3705",
+    "departmentID": 381
+  },
+  {
+    "departmentID": 382,
+    "deptName": "에너지산업팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "phone": "3706",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "376",
+        "name": "지역경제과"
+      }
+    ]
+  },
+  {
+    "departmentID": 383,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3760",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      }
+    ],
+    "depth": 3,
+    "deptName": "건축허가과"
+  },
+  {
+    "departmentID": 385,
+    "phone": "3752",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "건축허가과",
+        "id": "383"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "건축허가팀"
+  },
+  {
+    "phone": "3753",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "name": "건축허가과",
+        "id": "383"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "건축신고팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 386,
+    "depth": 4
+  },
+  {
+    "deptName": "건설과",
+    "departmentID": 390,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      }
+    ],
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3810",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "departmentID": 391,
+    "depth": 4,
+    "deptName": "건설행정팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "name": "건설과",
+        "id": "390"
+      }
+    ],
+    "phone": "3801",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "phone": "3802",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "390",
+        "name": "건설과"
+      }
+    ],
+    "deptName": "농촌개발팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 392
+  },
+  {
+    "deptName": "지역개발팀",
+    "departmentID": 393,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3803",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "390",
+        "name": "건설과"
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3804",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "depth": 4,
+    "deptName": "하천팀",
+    "departmentID": 394,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "390",
+        "name": "건설과"
+      }
+    ]
+  },
+  {
+    "deptName": "도시재생과",
+    "phone": "3860",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 395,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      }
+    ]
+  },
+  {
+    "deptName": "도시계획팀",
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "name": "도시재생과",
+        "id": "395"
+      }
+    ],
+    "phone": "3851",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 396,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "3852",
+    "deptName": "도시재생팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "departmentID": 397,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "도시재생과",
+        "id": "395"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3853",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "395",
+        "name": "도시재생과"
+      }
+    ],
+    "depth": 4,
+    "deptName": "도시디자인팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 398
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "395",
+        "name": "도시재생과"
+      }
+    ],
+    "departmentID": 399,
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3854",
+    "deptName": "뉴딜공모TF팀"
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "name": "도시재생과",
+        "id": "395"
+      }
+    ],
+    "depth": 4,
+    "phone": "3855",
+    "deptName": "마을공동체팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 400,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "departmentID": 401,
+    "phone": "3910",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      }
+    ],
+    "depth": 3,
+    "deptName": "도로과",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "deptName": "도로시설팀",
+    "phone": "3901",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "도로과",
+        "id": "401"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 402,
+    "depth": 4
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "401",
+        "name": "도로과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3902",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "depth": 4,
+    "deptName": "도로관리팀",
+    "departmentID": 403
+  },
+  {
+    "phone": "3903",
+    "departmentID": 404,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "도로과",
+        "id": "401"
+      }
+    ],
+    "deptName": "도시계획도로팀"
+  },
+  {
+    "phone": "3960",
+    "deptName": "교통과",
+    "departmentID": 405,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 3
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "교통과",
+        "id": "405"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3951",
+    "depth": 4,
+    "deptName": "교통행정팀",
+    "departmentID": 406
+  },
+  {
+    "phone": "3952",
+    "departmentID": 407,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "405",
+        "name": "교통과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "deptName": "교통지도팀"
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "교통시설팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3953",
+    "departmentID": 408,
+    "depth": 4,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "405",
+        "name": "교통과"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "조명팀",
+    "phone": "3954",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "교통과",
+        "id": "405"
+      }
+    ],
+    "departmentID": 409
+  },
+  {
+    "phone": "4060",
+    "deptName": "산림공원과",
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 410,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "산림경영팀",
+    "phone": "4051",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "410",
+        "name": "산림공원과"
+      }
+    ],
+    "departmentID": 411
+  },
+  {
+    "depth": 4,
+    "phone": "4052",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "deptName": "산림보호팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "410",
+        "name": "산림공원과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 412
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "410",
+        "name": "산림공원과"
+      }
+    ],
+    "depth": 4,
+    "departmentID": 413,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "4053",
+    "deptName": "산림자원팀"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 414,
+    "deptName": "공원팀",
+    "phone": "4054",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "산림공원과",
+        "id": "410"
+      }
+    ],
+    "depth": 4
+  },
+  {
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 415,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "name": "산림공원과",
+        "id": "410"
+      }
+    ],
+    "deptName": "녹지조경팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "phone": "4055"
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "4056",
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 416,
+    "deptName": "산림휴양팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "410",
+        "name": "산림공원과"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 417,
+    "phone": "4110",
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "수도과"
+  },
+  {
+    "phone": "4101",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 418,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "name": "수도과",
+        "id": "417"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "수도행정팀"
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "417",
+        "name": "수도과"
+      }
+    ],
+    "deptName": "관리팀",
+    "departmentID": 419,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "phone": "4102"
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "상수도팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "phone": "4103",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "417",
+        "name": "수도과"
+      }
+    ],
+    "departmentID": 420
+  },
+  {
+    "departmentID": 421,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "304",
+        "name": "경제도시국"
+      },
+      {
+        "id": "417",
+        "name": "수도과"
+      }
+    ],
+    "deptName": "하수도팀",
+    "depth": 4,
+    "phone": "4104",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "6510",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "해양정책과",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 422,
+    "depth": 3
+  },
+  {
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "6501",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "id": "422",
+        "name": "해양정책과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "해양정책팀",
+    "departmentID": 423
+  },
+  {
+    "depth": 4,
+    "deptName": "섬자원개발팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "id": "422",
+        "name": "해양정책과"
+      }
+    ],
+    "departmentID": 424,
+    "phone": "6502",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "6503",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 4,
+    "departmentID": 425,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "해양환경항만팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "id": "422",
+        "name": "해양정책과"
+      }
+    ]
+  },
+  {
+    "deptName": "관광과",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 426,
+    "phone": "6560",
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "deptName": "관광진흥팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "6551",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "name": "관광과",
+        "id": "426"
+      }
+    ],
+    "departmentID": 427
+  },
+  {
+    "deptName": "관광개발팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "6552",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "name": "관광과",
+        "id": "426"
+      }
+    ],
+    "departmentID": 428,
+    "depth": 4
+  },
+  {
+    "phone": "6553",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 429,
+    "deptName": "문화재관리팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "id": "426",
+        "name": "관광과"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 4
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "머드사업팀",
+    "departmentID": 430,
+    "depth": 4,
+    "phone": "6554",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "id": "426",
+        "name": "관광과"
+      }
+    ]
+  },
+  {
+    "deptName": "미래사업과",
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      }
+    ],
+    "departmentID": 431,
+    "phone": "6710",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "name": "미래사업과",
+        "id": "431"
+      }
+    ],
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 432,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "phone": "6701",
+    "deptName": "전략사업팀"
+  },
+  {
+    "deptName": "수산과",
+    "departmentID": 435,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "6760",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "phone": "6751",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "수산행정팀",
+    "depth": 4,
+    "departmentID": 436,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "id": "435",
+        "name": "수산과"
+      }
+    ]
+  },
+  {
+    "phone": "6752",
+    "deptName": "수산자원팀",
+    "departmentID": 437,
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "id": "435",
+        "name": "수산과"
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "name": "수산과",
+        "id": "435"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "6753",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "deptName": "어업지원팀",
+    "departmentID": 438
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "id": "435",
+        "name": "수산과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "6754",
+    "deptName": "수산산업팀",
+    "departmentID": 439
+  },
+  {
+    "depth": 4,
+    "phone": "6755",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      },
+      {
+        "id": "435",
+        "name": "수산과"
+      }
+    ],
+    "departmentID": 440,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "deptName": "어촌어항팀"
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 3,
+    "deptName": "해수욕장경영과",
+    "departmentID": 441,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "305",
+        "name": "해양수산관광국"
+      }
+    ],
+    "phone": "6810",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 4,
+    "deptName": "대천운영팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "name": "해수욕장경영과",
+        "id": "441"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "6801",
+    "departmentID": 442
+  },
+  {
+    "phone": "6802",
+    "departmentID": 443,
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "name": "해수욕장경영과",
+        "id": "441"
+      }
+    ],
+    "deptName": "무창포운영팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "6803",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 444,
+    "depth": 4,
+    "deptName": "시설관리팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "id": "441",
+        "name": "해수욕장경영과"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "deptName": "보건소",
+    "depth": 1,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 445,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "phone": "3034"
+  },
+  {
+    "departmentID": 446,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "5910",
+    "deptName": "보건행정과",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ]
+  },
+  {
+    "deptName": "보건행정팀",
+    "departmentID": 447,
+    "phone": "5901",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      },
+      {
+        "id": "446",
+        "name": "보건행정과"
+      }
+    ],
+    "depth": 3
+  },
+  {
+    "deptName": "감염병관리팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      },
+      {
+        "id": "446",
+        "name": "보건행정과"
+      }
+    ],
+    "departmentID": 448,
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "5902"
+  },
+  {
+    "phone": "5903",
+    "departmentID": 449,
+    "deptName": "의약팀",
+    "depth": 3,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      },
+      {
+        "name": "보건행정과",
+        "id": "446"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 3,
+    "phone": "5904",
+    "deptName": "진료팀",
+    "departmentID": 450,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      },
+      {
+        "id": "446",
+        "name": "보건행정과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 3,
+    "deptName": "위생팀",
+    "departmentID": 451,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "0170",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      },
+      {
+        "id": "446",
+        "name": "보건행정과"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 452,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "phone": "5960",
+    "deptName": "건강증진과",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 453,
+    "depth": 3,
+    "deptName": "건강증진팀",
+    "phone": "5951",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      },
+      {
+        "id": "452",
+        "name": "건강증진과"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "deptName": "방문보건팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      },
+      {
+        "id": "452",
+        "name": "건강증진과"
+      }
+    ],
+    "phone": "5952",
+    "departmentID": 454,
+    "depth": 3,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "정신건강팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      },
+      {
+        "id": "452",
+        "name": "건강증진과"
+      }
+    ],
+    "phone": "5953",
+    "depth": 3,
+    "departmentID": 455
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 3,
+    "departmentID": 456,
+    "deptName": "모자보건팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "5954",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      },
+      {
+        "id": "452",
+        "name": "건강증진과"
+      }
+    ]
+  },
+  {
+    "depth": 3,
+    "deptName": "치매관리팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      },
+      {
+        "name": "건강증진과",
+        "id": "452"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "5955",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 457
+  },
+  {
+    "deptName": "웅천보건지소",
+    "departmentID": 458,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "0901",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "depth": 2
+  },
+  {
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "0902",
+    "deptName": "주포보건지소",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "departmentID": 459
+  },
+  {
+    "departmentID": 460,
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "0903",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "주교보건지소"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "depth": 2,
+    "deptName": "오천보건지소",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "0904",
+    "departmentID": 461
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 462,
+    "phone": "0905",
+    "deptName": "천북보건지소",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "phone": "0906",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "청소보건지소",
+    "depth": 2,
+    "departmentID": 463
+  },
+  {
+    "phone": "0907",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "deptName": "청라보건지소",
+    "departmentID": 464,
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 465,
+    "deptName": "주산보건지소",
+    "phone": "0908",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "미산보건지소",
+    "phone": "0909",
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 466,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "deptName": "성주보건지소",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "depth": 2,
+    "phone": "0910",
+    "departmentID": 467
+  },
+  {
+    "depth": 2,
+    "deptName": "교성보건진료소",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "0911",
+    "departmentID": 468,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 469,
+    "depth": 2,
+    "phone": "0912",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "deptName": "원산도보건진료소",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 470,
+    "phone": "0913",
+    "deptName": "삽시도보건진료소",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "depth": 2
+  },
+  {
+    "depth": 2,
+    "deptName": "외연도보건진료소",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "departmentID": 471,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "0914"
+  },
+  {
+    "deptName": "효자도보건진료소",
+    "phone": "0915",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 472,
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "0916",
+    "depth": 2,
+    "departmentID": 473,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "deptName": "장고도보건진료소"
+  },
+  {
+    "deptName": "고대도보건진료소",
+    "phone": "0917",
+    "depth": 2,
+    "departmentID": 474,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "녹도보건진료소",
+    "departmentID": 475,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "phone": "0918",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "호도보건진료소",
+    "phone": "0919",
+    "departmentID": 476
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 477,
+    "phone": "0920",
+    "depth": 2,
+    "deptName": "학성보건진료소"
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "deptName": "장은보건진료소",
+    "phone": "0921",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 478,
+    "depth": 2
+  },
+  {
+    "departmentID": 479,
+    "deptName": "장현보건진료소",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "phone": "0922",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ]
+  },
+  {
+    "phone": "0923",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ],
+    "deptName": "양기보건진료소",
+    "departmentID": 480,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "0924",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "departmentID": 481,
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "삼현보건진료소",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "황교보건진료소",
+    "departmentID": 482,
+    "phone": "0925",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "445",
+        "name": "보건소"
+      }
+    ]
+  },
+  {
+    "departmentID": 483,
+    "deptName": "수곡보건진료소",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "0926",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 484,
+    "phone": "0927",
+    "deptName": "봉성보건진료소",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "보건소",
+        "id": "445"
+      }
+    ],
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 485,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3035",
+    "deptName": "농업기술센터",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "depth": 1
+  },
+  {
+    "deptName": "농업정책과",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      }
+    ],
+    "phone": "7610",
+    "departmentID": 486,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 3,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      },
+      {
+        "name": "농업정책과",
+        "id": "486"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 487,
+    "phone": "7601",
+    "deptName": "농정팀"
+  },
+  {
+    "depth": 3,
+    "deptName": "농산팀",
+    "phone": "7602",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      },
+      {
+        "id": "486",
+        "name": "농업정책과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 488,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "departmentID": 489,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      },
+      {
+        "id": "486",
+        "name": "농업정책과"
+      }
+    ],
+    "phone": "7603",
+    "deptName": "학교급식팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "id": "486",
+        "name": "농업정책과"
+      }
+    ],
+    "depth": 3,
+    "departmentID": 490,
+    "phone": "7604",
+    "deptName": "마케팅지원팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "7660",
+    "deptName": "농업지원과",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 491,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      }
+    ],
+    "depth": 2
+  },
+  {
+    "departmentID": 492,
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "7651",
+    "deptName": "지도기획팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      },
+      {
+        "id": "491",
+        "name": "농업지원과"
+      }
+    ]
+  },
+  {
+    "depth": 3,
+    "departmentID": 493,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      },
+      {
+        "id": "491",
+        "name": "농업지원과"
+      }
+    ],
+    "deptName": "인력육성팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "phone": "7652",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "id": "491",
+        "name": "농업지원과"
+      }
+    ],
+    "depth": 3,
+    "deptName": "생활자원팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 494,
+    "phone": "7653"
+  },
+  {
+    "depth": 3,
+    "phone": "7654",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 495,
+    "deptName": "귀농지원팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "id": "491",
+        "name": "농업지원과"
+      }
+    ]
+  },
+  {
+    "departmentID": 496,
+    "depth": 3,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "name": "농업지원과",
+        "id": "491"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "deptName": "농업기계팀",
+    "phone": "7655",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "북부지구지소",
+    "phone": "7656",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "name": "농업지원과",
+        "id": "491"
+      }
+    ],
+    "departmentID": 497,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 3
+  },
+  {
+    "phone": "7657",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "id": "491",
+        "name": "농업지원과"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "deptName": "중부지구지소",
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 498
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "남부지구지소",
+    "departmentID": 499,
+    "phone": "7658",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "id": "491",
+        "name": "농업지원과"
+      }
+    ]
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "축산과",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "7910",
+    "departmentID": 500
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      },
+      {
+        "id": "500",
+        "name": "축산과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "7901",
+    "departmentID": 501,
+    "depth": 3,
+    "deptName": "축산팀"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "7902",
+    "deptName": "가축방역팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "id": "500",
+        "name": "축산과"
+      }
+    ],
+    "departmentID": 502
+  },
+  {
+    "phone": "7903",
+    "departmentID": 503,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "농업기술센터",
+        "id": "485"
+      },
+      {
+        "id": "500",
+        "name": "축산과"
+      }
+    ],
+    "depth": 3,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "동물자원팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "departmentID": 504,
+    "deptName": "친환경기술과",
+    "phone": "7960",
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "depth": 3,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "작물환경팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 505,
+    "phone": "7951",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "name": "친환경기술과",
+        "id": "504"
+      }
+    ]
+  },
+  {
+    "departmentID": 506,
+    "phone": "7952",
+    "deptName": "원예특작팀",
+    "depth": 3,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "name": "친환경기술과",
+        "id": "504"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "485",
+        "name": "농업기술센터"
+      },
+      {
+        "id": "504",
+        "name": "친환경기술과"
+      }
+    ],
+    "departmentID": 507,
+    "deptName": "연구개발팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "7953",
+    "depth": 3,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "deptName": "시의회",
+    "depth": 1,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "departmentID": 508,
+    "phone": "4024"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시의회",
+        "id": "508"
+      }
+    ],
+    "departmentID": 509,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 2,
+    "phone": "4024",
+    "deptName": "의회"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "508",
+        "name": "시의회"
+      }
+    ],
+    "deptName": "의회사무국",
+    "phone": "4024",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 2,
+    "departmentID": 510,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4024",
+    "deptName": "의정팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "508",
+        "name": "시의회"
+      },
+      {
+        "id": "510",
+        "name": "의회사무국"
+      }
+    ],
+    "departmentID": 511,
+    "depth": 3
+  },
+  {
+    "deptName": "의사팀",
+    "phone": "4025",
+    "depth": 3,
+    "departmentID": 512,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시의회",
+        "id": "508"
+      },
+      {
+        "id": "510",
+        "name": "의회사무국"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 513,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "deptName": "웅천읍사무소",
+    "depth": 1,
+    "phone": "0800",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "웅천읍사무소",
+        "id": "513"
+      }
+    ],
+    "phone": "4501",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 514,
+    "deptName": "총무팀"
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "웅천읍사무소",
+        "id": "513"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4502",
+    "deptName": "민원팀",
+    "departmentID": 515,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "phone": "4503",
+    "deptName": "주민생활지원팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "depth": 2,
+    "departmentID": 516,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "웅천읍사무소",
+        "id": "513"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "웅천읍사무소",
+        "id": "513"
+      }
+    ],
+    "depth": 2,
+    "deptName": "산업팀",
+    "departmentID": 517,
+    "phone": "4504",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "4505",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "개발팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "웅천읍사무소",
+        "id": "513"
+      }
+    ],
+    "depth": 2,
+    "departmentID": 518
+  },
+  {
+    "phone": "4506",
+    "departmentID": 519,
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "맞춤형복지팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "웅천읍사무소",
+        "id": "513"
+      }
+    ]
+  },
+  {
+    "deptName": "주포면사무소",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "departmentID": 520,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 1,
+    "phone": "0801",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 2,
+    "deptName": "총무팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "520",
+        "name": "주포면사무소"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4541",
+    "departmentID": 521,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "deptName": "민원팀",
+    "departmentID": 522,
+    "phone": "4542",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "주포면사무소",
+        "id": "520"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "departmentID": 523,
+    "phone": "4543",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "520",
+        "name": "주포면사무소"
+      }
+    ],
+    "depth": 2,
+    "deptName": "주민생활지원팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 524,
+    "phone": "4544",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "주포면사무소",
+        "id": "520"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 2,
+    "deptName": "산업팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "0802",
+    "deptName": "주교면사무소",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "departmentID": 525,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 1
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4571",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 526,
+    "deptName": "총무팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "525",
+        "name": "주교면사무소"
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "주교면사무소",
+        "id": "525"
+      }
+    ],
+    "deptName": "민원팀",
+    "phone": "4572",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 2,
+    "departmentID": 527
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 528,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "deptName": "주민생활지원팀",
+    "phone": "4573",
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "525",
+        "name": "주교면사무소"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 529,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "산업팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "525",
+        "name": "주교면사무소"
+      }
+    ],
+    "phone": "4574",
+    "depth": 2
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "525",
+        "name": "주교면사무소"
+      }
+    ],
+    "phone": "4575",
+    "deptName": "맞춤형복지팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 530,
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "오천면사무소",
+    "phone": "0803",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 531,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 1
+  },
+  {
+    "deptName": "총무팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 532,
+    "phone": "4601",
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "531",
+        "name": "오천면사무소"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "4602",
+    "departmentID": 533,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "민원팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "오천면사무소",
+        "id": "531"
+      }
+    ],
+    "depth": 2
+  },
+  {
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4603",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "오천면사무소",
+        "id": "531"
+      }
+    ],
+    "departmentID": 534,
+    "deptName": "주민생활지원팀"
+  },
+  {
+    "deptName": "산업팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4604",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "오천면사무소",
+        "id": "531"
+      }
+    ],
+    "departmentID": 535
+  },
+  {
+    "departmentID": 536,
+    "deptName": "어항출장소",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "531",
+        "name": "오천면사무소"
+      }
+    ],
+    "phone": "4606",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "천북면사무소",
+    "phone": "0804",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 538,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 1
+  },
+  {
+    "departmentID": 539,
+    "deptName": "총무팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "538",
+        "name": "천북면사무소"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "4641",
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "phone": "4642",
+    "depth": 2,
+    "deptName": "민원팀",
+    "departmentID": 540,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "538",
+        "name": "천북면사무소"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "천북면사무소",
+        "id": "538"
+      }
+    ],
+    "phone": "4643",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "deptName": "주민생활지원팀",
+    "departmentID": 541
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 542,
+    "deptName": "산업팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "538",
+        "name": "천북면사무소"
+      }
+    ],
+    "depth": 2,
+    "phone": "4644",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "청소면사무소",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "phone": "0805",
+    "departmentID": 543,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 1
+  },
+  {
+    "depth": 2,
+    "departmentID": 544,
+    "phone": "4671",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "543",
+        "name": "청소면사무소"
+      }
+    ],
+    "deptName": "총무팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "민원팀",
+    "departmentID": 545,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "청소면사무소",
+        "id": "543"
+      }
+    ],
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "4672"
+  },
+  {
+    "deptName": "주민생활지원팀",
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "543",
+        "name": "청소면사무소"
+      }
+    ],
+    "phone": "4673",
+    "departmentID": 546
+  },
+  {
+    "departmentID": 547,
+    "phone": "4674",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "543",
+        "name": "청소면사무소"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "산업팀"
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "청소면사무소",
+        "id": "543"
+      }
+    ],
+    "deptName": "맞춤형복지팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 548,
+    "depth": 2,
+    "phone": "4675",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 549,
+    "depth": 1,
+    "deptName": "청라면사무소",
+    "phone": "0806",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "4701",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "청라면사무소",
+        "id": "549"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "총무팀",
+    "depth": 2,
+    "departmentID": 550
+  },
+  {
+    "deptName": "민원팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "청라면사무소",
+        "id": "549"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4702",
+    "departmentID": 551,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "depth": 2
+  },
+  {
+    "phone": "4703",
+    "deptName": "주민생활지원팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 552,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "549",
+        "name": "청라면사무소"
+      }
+    ],
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "549",
+        "name": "청라면사무소"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "deptName": "산업팀",
+    "departmentID": 553,
+    "phone": "4704"
+  },
+  {
+    "phone": "0807",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "depth": 1,
+    "departmentID": 554,
+    "deptName": "남포면사무소",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "554",
+        "name": "남포면사무소"
+      }
+    ],
+    "departmentID": 555,
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "총무팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "phone": "4731"
+  },
+  {
+    "phone": "4732",
+    "departmentID": 556,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "남포면사무소",
+        "id": "554"
+      }
+    ],
+    "depth": 2,
+    "area": "남포면",
+    "deptName": "민원팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "phone": "4733",
+    "depth": 2,
+    "departmentID": 557,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "554",
+        "name": "남포면사무소"
+      }
+    ],
+    "deptName": "주민생활지원팀"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 558,
+    "phone": "4734",
+    "depth": 2,
+    "deptName": "산업팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "남포면사무소",
+        "id": "554"
+      }
+    ]
+  },
+  {
+    "deptName": "맞춤형복지팀",
+    "depth": 2,
+    "phone": "4735",
+    "departmentID": 559,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "554",
+        "name": "남포면사무소"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "depth": 1,
+    "deptName": "주산면사무소",
+    "phone": "0808",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "departmentID": 560,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "총무팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "departmentID": 561,
+    "phone": "4761",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "560",
+        "name": "주산면사무소"
+      }
+    ]
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "560",
+        "name": "주산면사무소"
+      }
+    ],
+    "departmentID": 562,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "민원팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "4762"
+  },
+  {
+    "departmentID": 563,
+    "deptName": "주민생활지원팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4763",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "주산면사무소",
+        "id": "560"
+      }
+    ]
+  },
+  {
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "산업팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "주산면사무소",
+        "id": "560"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 564,
+    "phone": "4764"
+  },
+  {
+    "phone": "0809",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 1,
+    "deptName": "미산면사무소",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "departmentID": 565,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 566,
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4791",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "미산면사무소",
+        "id": "565"
+      }
+    ],
+    "deptName": "총무팀"
+  },
+  {
+    "deptName": "민원팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "departmentID": 567,
+    "phone": "4792",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "미산면사무소",
+        "id": "565"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "미산면사무소",
+        "id": "565"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 568,
+    "phone": "4793",
+    "depth": 2,
+    "deptName": "주민생활지원팀"
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "미산면사무소",
+        "id": "565"
+      }
+    ],
+    "departmentID": 569,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "산업팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "depth": 2,
+    "phone": "4794"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "departmentID": 570,
+    "deptName": "성주면사무소",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "phone": "0810",
+    "depth": 1
+  },
+  {
+    "deptName": "총무팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "570",
+        "name": "성주면사무소"
+      }
+    ],
+    "depth": 2,
+    "departmentID": 571,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "4821",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 572,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "성주면사무소",
+        "id": "570"
+      }
+    ],
+    "depth": 2,
+    "phone": "4822",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "민원팀",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 573,
+    "depth": 2,
+    "phone": "4823",
+    "deptName": "주민생활지원팀",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "성주면사무소",
+        "id": "570"
+      }
+    ]
+  },
+  {
+    "phone": "4824",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "570",
+        "name": "성주면사무소"
+      }
+    ],
+    "depth": 2,
+    "deptName": "산업팀",
+    "departmentID": 574
+  },
+  {
+    "departmentID": 575,
+    "deptName": "대천1동주민센터",
+    "depth": 1,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "0811"
+  },
+  {
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "phone": "4851",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "대천1동주민센터",
+        "id": "575"
+      }
+    ],
+    "departmentID": 576,
+    "deptName": "총무팀"
+  },
+  {
+    "deptName": "민원팀",
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "575",
+        "name": "대천1동주민센터"
+      }
+    ],
+    "departmentID": 577,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4852"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4853",
+    "deptName": "맞춤형복지팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "대천1동주민센터",
+        "id": "575"
+      }
+    ],
+    "departmentID": 578
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "0812",
+    "departmentID": 579,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "deptName": "대천2동주민센터",
+    "depth": 1
+  },
+  {
+    "departmentID": 580,
+    "deptName": "총무팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "579",
+        "name": "대천2동주민센터"
+      }
+    ],
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4881",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4882",
+    "departmentID": 581,
+    "depth": 2,
+    "deptName": "민원팀",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "대천2동주민센터",
+        "id": "579"
+      }
+    ]
+  },
+  {
+    "depth": 2,
+    "deptName": "맞춤형복지팀",
+    "departmentID": 582,
+    "phone": "4883",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "대천2동주민센터",
+        "id": "579"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "departmentID": 583,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "depth": 1,
+    "phone": "0813",
+    "deptName": "대천3동주민센터",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "대천3동주민센터",
+        "id": "583"
+      }
+    ],
+    "deptName": "총무팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 584,
+    "phone": "4911"
+  },
+  {
+    "departmentID": 585,
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "583",
+        "name": "대천3동주민센터"
+      }
+    ],
+    "phone": "4912",
+    "depth": 2,
+    "deptName": "민원팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "deptName": "맞춤형복지팀",
+    "departmentID": 586,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4913",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "대천3동주민센터",
+        "id": "583"
+      }
+    ],
+    "depth": 2
+  },
+  {
+    "depth": 1,
+    "departmentID": 587,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "대천4동주민센터",
+    "phone": "0814",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "587",
+        "name": "대천4동주민센터"
+      }
+    ],
+    "deptName": "총무팀",
+    "departmentID": 588,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "4941",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 589,
+    "deptName": "민원팀",
+    "phone": "4942",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "587",
+        "name": "대천4동주민센터"
+      }
+    ]
+  },
+  {
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "587",
+        "name": "대천4동주민센터"
+      }
+    ],
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "4943",
+    "departmentID": 590,
+    "deptName": "맞춤형복지팀"
+  },
+  {
+    "departmentID": 591,
+    "depth": 1,
+    "phone": "0815",
+    "deptName": "대천5동주민센터",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "departmentID": 592,
+    "depth": 2,
+    "deptName": "총무팀",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "대천5동주민센터",
+        "id": "591"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "phone": "4971"
+  },
+  {
+    "departmentID": 593,
+    "deptName": "민원팀",
+    "phone": "4972",
+    "depth": 2,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "591",
+        "name": "대천5동주민센터"
+      }
+    ]
+  },
+  {
+    "depth": 1,
+    "phone": "0950",
+    "deptName": "시설관리공단",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 594,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      }
+    ],
+    "phone": "3470",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 595,
+    "deptName": "행복민원실",
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ]
+  },
+  {
+    "phone": "0820",
+    "departmentID": 596,
+    "depth": 2,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      }
+    ],
+    "deptName": "부대시설",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": "3114",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "deptName": "유관기관",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      }
+    ],
+    "depth": 1,
+    "departmentID": 597
+  },
+  {
+    "depth": 4,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "deptName": "2021충청남도 체육대회준비",
+    "phone": {
+      "number": "3835",
+      "type": "내선"
+    },
+    "parentDept": {
+      "name": "교육체육과",
+      "phone": {
+        "number": "3310",
+        "type": "내선"
+      },
+      "id": 329
+    },
+    "departmentID": 632,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "교육체육과",
+        "id": "329"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "deptName": "공무원노조",
+    "parentDept": {
+      "name": "시청",
+      "id": 300,
+      "phone": {
+        "number": "3114",
+        "type": "내선"
+      }
+    },
+    "phone": {
+      "number": "835",
+      "type": "내선"
+    },
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 633,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "phone": {
+      "number": "823",
+      "type": "내선"
+    },
+    "depth": 4,
+    "departmentID": 634,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "319",
+        "name": "자치행정과"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "deptName": "구내식당",
+    "parentDept": {
+      "phone": {
+        "type": "내선",
+        "number": "3210"
+      },
+      "name": "자치행정과",
+      "id": 319
+    }
+  },
+  {
+    "departmentID": 635,
+    "parentDept": {
+      "name": "미래사업과",
+      "id": 431,
+      "phone": {
+        "type": "내선",
+        "number": "6710"
+      }
+    },
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "국도77호개통팀",
+    "phone": {
+      "type": "내선",
+      "number": "6702"
+    },
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "name": "미래사업과",
+        "id": "431"
+      }
+    ]
+  },
+  {
+    "phone": {
+      "number": "3854",
+      "type": "내선"
+    },
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "parentDept": {
+      "phone": {
+        "type": "내선",
+        "number": "3860"
+      },
+      "name": "도시재생과",
+      "id": 395
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "도시재생사업팀",
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "395",
+        "name": "도시재생과"
+      }
+    ],
+    "departmentID": 636
+  },
+  {
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "경제도시국",
+        "id": "304"
+      },
+      {
+        "id": "395",
+        "name": "도시재생과"
+      }
+    ],
+    "depth": 4,
+    "phone": {
+      "number": "3852",
+      "type": "내선"
+    },
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "departmentID": 637,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "deptName": "도시재생정책팀",
+    "parentDept": {
+      "phone": {
+        "number": "3860",
+        "type": "내선"
+      },
+      "name": "도시재생과",
+      "id": 395
+    }
+  },
+  {
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "parentDept": {
+      "phone": {
+        "number": "3310",
+        "type": "내선"
+      },
+      "id": 329,
+      "name": "교육체육과"
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "3835",
+      "type": "내선"
+    },
+    "depth": 4,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "교육체육과",
+        "id": "329"
+      }
+    ],
+    "deptName": "도체전지원TF팀",
+    "departmentID": 638
+  },
+  {
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "parentDept": {
+      "name": "시청",
+      "id": 300,
+      "phone": {
+        "type": "내선",
+        "number": "3114"
+      }
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "3050",
+      "type": "내선"
+    },
+    "departmentID": 639,
+    "deptName": "박람회지원단",
+    "depth": 2
+  },
+  {
+    "deptName": "보령문화의전당",
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "name": "문화새마을과",
+        "id": "340"
+      }
+    ],
+    "departmentID": 640,
+    "phone": {
+      "number": "3404",
+      "type": "내선"
+    },
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "depth": 4,
+    "parentDept": {
+      "name": "문화새마을과",
+      "phone": {
+        "type": "내선",
+        "number": "3410"
+      },
+      "id": 340
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 4,
+    "departmentID": 641,
+    "parentDept": {
+      "phone": {
+        "number": "3610",
+        "type": "내선"
+      },
+      "name": "사회복지과",
+      "id": 365
+    },
+    "deptName": "아동청소년친화팀",
+    "phone": {
+      "number": "3603",
+      "type": "내선"
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "name": "사회복지과",
+        "id": "365"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": "",
+        "name": "시청"
+      }
+    ]
+  },
+  {
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "parentDept": {
+      "id": 319,
+      "name": "자치행정과",
+      "phone": {
+        "number": "3210",
+        "type": "내선"
+      }
+    },
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "303",
+        "name": "자치행정국"
+      },
+      {
+        "id": "319",
+        "name": "자치행정과"
+      }
+    ],
+    "phone": {
+      "type": "내선",
+      "number": "3246"
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "departmentID": 642,
+    "deptName": "자치인권팀",
+    "depth": 4
+  },
+  {
+    "depth": 4,
+    "departmentID": 643,
+    "hierarchy": [
+      {
+        "name": "보령시",
+        "id": "1"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "자치행정국",
+        "id": "303"
+      },
+      {
+        "id": "365",
+        "name": "사회복지과"
+      }
+    ],
+    "phone": {
+      "number": "3604",
+      "type": "내선"
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "parentDept": {
+      "phone": {
+        "number": "3610",
+        "type": "내선"
+      },
+      "id": 365,
+      "name": "사회복지과"
+    },
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청"
+      }
+    ],
+    "deptName": "장애인팀"
+  },
+  {
+    "parentDept": {
+      "name": "기획감사실",
+      "id": 306,
+      "phone": {
+        "type": "내선",
+        "number": "3110"
+      }
+    },
+    "phone": {
+      "number": "3107",
+      "type": "내선"
+    },
+    "depth": 3,
+    "departmentID": 644,
+    "deptName": "재정협력팀",
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "transferPrefix": ""
+      }
+    ],
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "id": "306",
+        "name": "기획감사실"
+      }
+    ]
+  },
+  {
+    "departmentID": 645,
+    "parentDept": {
+      "id": 431,
+      "phone": {
+        "type": "내선",
+        "number": "6710"
+      },
+      "name": "미래사업과"
+    },
+    "deptName": "해양치유산업팀",
+    "depth": 4,
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "phone": {
+      "number": "6704",
+      "type": "내선"
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "name": "해양수산관광국",
+        "id": "305"
+      },
+      {
+        "name": "미래사업과",
+        "id": "431"
+      }
+    ],
+    "transferableBranches": [
+      {
+        "name": "시청",
+        "transferPrefix": "",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ]
+  },
+  {
+    "departmentID": 646,
+    "phone": {
+      "number": "3051",
+      "type": "내선"
+    },
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "id": "300",
+        "name": "시청"
+      },
+      {
+        "id": "639",
+        "name": "박람회지원단"
+      }
+    ],
+    "parentDept": {
+      "id": 639,
+      "name": "박람회지원단",
+      "phone": {
+        "number": "3050",
+        "type": "내선"
+      }
+    },
+    "depth": 3,
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "name": "시청",
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+      }
+    ],
+    "deptName": "행정지원팀",
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7"
+  },
+  {
+    "depth": 3,
+    "deptName": "홍보협력팀",
+    "departmentID": 647,
+    "transferableBranches": [
+      {
+        "id": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+        "name": "시청",
+        "transferPrefix": ""
+      }
+    ],
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "보령시"
+      },
+      {
+        "name": "시청",
+        "id": "300"
+      },
+      {
+        "name": "박람회지원단",
+        "id": "639"
+      }
+    ],
+    "phone": {
+      "number": "3052",
+      "type": "내선"
+    },
+    "bchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "parentDept": {
+      "phone": {
+        "number": "3050",
+        "type": "내선"
+      },
+      "name": "박람회지원단",
+      "id": 639
+    }
+  }
+]
