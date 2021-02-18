@@ -101,4 +101,5 @@ public class Department {
             hierarchyMap.put(departmentId, hierarchyList);
         }
     }
+
 }

@@ -58,8 +58,8 @@ public class BrStaffer {
         List<String[]> phoneBookSeries = csvReaderUtil.convertCsvResourceToDataFrame(phoneBookResource);
         List<String[]> allUserDataSeries = csvReaderUtil.convertCsvResourceToDataFrame(departmentAllUserData);
 
-        String csvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/correctedBrStaffer.csv";
-        String exceptCsvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/correctedData/exceptCorrectedBrStaffer.csv";
+        String csvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/finalData/finalStaffer.csv";
+        String exceptCsvFilePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/reception-backend-directory-generator/src/main/resources/csv/br/finalData/exceptFinalStaffer.csv";
         try (
             CSVWriter correctedBrStafferWriter = new CSVWriter(new FileWriter(csvFilePath));
             CSVWriter exceptBrStafferWriter = new CSVWriter(new FileWriter(exceptCsvFilePath));
