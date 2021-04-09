@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.dongnae;
+package com.posicube.robi.reception.domain.dongnae.department;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

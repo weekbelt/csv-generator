@@ -6,8 +6,9 @@ import com.posicube.robi.reception.domain.br.department.DepartmentJson;
 import com.posicube.robi.reception.domain.br.department.DepartmentJson.Hierarchy;
 import com.posicube.robi.reception.domain.br.department.DepartmentJson.ParentDept;
 import com.posicube.robi.reception.domain.br.department.DepartmentJson.Phone;
-import com.posicube.robi.reception.domain.dongnae.DepartmentSeries;
-import com.posicube.robi.reception.domain.dongnae.DepartmentSeriesRepository;
+import com.posicube.robi.reception.domain.br.staffer.StafferJson;
+import com.posicube.robi.reception.domain.dongnae.department.DepartmentSeries;
+import com.posicube.robi.reception.domain.dongnae.department.DepartmentSeriesRepository;
 import com.posicube.robi.reception.util.CsvReaderUtil;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -120,7 +121,15 @@ public class DirectoryGeneratorService {
         }
     }
 
-    public void generateDirectoryStaffer() {
+    public List<StafferJson> generateDirectoryStaffer() throws CsvValidationException {
+        ClassPathResource stafferCsv = new ClassPathResource("csv/dongnae/staffer.csv");
+        List<String[]> stafferDF = csvReaderUtil.convertCsvResourceToDataFrame(stafferCsv);
+
+        saveStafferDataFrame(stafferDF);
+
+    }
+
+    private void saveStafferDataFrame(List<String[]> stafferDF) {
 
     }
 }

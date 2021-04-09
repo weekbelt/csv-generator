@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.dongnae;
+package com.posicube.robi.reception.domain.dongnae.department;
 
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
