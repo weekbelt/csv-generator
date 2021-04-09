@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class DepartmentDataFrame {
+public class DepartmentSeries {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -26,5 +26,6 @@ public class DepartmentDataFrame {
     private String parentDepartmentCode;
 
     private String departmentPhoneNumber;
+
 
 }
