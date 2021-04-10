@@ -2,6 +2,7 @@ package com.posicube.robi.reception.controller;
 
 import com.opencsv.exceptions.CsvValidationException;
 import com.posicube.robi.reception.domain.br.department.DepartmentJson;
+import com.posicube.robi.reception.domain.br.staffer.StafferJson;
 import com.posicube.robi.reception.service.DirectoryGeneratorService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +27,7 @@ public class DirectoryController {
 
     @GetMapping("/v1/generate/staffer")
     @ResponseStatus(HttpStatus.OK)
-    public void generateStaffer() {
-        directoryGeneratorService.generateDirectoryStaffer();
+    public List<StafferJson> generateStaffer(String branchId) throws CsvValidationException {
+        return directoryGeneratorService.generateDirectoryStaffer(branchId);
     }
 }
