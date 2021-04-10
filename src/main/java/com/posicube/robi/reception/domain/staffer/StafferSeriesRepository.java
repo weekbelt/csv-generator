@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.dongnae.staffer;
+package com.posicube.robi.reception.domain.staffer;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

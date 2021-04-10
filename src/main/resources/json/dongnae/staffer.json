@@ -1,0 +1,346 @@
+[
+  {
+    "staffID": 1,
+    "firstName": "형종",
+    "lastName": "이",
+    "fullName": "이형종",
+    "phone": {
+      "type": "내선",
+      "number": "1111"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3004"
+    },
+    "jobs": [
+      "외야수",
+      "중견수",
+      "우익수"
+    ],
+    "departmentID": 5,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "department": "총무계",
+    "email": null,
+    "positions": [
+      "외야수",
+      "중견수",
+      "우익수"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 2,
+    "firstName": "창기",
+    "lastName": "홍",
+    "fullName": "홍창기",
+    "phone": {
+      "type": "내선",
+      "number": "1112"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3003"
+    },
+    "jobs": [
+      "외야수",
+      "중견수",
+      "외야"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      }
+    ],
+    "department": "총무과",
+    "email": null,
+    "positions": [
+      "외야수",
+      "중견수",
+      "외야"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 3,
+    "firstName": "현수",
+    "lastName": "김",
+    "fullName": "김현수",
+    "phone": {
+      "type": "내선",
+      "number": "1113"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3004"
+    },
+    "jobs": [
+      "외야수",
+      "좌익수",
+      "지명타자"
+    ],
+    "departmentID": 5,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "department": "총무계",
+    "email": null,
+    "positions": [
+      "외야수",
+      "좌익수",
+      "지명타자"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 4,
+    "firstName": "지환",
+    "lastName": "오",
+    "fullName": "오지환",
+    "phone": {
+      "type": "내선",
+      "number": "1114"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3005"
+    },
+    "jobs": [
+      "내야수",
+      "유격수"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "department": "재무과",
+    "email": null,
+    "positions": [
+      "내야수",
+      "유격수"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 5,
+    "firstName": "주현",
+    "lastName": "정",
+    "fullName": "정주현",
+    "phone": {
+      "type": "내선",
+      "number": "1115"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3006"
+    },
+    "jobs": [
+      "내야수",
+      "2루수"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "department": "세무1과",
+    "email": null,
+    "positions": [
+      "내야수",
+      "2루수"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 6,
+    "firstName": "강남",
+    "lastName": "유",
+    "fullName": "유강남",
+    "phone": {
+      "type": "내선",
+      "number": "1116"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3007"
+    },
+    "jobs": [
+      "포수"
+    ],
+    "departmentID": 8,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "department": "세무2과",
+    "email": null,
+    "positions": [
+      "포수"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 7,
+    "firstName": "용의",
+    "lastName": "김",
+    "fullName": "김용의",
+    "phone": {
+      "type": "내선",
+      "number": "1117"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3008"
+    },
+    "jobs": [
+      "대타",
+      "주루"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "department": "민원여권과",
+    "email": null,
+    "positions": [
+      "대타",
+      "주루"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 8,
+    "firstName": "치승",
+    "lastName": "황목",
+    "fullName": "황목치승",
+    "phone": {
+      "type": "내선",
+      "number": "1118"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3008"
+    },
+    "jobs": [
+      "대타",
+      "주루"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "department": "민원여권과",
+    "email": null,
+    "positions": [
+      "대타",
+      "주루"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  }
+]

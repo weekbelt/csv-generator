@@ -1,19 +1,22 @@
 package com.posicube.robi.reception.service;
 
+import antlr.preprocessor.Hierarchy;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvValidationException;
-import com.posicube.robi.reception.domain.br.department.DepartmentJson;
-import com.posicube.robi.reception.domain.br.department.DepartmentJson.Hierarchy;
-import com.posicube.robi.reception.domain.br.department.DepartmentJson.ParentDept;
-import com.posicube.robi.reception.domain.br.department.DepartmentJson.Phone;
-import com.posicube.robi.reception.domain.br.staffer.StafferJson;
-import com.posicube.robi.reception.domain.br.staffer.StafferJson.Department;
-import com.posicube.robi.reception.domain.dongnae.department.DepartmentSeries;
-import com.posicube.robi.reception.domain.dongnae.department.DepartmentSeriesRepository;
-import com.posicube.robi.reception.domain.dongnae.staffer.StafferSeries;
-import com.posicube.robi.reception.domain.dongnae.staffer.StafferSeriesRepository;
+import com.posicube.robi.reception.domain.department.DepartmentJson;
+import com.posicube.robi.reception.domain.department.DepartmentJson.ParentDept;
+import com.posicube.robi.reception.domain.department.DepartmentJson.Phone;
+import com.posicube.robi.reception.domain.department.DepartmentSeries;
+import com.posicube.robi.reception.domain.department.DepartmentSeriesRepository;
+import com.posicube.robi.reception.domain.staffer.StafferJson;
+import com.posicube.robi.reception.domain.staffer.StafferJson.Department;
+import com.posicube.robi.reception.domain.staffer.StafferSeries;
+import com.posicube.robi.reception.domain.staffer.StafferSeriesRepository;
 import com.posicube.robi.reception.util.CsvReaderUtil;
+import com.posicube.robi.reception.util.JsonUtil;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -25,6 +28,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 
 @Slf4j
@@ -37,7 +42,7 @@ public class DirectoryGeneratorService {
     private final DepartmentSeriesRepository departmentSeriesRepository;
     private final StafferSeriesRepository stafferSeriesRepository;
 
-    public List<DepartmentJson> generateDirectoryDepartment(String branchId) throws CsvValidationException {
+    public Resource generateDirectoryDepartment(String branchId) throws CsvValidationException, IOException {
         ClassPathResource departmentCsv = new ClassPathResource("csv/dongnae/department.csv");
         List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(departmentCsv);
 
@@ -59,7 +64,7 @@ public class DirectoryGeneratorService {
                 ParentDept parentDept = getParentDept(departmentSeries);
 
                 // hierarchy 생성
-                List<Hierarchy> hierarchyList = getHierarchyList(departmentSeries);
+                List<DepartmentJson.Hierarchy> hierarchyList = getHierarchyList(departmentSeries);
 
                 DepartmentJson departmentJson = DepartmentJson.builder()
                     .depth(hierarchyList.size())
@@ -73,19 +78,24 @@ public class DirectoryGeneratorService {
                 departmentJsonList.add(departmentJson);
             }
         }
-        return departmentJsonList;
+
+        String filePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/csv-generator/src/main/resources/json/dongnae";
+        String saveFileName = File.separator + "department.json";
+
+        File departmentJsonFile = JsonUtil.createDepartmentJsonFile(filePath, saveFileName, departmentJsonList, objectMapper);
+        return new FileSystemResource(departmentJsonFile);
     }
 
-    private List<Hierarchy> getHierarchyList(DepartmentSeries departmentSeries) {
+    private List<DepartmentJson.Hierarchy> getHierarchyList(DepartmentSeries departmentSeries) {
 
-        List<Hierarchy> hierarchyList = new ArrayList<>();
+        List<DepartmentJson.Hierarchy> hierarchyList = new ArrayList<>();
         DepartmentSeries currentDepartmentSeries = departmentSeries;
         while (true) {
             String parentDepartmentCode = currentDepartmentSeries.getParentDepartmentCode();
             Optional<DepartmentSeries> optionalDepartmentSeries = departmentSeriesRepository.findByDepartmentCode(parentDepartmentCode);
             if (optionalDepartmentSeries.isPresent()) {
                 DepartmentSeries parentDepartmentSeries = optionalDepartmentSeries.get();
-                Hierarchy hierarchy = Hierarchy.builder()
+                DepartmentJson.Hierarchy hierarchy = DepartmentJson.Hierarchy.builder()
                     .id(String.valueOf(parentDepartmentSeries.getId()))
                     .name(parentDepartmentSeries.getDepartmentName())
                     .build();
@@ -95,7 +105,7 @@ public class DirectoryGeneratorService {
                 break;
             }
         }
-        return hierarchyList.stream().sorted(Comparator.comparing(Hierarchy::getId)).collect(Collectors.toList());
+        return hierarchyList.stream().sorted(Comparator.comparing(DepartmentJson.Hierarchy::getId)).collect(Collectors.toList());
     }
 
     private ParentDept getParentDept(DepartmentSeries departmentSeries) {
@@ -130,7 +140,7 @@ public class DirectoryGeneratorService {
         }
     }
 
-    public List<StafferJson> generateDirectoryStaffer(String branchId) throws CsvValidationException {
+    public Resource generateDirectoryStaffer(String branchId) throws CsvValidationException, IOException {
         ClassPathResource stafferCsv = new ClassPathResource("csv/dongnae/staffer.csv");
         List<String[]> stafferDF = csvReaderUtil.convertCsvResourceToDataFrame(stafferCsv);
 
@@ -179,7 +189,12 @@ public class DirectoryGeneratorService {
                 .build();
             stafferJsonList.add(stafferJson);
         }
-        return stafferJsonList;
+
+        String filePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/csv-generator/src/main/resources/json/dongnae";
+        String saveFileName = File.separator + "staffer.json";
+
+        File stafferJsonFile = JsonUtil.createStafferJsonFile(filePath, saveFileName, stafferJsonList, objectMapper);
+        return new FileSystemResource(stafferJsonFile);
     }
 
     private List<Department> getStafferHierarchyList(DepartmentSeries departmentSeries) {

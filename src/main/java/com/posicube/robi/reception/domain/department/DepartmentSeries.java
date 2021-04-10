@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.dongnae.department;
+package com.posicube.robi.reception.domain.department;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,6 +26,4 @@ public class DepartmentSeries {
     private String parentDepartmentCode;
 
     private String departmentPhoneNumber;
-
-
 }

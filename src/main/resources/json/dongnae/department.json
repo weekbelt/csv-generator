@@ -1,0 +1,232 @@
+[
+  {
+    "depth": 0,
+    "hierarchy": null,
+    "deptName": "동래구청",
+    "transferableBranches": null,
+    "departmentID": 1,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3000",
+    "parentDept": null
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "기획감사실",
+    "transferableBranches": null,
+    "departmentID": 2,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3001",
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "3000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "총무국",
+    "transferableBranches": null,
+    "departmentID": 3,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3002",
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "3000"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "총무과",
+    "transferableBranches": null,
+    "departmentID": 4,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3003",
+    "parentDept": {
+      "name": "총무국",
+      "id": 3,
+      "phone": {
+        "type": "내선",
+        "number": "3002"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "deptName": "총무계",
+    "transferableBranches": null,
+    "departmentID": 5,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3004",
+    "parentDept": {
+      "name": "총무과",
+      "id": 4,
+      "phone": {
+        "type": "내선",
+        "number": "3003"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "deptName": "재무과",
+    "transferableBranches": null,
+    "departmentID": 6,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3005",
+    "parentDept": {
+      "name": "총무과",
+      "id": 4,
+      "phone": {
+        "type": "내선",
+        "number": "3003"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "deptName": "세무1과",
+    "transferableBranches": null,
+    "departmentID": 7,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3006",
+    "parentDept": {
+      "name": "총무과",
+      "id": 4,
+      "phone": {
+        "type": "내선",
+        "number": "3003"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "deptName": "세무2과",
+    "transferableBranches": null,
+    "departmentID": 8,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3007",
+    "parentDept": {
+      "name": "총무과",
+      "id": 4,
+      "phone": {
+        "type": "내선",
+        "number": "3003"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "3",
+        "name": "총무국"
+      },
+      {
+        "id": "4",
+        "name": "총무과"
+      }
+    ],
+    "deptName": "민원여권과",
+    "transferableBranches": null,
+    "departmentID": 9,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": "3008",
+    "parentDept": {
+      "name": "총무과",
+      "id": 4,
+      "phone": {
+        "type": "내선",
+        "number": "3003"
+      }
+    }
+  }
+]

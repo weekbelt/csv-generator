@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.br.department;
+package com.posicube.robi.reception.domain.department;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -69,6 +69,4 @@ public class DepartmentJson {
         private String type;
         private String number;
     }
-
-
 }
