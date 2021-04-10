@@ -26,4 +26,6 @@ public class DepartmentSeries {
     private String parentDepartmentCode;
 
     private String departmentPhoneNumber;
+
+    private String branchId;
 }

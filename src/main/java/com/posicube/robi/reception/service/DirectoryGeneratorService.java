@@ -1,12 +1,12 @@
 package com.posicube.robi.reception.service;
 
-import antlr.preprocessor.Hierarchy;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvValidationException;
 import com.posicube.robi.reception.domain.department.DepartmentJson;
 import com.posicube.robi.reception.domain.department.DepartmentJson.ParentDept;
 import com.posicube.robi.reception.domain.department.DepartmentJson.Phone;
+import com.posicube.robi.reception.domain.department.DepartmentJsonFactory;
 import com.posicube.robi.reception.domain.department.DepartmentSeries;
 import com.posicube.robi.reception.domain.department.DepartmentSeriesRepository;
 import com.posicube.robi.reception.domain.staffer.StafferJson;
@@ -43,47 +43,36 @@ public class DirectoryGeneratorService {
     private final StafferSeriesRepository stafferSeriesRepository;
 
     public Resource generateDirectoryDepartment(String branchId) throws CsvValidationException, IOException {
-        ClassPathResource departmentCsv = new ClassPathResource("csv/dongnae/department.csv");
-        List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(departmentCsv);
+        List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/dongnae/department.csv"));
 
-        saveDepartmentDataFrame(departmentDF);
+        saveDepartmentDataFrame(departmentDF, branchId);
+        List<DepartmentJson> departmentJsonList = getDepartmentJsonList(branchId);
 
+        String filePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/csv-generator/src/main/resources/json/dongnae";
+        String saveFileName = File.separator + "department.json";
+        File departmentJsonFile = JsonUtil.createDepartmentJsonFile(filePath, saveFileName, departmentJsonList, objectMapper);
+        return new FileSystemResource(departmentJsonFile);
+    }
+
+    private List<DepartmentJson> getDepartmentJsonList(String branchId) {
         List<DepartmentJson> departmentJsonList = new ArrayList<>();
         List<DepartmentSeries> departmentSeriesList = departmentSeriesRepository.findAll();
         for (DepartmentSeries departmentSeries : departmentSeriesList) {
             if (StringUtils.isBlank(departmentSeries.getParentDepartmentCode())) {
-                DepartmentJson departmentJson = DepartmentJson.builder()
-                    .deptName(departmentSeries.getDepartmentName())
-                    .departmentID(departmentSeries.getId())
-                    .bchID(branchId)
-                    .phone(objectMapper.valueToTree(departmentSeries.getDepartmentPhoneNumber()))
-                    .build();
+                JsonNode phone = objectMapper.valueToTree(departmentSeries.getDepartmentPhoneNumber());
+                DepartmentJson departmentJson = DepartmentJsonFactory.createDepartmentJson(new ArrayList<>(), departmentSeries, phone, null);
                 departmentJsonList.add(departmentJson);
             } else {
-                // parentDepth 생성
                 ParentDept parentDept = getParentDept(departmentSeries);
-
-                // hierarchy 생성
                 List<DepartmentJson.Hierarchy> hierarchyList = getHierarchyList(departmentSeries);
+                JsonNode phone = objectMapper.valueToTree(departmentSeries.getDepartmentPhoneNumber());
 
-                DepartmentJson departmentJson = DepartmentJson.builder()
-                    .depth(hierarchyList.size())
-                    .hierarchy(hierarchyList)
-                    .deptName(departmentSeries.getDepartmentName())
-                    .departmentID(departmentSeries.getId())
-                    .bchID(branchId)
-                    .phone(objectMapper.valueToTree(departmentSeries.getDepartmentPhoneNumber()))
-                    .parentDept(parentDept)
-                    .build();
+                // departmentJson 생성
+                DepartmentJson departmentJson = DepartmentJsonFactory.createDepartmentJson(hierarchyList, departmentSeries, phone, parentDept);
                 departmentJsonList.add(departmentJson);
             }
         }
-
-        String filePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/csv-generator/src/main/resources/json/dongnae";
-        String saveFileName = File.separator + "department.json";
-
-        File departmentJsonFile = JsonUtil.createDepartmentJsonFile(filePath, saveFileName, departmentJsonList, objectMapper);
-        return new FileSystemResource(departmentJsonFile);
+        return departmentJsonList;
     }
 
     private List<DepartmentJson.Hierarchy> getHierarchyList(DepartmentSeries departmentSeries) {
@@ -128,13 +117,14 @@ public class DirectoryGeneratorService {
             .build();
     }
 
-    private void saveDepartmentDataFrame(List<String[]> departmentDF) {
+    private void saveDepartmentDataFrame(List<String[]> departmentDF, String branchId) {
         for (String[] series : departmentDF) {
             DepartmentSeries departmentSeries = DepartmentSeries.builder()
                 .departmentCode(series[0])
                 .departmentName(series[1])
                 .parentDepartmentCode(series[2])
                 .departmentPhoneNumber(series[3])
+                .branchId(branchId)
                 .build();
             departmentSeriesRepository.save(departmentSeries);
         }
