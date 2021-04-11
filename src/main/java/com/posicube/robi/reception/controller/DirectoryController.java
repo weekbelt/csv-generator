@@ -1,7 +1,8 @@
 package com.posicube.robi.reception.controller;
 
 import com.opencsv.exceptions.CsvValidationException;
-import com.posicube.robi.reception.service.DirectoryGeneratorService;
+import com.posicube.robi.reception.domain.department.DepartmentJsonService;
+import com.posicube.robi.reception.domain.staffer.StafferJsonService;
 import java.io.IOException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.Resource;
@@ -16,17 +17,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DirectoryController {
 
-    private final DirectoryGeneratorService directoryGeneratorService;
+    private final DepartmentJsonService departmentJsonService;
+    private final StafferJsonService stafferJsonService;
 
     @GetMapping("/v1/generate/department")
     @ResponseStatus(HttpStatus.OK)
     public Resource generateDepartment(String branchId) throws CsvValidationException, IOException {
-        return directoryGeneratorService.generateDirectoryDepartment(branchId);
+        return departmentJsonService.generateDirectoryDepartment(branchId);
     }
 
     @GetMapping("/v1/generate/staffer")
     @ResponseStatus(HttpStatus.OK)
     public Resource generateStaffer(String branchId) throws CsvValidationException, IOException {
-        return directoryGeneratorService.generateDirectoryStaffer(branchId);
+        return stafferJsonService.generateDirectoryStaffer(branchId);
     }
 }

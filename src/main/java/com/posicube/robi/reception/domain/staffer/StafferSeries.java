@@ -33,6 +33,8 @@ public class StafferSeries {
 
     private String areas;
 
+    private String branchId;
+
     public String getFirstName() {
         String lastName = this.fullName.substring(0, 2);
         if (lastName.equals("독고") || lastName.equals("남궁") || lastName.equals("황목") || lastName.equals("선우")
