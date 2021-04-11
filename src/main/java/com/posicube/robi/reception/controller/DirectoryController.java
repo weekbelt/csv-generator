@@ -1,8 +1,8 @@
 package com.posicube.robi.reception.controller;
 
 import com.opencsv.exceptions.CsvValidationException;
-import com.posicube.robi.reception.domain.department.DepartmentJsonService;
-import com.posicube.robi.reception.domain.staffer.StafferJsonService;
+import com.posicube.robi.reception.domain.department.service.DepartmentJsonService;
+import com.posicube.robi.reception.domain.staffer.service.StafferJsonService;
 import java.io.IOException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.Resource;

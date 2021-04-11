@@ -1,11 +1,15 @@
-package com.posicube.robi.reception.domain.staffer;
+package com.posicube.robi.reception.domain.staffer.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvValidationException;
 import com.posicube.robi.reception.domain.department.DepartmentSeries;
-import com.posicube.robi.reception.domain.department.DepartmentSeriesRepository;
+import com.posicube.robi.reception.domain.department.repository.DepartmentSeriesRepository;
+import com.posicube.robi.reception.domain.staffer.StafferJson;
 import com.posicube.robi.reception.domain.staffer.StafferJson.Department;
+import com.posicube.robi.reception.domain.staffer.StafferJsonFactory;
+import com.posicube.robi.reception.domain.staffer.StafferSeries;
+import com.posicube.robi.reception.domain.staffer.repository.StafferSeriesRepository;
 import com.posicube.robi.reception.util.CsvReaderUtil;
 import com.posicube.robi.reception.util.JsonUtil;
 import java.io.File;
