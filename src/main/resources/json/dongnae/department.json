@@ -6,8 +6,86 @@
     "transferableBranches": null,
     "departmentID": 1,
     "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3000",
+    "phone": {
+      "type": "외부국선",
+      "number": "051-550-4000"
+    },
     "parentDept": null
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "구청장실",
+    "transferableBranches": null,
+    "departmentID": 2,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4001"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "부구청장실",
+    "transferableBranches": null,
+    "departmentID": 3,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4100"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "의회사무국",
+    "transferableBranches": null,
+    "departmentID": 4,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6652"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
   },
   {
     "depth": 1,
@@ -19,15 +97,18 @@
     ],
     "deptName": "기획감사실",
     "transferableBranches": null,
-    "departmentID": 2,
+    "departmentID": 5,
     "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3001",
+    "phone": {
+      "type": "내선",
+      "number": "4011"
+    },
     "parentDept": {
       "name": "동래구청",
       "id": 1,
       "phone": {
-        "type": "내선",
-        "number": "3000"
+        "type": "외부국선",
+        "number": "051-550-4000"
       }
     }
   },
@@ -41,15 +122,468 @@
     ],
     "deptName": "총무국",
     "transferableBranches": null,
-    "departmentID": 3,
+    "departmentID": 6,
     "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3002",
+    "phone": {
+      "type": "내선",
+      "number": "4101"
+    },
     "parentDept": {
       "name": "동래구청",
       "id": 1,
       "phone": {
-        "type": "내선",
-        "number": "3000"
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "문화환경국",
+    "transferableBranches": null,
+    "departmentID": 7,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4061"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "경제복지국",
+    "transferableBranches": null,
+    "departmentID": 8,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4911"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "안전도시국",
+    "transferableBranches": null,
+    "departmentID": 9,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4631"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "보건소",
+    "transferableBranches": null,
+    "departmentID": 10,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6711"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "문화시설사업소",
+    "transferableBranches": null,
+    "departmentID": 11,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6614"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "수민동",
+    "transferableBranches": null,
+    "departmentID": 12,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6301"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "복산동",
+    "transferableBranches": null,
+    "departmentID": 13,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6321"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "명륜동",
+    "transferableBranches": null,
+    "departmentID": 14,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6361"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "온천1동",
+    "transferableBranches": null,
+    "departmentID": 15,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6381"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "온천2동",
+    "transferableBranches": null,
+    "departmentID": 16,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6401"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "온천3동",
+    "transferableBranches": null,
+    "departmentID": 17,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6424"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "사직1동",
+    "transferableBranches": null,
+    "departmentID": 18,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6441"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "사직2동",
+    "transferableBranches": null,
+    "departmentID": 19,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6461"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "사직3동",
+    "transferableBranches": null,
+    "departmentID": 20,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6481"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "안락1동",
+    "transferableBranches": null,
+    "departmentID": 21,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6501"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "안락2동",
+    "transferableBranches": null,
+    "departmentID": 22,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6521"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "명장1동",
+    "transferableBranches": null,
+    "departmentID": 23,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6541"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      }
+    ],
+    "deptName": "명장2동",
+    "transferableBranches": null,
+    "departmentID": 24,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6561"
+    },
+    "parentDept": {
+      "name": "동래구청",
+      "id": 1,
+      "phone": {
+        "type": "외부국선",
+        "number": "051-550-4000"
       }
     }
   },
@@ -61,141 +595,343 @@
         "name": "동래구청"
       },
       {
-        "id": "3",
+        "id": "4",
+        "name": "의회사무국"
+      }
+    ],
+    "deptName": "의정계",
+    "transferableBranches": null,
+    "departmentID": 25,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6652"
+    },
+    "parentDept": {
+      "name": "의회사무국",
+      "id": 4,
+      "phone": {
+        "type": "내선",
+        "number": "6652"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "4",
+        "name": "의회사무국"
+      }
+    ],
+    "deptName": "의사계",
+    "transferableBranches": null,
+    "departmentID": 26,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6652"
+    },
+    "parentDept": {
+      "name": "의회사무국",
+      "id": 4,
+      "phone": {
+        "type": "내선",
+        "number": "6652"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "5",
+        "name": "기획감사실"
+      }
+    ],
+    "deptName": "기획계",
+    "transferableBranches": null,
+    "departmentID": 27,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4011"
+    },
+    "parentDept": {
+      "name": "기획감사실",
+      "id": 5,
+      "phone": {
+        "type": "내선",
+        "number": "4011"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "5",
+        "name": "기획감사실"
+      }
+    ],
+    "deptName": "예산계",
+    "transferableBranches": null,
+    "departmentID": 28,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4011"
+    },
+    "parentDept": {
+      "name": "기획감사실",
+      "id": 5,
+      "phone": {
+        "type": "내선",
+        "number": "4011"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "5",
+        "name": "기획감사실"
+      }
+    ],
+    "deptName": "법무조직계",
+    "transferableBranches": null,
+    "departmentID": 29,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4011"
+    },
+    "parentDept": {
+      "name": "기획감사실",
+      "id": 5,
+      "phone": {
+        "type": "내선",
+        "number": "4011"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "5",
+        "name": "기획감사실"
+      }
+    ],
+    "deptName": "감사계",
+    "transferableBranches": null,
+    "departmentID": 30,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4011"
+    },
+    "parentDept": {
+      "name": "기획감사실",
+      "id": 5,
+      "phone": {
+        "type": "내선",
+        "number": "4011"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "5",
+        "name": "기획감사실"
+      }
+    ],
+    "deptName": "통계빅데이터계",
+    "transferableBranches": null,
+    "departmentID": 31,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4011"
+    },
+    "parentDept": {
+      "name": "기획감사실",
+      "id": 5,
+      "phone": {
+        "type": "내선",
+        "number": "4011"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "6",
         "name": "총무국"
       }
     ],
     "deptName": "총무과",
     "transferableBranches": null,
-    "departmentID": 4,
+    "departmentID": 32,
     "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3003",
+    "phone": {
+      "type": "내선",
+      "number": "4101"
+    },
     "parentDept": {
       "name": "총무국",
-      "id": 3,
+      "id": 6,
       "phone": {
         "type": "내선",
-        "number": "3002"
+        "number": "4101"
       }
     }
   },
   {
-    "depth": 3,
+    "depth": 2,
     "hierarchy": [
       {
         "id": "1",
         "name": "동래구청"
       },
       {
-        "id": "3",
+        "id": "6",
         "name": "총무국"
-      },
-      {
-        "id": "4",
-        "name": "총무과"
-      }
-    ],
-    "deptName": "총무계",
-    "transferableBranches": null,
-    "departmentID": 5,
-    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3004",
-    "parentDept": {
-      "name": "총무과",
-      "id": 4,
-      "phone": {
-        "type": "내선",
-        "number": "3003"
-      }
-    }
-  },
-  {
-    "depth": 3,
-    "hierarchy": [
-      {
-        "id": "1",
-        "name": "동래구청"
-      },
-      {
-        "id": "3",
-        "name": "총무국"
-      },
-      {
-        "id": "4",
-        "name": "총무과"
-      }
-    ],
-    "deptName": "재무과",
-    "transferableBranches": null,
-    "departmentID": 6,
-    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3005",
-    "parentDept": {
-      "name": "총무과",
-      "id": 4,
-      "phone": {
-        "type": "내선",
-        "number": "3003"
-      }
-    }
-  },
-  {
-    "depth": 3,
-    "hierarchy": [
-      {
-        "id": "1",
-        "name": "동래구청"
-      },
-      {
-        "id": "3",
-        "name": "총무국"
-      },
-      {
-        "id": "4",
-        "name": "총무과"
       }
     ],
     "deptName": "세무1과",
     "transferableBranches": null,
-    "departmentID": 7,
+    "departmentID": 33,
     "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3006",
+    "phone": {
+      "type": "내선",
+      "number": "4181"
+    },
     "parentDept": {
-      "name": "총무과",
-      "id": 4,
+      "name": "총무국",
+      "id": 6,
       "phone": {
         "type": "내선",
-        "number": "3003"
+        "number": "4101"
       }
     }
   },
   {
-    "depth": 3,
+    "depth": 2,
     "hierarchy": [
       {
         "id": "1",
         "name": "동래구청"
       },
       {
-        "id": "3",
+        "id": "6",
         "name": "총무국"
-      },
-      {
-        "id": "4",
-        "name": "총무과"
       }
     ],
     "deptName": "세무2과",
     "transferableBranches": null,
-    "departmentID": 8,
+    "departmentID": 34,
     "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3007",
+    "phone": {
+      "type": "내선",
+      "number": "4231"
+    },
     "parentDept": {
-      "name": "총무과",
-      "id": 4,
+      "name": "총무국",
+      "id": 6,
       "phone": {
         "type": "내선",
-        "number": "3003"
+        "number": "4101"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "민원여권과",
+    "transferableBranches": null,
+    "departmentID": 35,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4261"
+    },
+    "parentDept": {
+      "name": "총무국",
+      "id": 6,
+      "phone": {
+        "type": "내선",
+        "number": "4101"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "재무과",
+    "transferableBranches": null,
+    "departmentID": 36,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4141"
+    },
+    "parentDept": {
+      "name": "총무국",
+      "id": 6,
+      "phone": {
+        "type": "내선",
+        "number": "4101"
       }
     }
   },
@@ -207,25 +943,3512 @@
         "name": "동래구청"
       },
       {
-        "id": "3",
-        "name": "총무국"
+        "id": "32",
+        "name": "총무과"
       },
       {
-        "id": "4",
-        "name": "총무과"
+        "id": "6",
+        "name": "총무국"
       }
     ],
-    "deptName": "민원여권과",
+    "deptName": "총무계",
     "transferableBranches": null,
-    "departmentID": 9,
+    "departmentID": 37,
     "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
-    "phone": "3008",
+    "phone": {
+      "type": "내선",
+      "number": "4101"
+    },
     "parentDept": {
       "name": "총무과",
-      "id": 4,
+      "id": 32,
       "phone": {
         "type": "내선",
-        "number": "3003"
+        "number": "4101"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "32",
+        "name": "총무과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "자치행정계",
+    "transferableBranches": null,
+    "departmentID": 38,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4101"
+    },
+    "parentDept": {
+      "name": "총무과",
+      "id": 32,
+      "phone": {
+        "type": "내선",
+        "number": "4101"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "32",
+        "name": "총무과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "구민협력계",
+    "transferableBranches": null,
+    "departmentID": 39,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4101"
+    },
+    "parentDept": {
+      "name": "총무과",
+      "id": 32,
+      "phone": {
+        "type": "내선",
+        "number": "4101"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "32",
+        "name": "총무과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "체육계",
+    "transferableBranches": null,
+    "departmentID": 40,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4101"
+    },
+    "parentDept": {
+      "name": "총무과",
+      "id": 32,
+      "phone": {
+        "type": "내선",
+        "number": "4101"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "33",
+        "name": "세무1과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "세무관리계",
+    "transferableBranches": null,
+    "departmentID": 41,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4181"
+    },
+    "parentDept": {
+      "name": "세무1과",
+      "id": 33,
+      "phone": {
+        "type": "내선",
+        "number": "4181"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "33",
+        "name": "세무1과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "취득세계",
+    "transferableBranches": null,
+    "departmentID": 42,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4181"
+    },
+    "parentDept": {
+      "name": "세무1과",
+      "id": 33,
+      "phone": {
+        "type": "내선",
+        "number": "4181"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "33",
+        "name": "세무1과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "지방소득세계",
+    "transferableBranches": null,
+    "departmentID": 43,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4181"
+    },
+    "parentDept": {
+      "name": "세무1과",
+      "id": 33,
+      "phone": {
+        "type": "내선",
+        "number": "4181"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "33",
+        "name": "세무1과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "자동차세계",
+    "transferableBranches": null,
+    "departmentID": 44,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4181"
+    },
+    "parentDept": {
+      "name": "세무1과",
+      "id": 33,
+      "phone": {
+        "type": "내선",
+        "number": "4181"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "34",
+        "name": "세무2과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "세입과표계",
+    "transferableBranches": null,
+    "departmentID": 45,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4231"
+    },
+    "parentDept": {
+      "name": "세무2과",
+      "id": 34,
+      "phone": {
+        "type": "내선",
+        "number": "4231"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "34",
+        "name": "세무2과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "재산세계",
+    "transferableBranches": null,
+    "departmentID": 46,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4231"
+    },
+    "parentDept": {
+      "name": "세무2과",
+      "id": 34,
+      "phone": {
+        "type": "내선",
+        "number": "4231"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "34",
+        "name": "세무2과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "체납정리계",
+    "transferableBranches": null,
+    "departmentID": 47,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4231"
+    },
+    "parentDept": {
+      "name": "세무2과",
+      "id": 34,
+      "phone": {
+        "type": "내선",
+        "number": "4231"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "34",
+        "name": "세무2과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "세외수입계",
+    "transferableBranches": null,
+    "departmentID": 48,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4231"
+    },
+    "parentDept": {
+      "name": "세무2과",
+      "id": 34,
+      "phone": {
+        "type": "내선",
+        "number": "4231"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "35",
+        "name": "민원여권과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "고객만족계",
+    "transferableBranches": null,
+    "departmentID": 49,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4261"
+    },
+    "parentDept": {
+      "name": "민원여권과",
+      "id": 35,
+      "phone": {
+        "type": "내선",
+        "number": "4261"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "35",
+        "name": "민원여권과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "기록물계",
+    "transferableBranches": null,
+    "departmentID": 50,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4261"
+    },
+    "parentDept": {
+      "name": "민원여권과",
+      "id": 35,
+      "phone": {
+        "type": "내선",
+        "number": "4261"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "35",
+        "name": "민원여권과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "여권계",
+    "transferableBranches": null,
+    "departmentID": 51,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4261"
+    },
+    "parentDept": {
+      "name": "민원여권과",
+      "id": 35,
+      "phone": {
+        "type": "내선",
+        "number": "4261"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "35",
+        "name": "민원여권과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "가족관계등록계",
+    "transferableBranches": null,
+    "departmentID": 52,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4261"
+    },
+    "parentDept": {
+      "name": "민원여권과",
+      "id": 35,
+      "phone": {
+        "type": "내선",
+        "number": "4261"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "36",
+        "name": "재무과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "경리계",
+    "transferableBranches": null,
+    "departmentID": 53,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4141"
+    },
+    "parentDept": {
+      "name": "재무과",
+      "id": 36,
+      "phone": {
+        "type": "내선",
+        "number": "4141"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "36",
+        "name": "재무과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "재산계",
+    "transferableBranches": null,
+    "departmentID": 54,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4141"
+    },
+    "parentDept": {
+      "name": "재무과",
+      "id": 36,
+      "phone": {
+        "type": "내선",
+        "number": "4141"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "36",
+        "name": "재무과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "정보통신계",
+    "transferableBranches": null,
+    "departmentID": 55,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4141"
+    },
+    "parentDept": {
+      "name": "재무과",
+      "id": 36,
+      "phone": {
+        "type": "내선",
+        "number": "4141"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "36",
+        "name": "재무과"
+      },
+      {
+        "id": "6",
+        "name": "총무국"
+      }
+    ],
+    "deptName": "신청사건립계",
+    "transferableBranches": null,
+    "departmentID": 56,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4141"
+    },
+    "parentDept": {
+      "name": "재무과",
+      "id": 36,
+      "phone": {
+        "type": "내선",
+        "number": "4141"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "문화관광과",
+    "transferableBranches": null,
+    "departmentID": 57,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4061"
+    },
+    "parentDept": {
+      "name": "문화환경국",
+      "id": 7,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "평생교육과",
+    "transferableBranches": null,
+    "departmentID": 58,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4461"
+    },
+    "parentDept": {
+      "name": "문화환경국",
+      "id": 7,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "청소과",
+    "transferableBranches": null,
+    "departmentID": 59,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4431"
+    },
+    "parentDept": {
+      "name": "문화환경국",
+      "id": 7,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "환경위생과",
+    "transferableBranches": null,
+    "departmentID": 60,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4381"
+    },
+    "parentDept": {
+      "name": "문화환경국",
+      "id": 7,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "토지정보과",
+    "transferableBranches": null,
+    "departmentID": 61,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4751"
+    },
+    "parentDept": {
+      "name": "문화환경국",
+      "id": 7,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "57",
+        "name": "문화관광과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "문화예술계",
+    "transferableBranches": null,
+    "departmentID": 62,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4061"
+    },
+    "parentDept": {
+      "name": "문화관광과",
+      "id": 57,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "57",
+        "name": "문화관광과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "관광축제계",
+    "transferableBranches": null,
+    "departmentID": 63,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4061"
+    },
+    "parentDept": {
+      "name": "문화관광과",
+      "id": 57,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "57",
+        "name": "문화관광과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "문화재계",
+    "transferableBranches": null,
+    "departmentID": 64,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4061"
+    },
+    "parentDept": {
+      "name": "문화관광과",
+      "id": 57,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "57",
+        "name": "문화관광과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "공보계",
+    "transferableBranches": null,
+    "departmentID": 65,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4061"
+    },
+    "parentDept": {
+      "name": "문화관광과",
+      "id": 57,
+      "phone": {
+        "type": "내선",
+        "number": "4061"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "58",
+        "name": "평생교육과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "평생학습계",
+    "transferableBranches": null,
+    "departmentID": 66,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4461"
+    },
+    "parentDept": {
+      "name": "평생교육과",
+      "id": 58,
+      "phone": {
+        "type": "내선",
+        "number": "4461"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "58",
+        "name": "평생교육과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "교육특구계",
+    "transferableBranches": null,
+    "departmentID": 67,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4461"
+    },
+    "parentDept": {
+      "name": "평생교육과",
+      "id": 58,
+      "phone": {
+        "type": "내선",
+        "number": "4461"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "58",
+        "name": "평생교육과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "동래읍성도서관계",
+    "transferableBranches": null,
+    "departmentID": 68,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4461"
+    },
+    "parentDept": {
+      "name": "평생교육과",
+      "id": 58,
+      "phone": {
+        "type": "내선",
+        "number": "4461"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "58",
+        "name": "평생교육과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "안락누리도서관계",
+    "transferableBranches": null,
+    "departmentID": 69,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4461"
+    },
+    "parentDept": {
+      "name": "평생교육과",
+      "id": 58,
+      "phone": {
+        "type": "내선",
+        "number": "4461"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "58",
+        "name": "평생교육과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "전산정보계",
+    "transferableBranches": null,
+    "departmentID": 70,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4461"
+    },
+    "parentDept": {
+      "name": "평생교육과",
+      "id": 58,
+      "phone": {
+        "type": "내선",
+        "number": "4461"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "59",
+        "name": "청소과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "청소계",
+    "transferableBranches": null,
+    "departmentID": 71,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4431"
+    },
+    "parentDept": {
+      "name": "청소과",
+      "id": 59,
+      "phone": {
+        "type": "내선",
+        "number": "4431"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "59",
+        "name": "청소과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "재활용계",
+    "transferableBranches": null,
+    "departmentID": 72,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4431"
+    },
+    "parentDept": {
+      "name": "청소과",
+      "id": 59,
+      "phone": {
+        "type": "내선",
+        "number": "4431"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "59",
+        "name": "청소과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "오수정화계",
+    "transferableBranches": null,
+    "departmentID": 73,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4431"
+    },
+    "parentDept": {
+      "name": "청소과",
+      "id": 59,
+      "phone": {
+        "type": "내선",
+        "number": "4431"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "60",
+        "name": "환경위생과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "환경관리계",
+    "transferableBranches": null,
+    "departmentID": 74,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4381"
+    },
+    "parentDept": {
+      "name": "환경위생과",
+      "id": 60,
+      "phone": {
+        "type": "내선",
+        "number": "4381"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "60",
+        "name": "환경위생과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "환경지도계",
+    "transferableBranches": null,
+    "departmentID": 75,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4381"
+    },
+    "parentDept": {
+      "name": "환경위생과",
+      "id": 60,
+      "phone": {
+        "type": "내선",
+        "number": "4381"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "60",
+        "name": "환경위생과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "위생관리계",
+    "transferableBranches": null,
+    "departmentID": 76,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4381"
+    },
+    "parentDept": {
+      "name": "환경위생과",
+      "id": 60,
+      "phone": {
+        "type": "내선",
+        "number": "4381"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "60",
+        "name": "환경위생과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "위생지도계",
+    "transferableBranches": null,
+    "departmentID": 77,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4381"
+    },
+    "parentDept": {
+      "name": "환경위생과",
+      "id": 60,
+      "phone": {
+        "type": "내선",
+        "number": "4381"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "61",
+        "name": "토지정보과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "토지계",
+    "transferableBranches": null,
+    "departmentID": 78,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4751"
+    },
+    "parentDept": {
+      "name": "토지정보과",
+      "id": 61,
+      "phone": {
+        "type": "내선",
+        "number": "4751"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "61",
+        "name": "토지정보과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "부동산계",
+    "transferableBranches": null,
+    "departmentID": 79,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4751"
+    },
+    "parentDept": {
+      "name": "토지정보과",
+      "id": 61,
+      "phone": {
+        "type": "내선",
+        "number": "4751"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "61",
+        "name": "토지정보과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "deptName": "지적계",
+    "transferableBranches": null,
+    "departmentID": 80,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4751"
+    },
+    "parentDept": {
+      "name": "토지정보과",
+      "id": 61,
+      "phone": {
+        "type": "내선",
+        "number": "4751"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      }
+    ],
+    "deptName": "일자리경제과",
+    "transferableBranches": null,
+    "departmentID": 81,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4911"
+    },
+    "parentDept": {
+      "name": "경제복지국",
+      "id": 8,
+      "phone": {
+        "type": "내선",
+        "number": "4911"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      }
+    ],
+    "deptName": "복지정책과",
+    "transferableBranches": null,
+    "departmentID": 82,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4311"
+    },
+    "parentDept": {
+      "name": "경제복지국",
+      "id": 8,
+      "phone": {
+        "type": "내선",
+        "number": "4911"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      }
+    ],
+    "deptName": "주민복지과",
+    "transferableBranches": null,
+    "departmentID": 83,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4871"
+    },
+    "parentDept": {
+      "name": "경제복지국",
+      "id": 8,
+      "phone": {
+        "type": "내선",
+        "number": "4911"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      }
+    ],
+    "deptName": "교통과",
+    "transferableBranches": null,
+    "departmentID": 84,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4551"
+    },
+    "parentDept": {
+      "name": "경제복지국",
+      "id": 8,
+      "phone": {
+        "type": "내선",
+        "number": "4911"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      }
+    ],
+    "deptName": "생활보장과",
+    "transferableBranches": null,
+    "departmentID": 85,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4781"
+    },
+    "parentDept": {
+      "name": "경제복지국",
+      "id": 8,
+      "phone": {
+        "type": "내선",
+        "number": "4911"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "81",
+        "name": "일자리경제과"
+      }
+    ],
+    "deptName": "경제계",
+    "transferableBranches": null,
+    "departmentID": 86,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4911"
+    },
+    "parentDept": {
+      "name": "일자리경제과",
+      "id": 81,
+      "phone": {
+        "type": "내선",
+        "number": "4911"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "81",
+        "name": "일자리경제과"
+      }
+    ],
+    "deptName": "일자리창출계",
+    "transferableBranches": null,
+    "departmentID": 87,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4911"
+    },
+    "parentDept": {
+      "name": "일자리경제과",
+      "id": 81,
+      "phone": {
+        "type": "내선",
+        "number": "4911"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "81",
+        "name": "일자리경제과"
+      }
+    ],
+    "deptName": "산업계",
+    "transferableBranches": null,
+    "departmentID": 88,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4911"
+    },
+    "parentDept": {
+      "name": "일자리경제과",
+      "id": 81,
+      "phone": {
+        "type": "내선",
+        "number": "4911"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "82",
+        "name": "복지정책과"
+      }
+    ],
+    "deptName": "복지기획계",
+    "transferableBranches": null,
+    "departmentID": 89,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4311"
+    },
+    "parentDept": {
+      "name": "복지정책과",
+      "id": 82,
+      "phone": {
+        "type": "내선",
+        "number": "4311"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "82",
+        "name": "복지정책과"
+      }
+    ],
+    "deptName": "여성청소년계",
+    "transferableBranches": null,
+    "departmentID": 90,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4311"
+    },
+    "parentDept": {
+      "name": "복지정책과",
+      "id": 82,
+      "phone": {
+        "type": "내선",
+        "number": "4311"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "82",
+        "name": "복지정책과"
+      }
+    ],
+    "deptName": "회망복지계",
+    "transferableBranches": null,
+    "departmentID": 91,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4311"
+    },
+    "parentDept": {
+      "name": "복지정책과",
+      "id": 82,
+      "phone": {
+        "type": "내선",
+        "number": "4311"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "83",
+        "name": "주민복지과"
+      }
+    ],
+    "deptName": "어르신복지계",
+    "transferableBranches": null,
+    "departmentID": 92,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4871"
+    },
+    "parentDept": {
+      "name": "주민복지과",
+      "id": 83,
+      "phone": {
+        "type": "내선",
+        "number": "4871"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "83",
+        "name": "주민복지과"
+      }
+    ],
+    "deptName": "장애인복지계",
+    "transferableBranches": null,
+    "departmentID": 93,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4871"
+    },
+    "parentDept": {
+      "name": "주민복지과",
+      "id": 83,
+      "phone": {
+        "type": "내선",
+        "number": "4871"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "83",
+        "name": "주민복지과"
+      }
+    ],
+    "deptName": "보육계",
+    "transferableBranches": null,
+    "departmentID": 94,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4871"
+    },
+    "parentDept": {
+      "name": "주민복지과",
+      "id": 83,
+      "phone": {
+        "type": "내선",
+        "number": "4871"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "83",
+        "name": "주민복지과"
+      }
+    ],
+    "deptName": "아동드림계",
+    "transferableBranches": null,
+    "departmentID": 95,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4871"
+    },
+    "parentDept": {
+      "name": "주민복지과",
+      "id": 83,
+      "phone": {
+        "type": "내선",
+        "number": "4871"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "84",
+        "name": "교통과"
+      }
+    ],
+    "deptName": "교통관리계",
+    "transferableBranches": null,
+    "departmentID": 96,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4551"
+    },
+    "parentDept": {
+      "name": "교통과",
+      "id": 84,
+      "phone": {
+        "type": "내선",
+        "number": "4551"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "84",
+        "name": "교통과"
+      }
+    ],
+    "deptName": "주차장관리계",
+    "transferableBranches": null,
+    "departmentID": 97,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4551"
+    },
+    "parentDept": {
+      "name": "교통과",
+      "id": 84,
+      "phone": {
+        "type": "내선",
+        "number": "4551"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "84",
+        "name": "교통과"
+      }
+    ],
+    "deptName": "자동차관리계",
+    "transferableBranches": null,
+    "departmentID": 98,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4551"
+    },
+    "parentDept": {
+      "name": "교통과",
+      "id": 84,
+      "phone": {
+        "type": "내선",
+        "number": "4551"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "84",
+        "name": "교통과"
+      }
+    ],
+    "deptName": "주차지도계",
+    "transferableBranches": null,
+    "departmentID": 99,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4551"
+    },
+    "parentDept": {
+      "name": "교통과",
+      "id": 84,
+      "phone": {
+        "type": "내선",
+        "number": "4551"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "84",
+        "name": "교통과"
+      }
+    ],
+    "deptName": "주차과징계",
+    "transferableBranches": null,
+    "departmentID": 100,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4551"
+    },
+    "parentDept": {
+      "name": "교통과",
+      "id": 84,
+      "phone": {
+        "type": "내선",
+        "number": "4551"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "85",
+        "name": "생활보장과"
+      }
+    ],
+    "deptName": "생활보장계",
+    "transferableBranches": null,
+    "departmentID": 101,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4781"
+    },
+    "parentDept": {
+      "name": "생활보장과",
+      "id": 85,
+      "phone": {
+        "type": "내선",
+        "number": "4781"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "85",
+        "name": "생활보장과"
+      }
+    ],
+    "deptName": "자활지원계",
+    "transferableBranches": null,
+    "departmentID": 102,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4781"
+    },
+    "parentDept": {
+      "name": "생활보장과",
+      "id": 85,
+      "phone": {
+        "type": "내선",
+        "number": "4781"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "85",
+        "name": "생활보장과"
+      }
+    ],
+    "deptName": "복지심사계",
+    "transferableBranches": null,
+    "departmentID": 103,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4781"
+    },
+    "parentDept": {
+      "name": "생활보장과",
+      "id": 85,
+      "phone": {
+        "type": "내선",
+        "number": "4781"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "85",
+        "name": "생활보장과"
+      }
+    ],
+    "deptName": "복지관리1계",
+    "transferableBranches": null,
+    "departmentID": 104,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4781"
+    },
+    "parentDept": {
+      "name": "생활보장과",
+      "id": 85,
+      "phone": {
+        "type": "내선",
+        "number": "4781"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "8",
+        "name": "경제복지국"
+      },
+      {
+        "id": "85",
+        "name": "생활보장과"
+      }
+    ],
+    "deptName": "복지관리2계",
+    "transferableBranches": null,
+    "departmentID": 105,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4781"
+    },
+    "parentDept": {
+      "name": "생활보장과",
+      "id": 85,
+      "phone": {
+        "type": "내선",
+        "number": "4781"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "도시안전과",
+    "transferableBranches": null,
+    "departmentID": 106,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4631"
+    },
+    "parentDept": {
+      "name": "안전도시국",
+      "id": 9,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "도시재생과",
+    "transferableBranches": null,
+    "departmentID": 107,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4841"
+    },
+    "parentDept": {
+      "name": "안전도시국",
+      "id": 9,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "건설과",
+    "transferableBranches": null,
+    "departmentID": 108,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4681"
+    },
+    "parentDept": {
+      "name": "안전도시국",
+      "id": 9,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "건축과",
+    "transferableBranches": null,
+    "departmentID": 109,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4611"
+    },
+    "parentDept": {
+      "name": "안전도시국",
+      "id": 9,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "녹지공원과",
+    "transferableBranches": null,
+    "departmentID": 110,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4491"
+    },
+    "parentDept": {
+      "name": "안전도시국",
+      "id": 9,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "106",
+        "name": "도시안전과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "재난관리계",
+    "transferableBranches": null,
+    "departmentID": 111,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4631"
+    },
+    "parentDept": {
+      "name": "도시안전과",
+      "id": 106,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "106",
+        "name": "도시안전과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "민방위계",
+    "transferableBranches": null,
+    "departmentID": 112,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4631"
+    },
+    "parentDept": {
+      "name": "도시안전과",
+      "id": 106,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "106",
+        "name": "도시안전과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "도로관리계",
+    "transferableBranches": null,
+    "departmentID": 113,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4631"
+    },
+    "parentDept": {
+      "name": "도시안전과",
+      "id": 106,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "106",
+        "name": "도시안전과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "재난대응계",
+    "transferableBranches": null,
+    "departmentID": 114,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4631"
+    },
+    "parentDept": {
+      "name": "도시안전과",
+      "id": 106,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "106",
+        "name": "도시안전과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "통합관제계",
+    "transferableBranches": null,
+    "departmentID": 115,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4631"
+    },
+    "parentDept": {
+      "name": "도시안전과",
+      "id": 106,
+      "phone": {
+        "type": "내선",
+        "number": "4631"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "107",
+        "name": "도시재생과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "재생정책계",
+    "transferableBranches": null,
+    "departmentID": 116,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4841"
+    },
+    "parentDept": {
+      "name": "도시재생과",
+      "id": 107,
+      "phone": {
+        "type": "내선",
+        "number": "4841"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "107",
+        "name": "도시재생과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "재생사업계",
+    "transferableBranches": null,
+    "departmentID": 117,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4841"
+    },
+    "parentDept": {
+      "name": "도시재생과",
+      "id": 107,
+      "phone": {
+        "type": "내선",
+        "number": "4841"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "107",
+        "name": "도시재생과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "광고물계",
+    "transferableBranches": null,
+    "departmentID": 118,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4841"
+    },
+    "parentDept": {
+      "name": "도시재생과",
+      "id": 107,
+      "phone": {
+        "type": "내선",
+        "number": "4841"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "107",
+        "name": "도시재생과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "도로조명계",
+    "transferableBranches": null,
+    "departmentID": 119,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4841"
+    },
+    "parentDept": {
+      "name": "도시재생과",
+      "id": 107,
+      "phone": {
+        "type": "내선",
+        "number": "4841"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "108",
+        "name": "건설과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "건설행정계",
+    "transferableBranches": null,
+    "departmentID": 120,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4681"
+    },
+    "parentDept": {
+      "name": "건설과",
+      "id": 108,
+      "phone": {
+        "type": "내선",
+        "number": "4681"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "108",
+        "name": "건설과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "도시계획계",
+    "transferableBranches": null,
+    "departmentID": 121,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4681"
+    },
+    "parentDept": {
+      "name": "건설과",
+      "id": 108,
+      "phone": {
+        "type": "내선",
+        "number": "4681"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "108",
+        "name": "건설과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "토목1계",
+    "transferableBranches": null,
+    "departmentID": 122,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4681"
+    },
+    "parentDept": {
+      "name": "건설과",
+      "id": 108,
+      "phone": {
+        "type": "내선",
+        "number": "4681"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "108",
+        "name": "건설과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "토목2계",
+    "transferableBranches": null,
+    "departmentID": 123,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4681"
+    },
+    "parentDept": {
+      "name": "건설과",
+      "id": 108,
+      "phone": {
+        "type": "내선",
+        "number": "4681"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "108",
+        "name": "건설과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "하수계",
+    "transferableBranches": null,
+    "departmentID": 124,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4681"
+    },
+    "parentDept": {
+      "name": "건설과",
+      "id": 108,
+      "phone": {
+        "type": "내선",
+        "number": "4681"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "109",
+        "name": "건축과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "건축행정계",
+    "transferableBranches": null,
+    "departmentID": 125,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4611"
+    },
+    "parentDept": {
+      "name": "건축과",
+      "id": 109,
+      "phone": {
+        "type": "내선",
+        "number": "4611"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "109",
+        "name": "건축과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "건축계",
+    "transferableBranches": null,
+    "departmentID": 126,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4611"
+    },
+    "parentDept": {
+      "name": "건축과",
+      "id": 109,
+      "phone": {
+        "type": "내선",
+        "number": "4611"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "109",
+        "name": "건축과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "주택계",
+    "transferableBranches": null,
+    "departmentID": 127,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4611"
+    },
+    "parentDept": {
+      "name": "건축과",
+      "id": 109,
+      "phone": {
+        "type": "내선",
+        "number": "4611"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "109",
+        "name": "건축과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "공동주택관리계",
+    "transferableBranches": null,
+    "departmentID": 128,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4611"
+    },
+    "parentDept": {
+      "name": "건축과",
+      "id": 109,
+      "phone": {
+        "type": "내선",
+        "number": "4611"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "109",
+        "name": "건축과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "재개발계",
+    "transferableBranches": null,
+    "departmentID": 129,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4611"
+    },
+    "parentDept": {
+      "name": "건축과",
+      "id": 109,
+      "phone": {
+        "type": "내선",
+        "number": "4611"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "110",
+        "name": "녹지공원과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "녹지계",
+    "transferableBranches": null,
+    "departmentID": 130,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4491"
+    },
+    "parentDept": {
+      "name": "녹지공원과",
+      "id": 110,
+      "phone": {
+        "type": "내선",
+        "number": "4491"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "110",
+        "name": "녹지공원과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "공원계",
+    "transferableBranches": null,
+    "departmentID": 131,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4491"
+    },
+    "parentDept": {
+      "name": "녹지공원과",
+      "id": 110,
+      "phone": {
+        "type": "내선",
+        "number": "4491"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "110",
+        "name": "녹지공원과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "산림계",
+    "transferableBranches": null,
+    "departmentID": 132,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4491"
+    },
+    "parentDept": {
+      "name": "녹지공원과",
+      "id": 110,
+      "phone": {
+        "type": "내선",
+        "number": "4491"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "110",
+        "name": "녹지공원과"
+      },
+      {
+        "id": "9",
+        "name": "안전도시국"
+      }
+    ],
+    "deptName": "온천천계",
+    "transferableBranches": null,
+    "departmentID": 133,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "4491"
+    },
+    "parentDept": {
+      "name": "녹지공원과",
+      "id": 110,
+      "phone": {
+        "type": "내선",
+        "number": "4491"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      }
+    ],
+    "deptName": "보건행정과",
+    "transferableBranches": null,
+    "departmentID": 134,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6711"
+    },
+    "parentDept": {
+      "name": "보건소",
+      "id": 10,
+      "phone": {
+        "type": "내선",
+        "number": "6711"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      }
+    ],
+    "deptName": "건강증진과",
+    "transferableBranches": null,
+    "departmentID": 135,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6741"
+    },
+    "parentDept": {
+      "name": "보건소",
+      "id": 10,
+      "phone": {
+        "type": "내선",
+        "number": "6711"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      },
+      {
+        "id": "134",
+        "name": "보건행정과"
+      }
+    ],
+    "deptName": "보건행정계",
+    "transferableBranches": null,
+    "departmentID": 136,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6711"
+    },
+    "parentDept": {
+      "name": "보건행정과",
+      "id": 134,
+      "phone": {
+        "type": "내선",
+        "number": "6711"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      },
+      {
+        "id": "134",
+        "name": "보건행정과"
+      }
+    ],
+    "deptName": "의약계",
+    "transferableBranches": null,
+    "departmentID": 137,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6711"
+    },
+    "parentDept": {
+      "name": "보건행정과",
+      "id": 134,
+      "phone": {
+        "type": "내선",
+        "number": "6711"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      },
+      {
+        "id": "134",
+        "name": "보건행정과"
+      }
+    ],
+    "deptName": "감염병예방계",
+    "transferableBranches": null,
+    "departmentID": 138,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6711"
+    },
+    "parentDept": {
+      "name": "보건행정과",
+      "id": 134,
+      "phone": {
+        "type": "내선",
+        "number": "6711"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      },
+      {
+        "id": "134",
+        "name": "보건행정과"
+      }
+    ],
+    "deptName": "감염병대응계",
+    "transferableBranches": null,
+    "departmentID": 139,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6711"
+    },
+    "parentDept": {
+      "name": "보건행정과",
+      "id": 134,
+      "phone": {
+        "type": "내선",
+        "number": "6711"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      },
+      {
+        "id": "135",
+        "name": "건강증진과"
+      }
+    ],
+    "deptName": "건강증진계",
+    "transferableBranches": null,
+    "departmentID": 140,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6741"
+    },
+    "parentDept": {
+      "name": "건강증진과",
+      "id": 135,
+      "phone": {
+        "type": "내선",
+        "number": "6741"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      },
+      {
+        "id": "135",
+        "name": "건강증진과"
+      }
+    ],
+    "deptName": "지역보건계",
+    "transferableBranches": null,
+    "departmentID": 141,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6741"
+    },
+    "parentDept": {
+      "name": "건강증진과",
+      "id": 135,
+      "phone": {
+        "type": "내선",
+        "number": "6741"
+      }
+    }
+  },
+  {
+    "depth": 3,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "10",
+        "name": "보건소"
+      },
+      {
+        "id": "135",
+        "name": "건강증진과"
+      }
+    ],
+    "deptName": "동건강지원계",
+    "transferableBranches": null,
+    "departmentID": 142,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6741"
+    },
+    "parentDept": {
+      "name": "건강증진과",
+      "id": 135,
+      "phone": {
+        "type": "내선",
+        "number": "6741"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "11",
+        "name": "문화시설사업소"
+      }
+    ],
+    "deptName": "운영계",
+    "transferableBranches": null,
+    "departmentID": 143,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6614"
+    },
+    "parentDept": {
+      "name": "문화시설사업소",
+      "id": 11,
+      "phone": {
+        "type": "내선",
+        "number": "6614"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "11",
+        "name": "문화시설사업소"
+      }
+    ],
+    "deptName": "공연시설계",
+    "transferableBranches": null,
+    "departmentID": 144,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6614"
+    },
+    "parentDept": {
+      "name": "문화시설사업소",
+      "id": 11,
+      "phone": {
+        "type": "내선",
+        "number": "6614"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "11",
+        "name": "문화시설사업소"
+      }
+    ],
+    "deptName": "문화사업계",
+    "transferableBranches": null,
+    "departmentID": 145,
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "phone": {
+      "type": "내선",
+      "number": "6614"
+    },
+    "parentDept": {
+      "name": "문화시설사업소",
+      "id": 11,
+      "phone": {
+        "type": "내선",
+        "number": "6614"
       }
     }
   }

@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.posicube.robi.reception.domain.department.DepartmentSeries;
 import com.posicube.robi.reception.domain.staffer.StafferJson.Department;
 import java.util.List;
+import java.util.UUID;
 
 public class StafferJsonFactory {
 
@@ -22,6 +23,7 @@ public class StafferJsonFactory {
             .department(departmentSeries.getDepartmentName())
             .positions(positions)
             .bchID(stafferSeries.getBranchId())
+            .email(UUID.randomUUID().toString() + "@generate.com")
             .isAdmin(false)
             .build();
     }

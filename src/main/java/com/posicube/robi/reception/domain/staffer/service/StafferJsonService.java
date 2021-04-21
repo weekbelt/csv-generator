@@ -46,7 +46,7 @@ public class StafferJsonService {
 
         List<StafferJson> stafferJsonList = getStafferJsonList();
 
-        String filePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/csv-generator/src/main/resources/json/dongnae";
+        String filePath = "/Users/joohyuk/Documents/GitHub/csv-generator/src/main/resources/json/dongnae";
         String saveFileName = File.separator + "staffer.json";
 
         File stafferJsonFile = JsonUtil.createStafferJsonFile(filePath, saveFileName, stafferJsonList, objectMapper);
@@ -70,7 +70,7 @@ public class StafferJsonService {
                 .map(String::trim).collect(Collectors.toList());
 
             // positions 생성
-            List<String> positions = Arrays.stream(stafferSeries.getJobs().split(","))
+            List<String> positions = Arrays.stream(stafferSeries.getPositions().split(","))
                 .map(String::trim).collect(Collectors.toList());
 
             // departmentHierarchy 생성
@@ -121,6 +121,10 @@ public class StafferJsonService {
 
     private void saveStafferDataFrame(List<String[]> stafferDF, String branchId) {
         for (String[] series : stafferDF) {
+            String position = series[2];
+            if (position.equals("주무관")) {
+                position = "";
+            }
             StafferSeries stafferSeries = StafferSeries.builder()
                 .departmentCode(series[0])
                 .departmentName(series[1])
@@ -128,6 +132,7 @@ public class StafferJsonService {
                 .fullName(series[3])
                 .phoneNumber(series[4])
                 .jobs(series[5])
+                .positions(position)
                 .areas(series[6])
                 .branchId(branchId)
                 .build();
