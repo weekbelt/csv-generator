@@ -39,7 +39,7 @@ public class StafferJsonService {
     private final StafferSeriesRepository stafferSeriesRepository;
 
     public Resource generateDirectoryStaffer(String branchId) throws CsvValidationException, IOException {
-        ClassPathResource stafferCsv = new ClassPathResource("csv/dongnae/staffer.csv");
+        ClassPathResource stafferCsv = new ClassPathResource("csv/dongnae/staffer_ex.csv");
         List<String[]> stafferDF = csvReaderUtil.convertCsvResourceToDataFrame(stafferCsv);
 
         saveStafferDataFrame(stafferDF, branchId);

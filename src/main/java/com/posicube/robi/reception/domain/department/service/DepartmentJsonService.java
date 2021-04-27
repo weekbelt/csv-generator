@@ -36,7 +36,7 @@ public class DepartmentJsonService {
     private final DepartmentSeriesRepository departmentSeriesRepository;
 
     public Resource generateDirectoryDepartment(String branchId) throws CsvValidationException, IOException {
-        List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/dongnae/department.csv"));
+        List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/dongnae/department_ex.csv"));
 
         saveDepartmentDataFrame(departmentDF, branchId);
         List<DepartmentJson> departmentJsonList = getDepartmentJsonList();
