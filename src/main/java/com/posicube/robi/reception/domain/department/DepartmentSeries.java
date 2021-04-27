@@ -1,5 +1,6 @@
 package com.posicube.robi.reception.domain.department;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -19,6 +20,7 @@ public class DepartmentSeries {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(unique = true)
     private String departmentCode;
 
     private String departmentName;

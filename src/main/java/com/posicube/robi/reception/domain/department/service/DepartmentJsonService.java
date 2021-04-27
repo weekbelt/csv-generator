@@ -36,12 +36,12 @@ public class DepartmentJsonService {
     private final DepartmentSeriesRepository departmentSeriesRepository;
 
     public Resource generateDirectoryDepartment(String branchId) throws CsvValidationException, IOException {
-        List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/dongnae/department_ex.csv"));
+        List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/gbdc/department.csv"));
 
         saveDepartmentDataFrame(departmentDF, branchId);
         List<DepartmentJson> departmentJsonList = getDepartmentJsonList();
 
-        String filePath = "/Users/joohyuk/Documents/SPRINGWORKSPACE/2021Project/csv-generator/src/main/resources/json/dongnae";
+        String filePath = "/Users/joohyuk/Documents/GitHub/csv-generator/src/main/resources/json/gbdc";
         String saveFileName = File.separator + "department.json";
         File departmentJsonFile = JsonUtil.createDepartmentJsonFile(filePath, saveFileName, departmentJsonList, objectMapper);
         return new FileSystemResource(departmentJsonFile);
@@ -52,7 +52,7 @@ public class DepartmentJsonService {
         List<DepartmentSeries> departmentSeriesList = departmentSeriesRepository.findAll();
         for (DepartmentSeries departmentSeries : departmentSeriesList) {
             List<DepartmentJson.Hierarchy> hierarchyList = getHierarchyList(departmentSeries);
-            JsonNode phone = objectMapper.valueToTree(departmentSeries.getDepartmentPhoneNumber());
+            JsonNode phone = getPhone(departmentSeries);
             ParentDept parentDept = getParentDept(departmentSeries);
 
             DepartmentJson departmentJson = DepartmentJsonFactory.createDepartmentJson(hierarchyList, departmentSeries, phone, parentDept);
@@ -85,6 +85,22 @@ public class DepartmentJsonService {
         return hierarchyList.stream().sorted(Comparator.comparing(DepartmentJson.Hierarchy::getId)).collect(Collectors.toList());
     }
 
+    private JsonNode getPhone(DepartmentSeries departmentSeries) {
+        DepartmentJson.Phone phone;
+        if (departmentSeries.getDepartmentPhoneNumber().length() == 12 || departmentSeries.getDepartmentPhoneNumber().length() == 13) {
+            phone = DepartmentJson.Phone.builder()
+                .type("외부국선")
+                .number(departmentSeries.getDepartmentPhoneNumber())
+                .build();
+        } else {
+            phone = DepartmentJson.Phone.builder()
+                .type("내선")
+                .number(departmentSeries.getDepartmentPhoneNumber())
+                .build();
+        }
+        return objectMapper.valueToTree(phone);
+    }
+
     private ParentDept getParentDept(DepartmentSeries departmentSeries) {
         String parentDepartmentCode = departmentSeries.getParentDepartmentCode();
         if (parentDepartmentCode.isBlank()) {
@@ -102,10 +118,18 @@ public class DepartmentJsonService {
     }
 
     private Phone getDepartmentPhone(String number) {
-        return Phone.builder()
-            .number(number)
-            .type("내선")
-            .build();
+        if (number.length() == 12 || number.length() == 13) {
+            return Phone.builder()
+                .number(number)
+                .type("외부국선")
+                .build();
+        } else {
+            return Phone.builder()
+                .number(number)
+                .type("내선")
+                .build();
+
+        }
     }
 
     private void saveDepartmentDataFrame(List<String[]> departmentDF, String branchId) {

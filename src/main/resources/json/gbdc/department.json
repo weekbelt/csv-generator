@@ -1,0 +1,675 @@
+[
+  {
+    "depth": 0,
+    "hierarchy": [],
+    "deptName": "경상북도개발공사",
+    "transferableBranches": null,
+    "departmentID": 1,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "005"
+    },
+    "parentDept": null
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "경영지원처",
+    "transferableBranches": null,
+    "departmentID": 2,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "433"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "신도시사업단",
+    "transferableBranches": null,
+    "departmentID": 3,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "414"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "유교문화사업단",
+    "transferableBranches": null,
+    "departmentID": 4,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "446"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "19",
+        "name": "보상마케팅처"
+      }
+    ],
+    "deptName": "보상파트",
+    "transferableBranches": null,
+    "departmentID": 5,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "413"
+    },
+    "parentDept": {
+      "name": "보상마케팅처",
+      "id": 19,
+      "phone": {
+        "type": "내선",
+        "number": "413"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "3",
+        "name": "신도시사업단"
+      }
+    ],
+    "deptName": "계획파트",
+    "transferableBranches": null,
+    "departmentID": 6,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "414"
+    },
+    "parentDept": {
+      "name": "신도시사업단",
+      "id": 3,
+      "phone": {
+        "type": "내선",
+        "number": "414"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "3",
+        "name": "신도시사업단"
+      }
+    ],
+    "deptName": "조성파트",
+    "transferableBranches": null,
+    "departmentID": 7,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "414"
+    },
+    "parentDept": {
+      "name": "신도시사업단",
+      "id": 3,
+      "phone": {
+        "type": "내선",
+        "number": "414"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "4",
+        "name": "유교문화사업단"
+      }
+    ],
+    "deptName": "유교문화파트",
+    "transferableBranches": null,
+    "departmentID": 8,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "446"
+    },
+    "parentDept": {
+      "name": "유교문화사업단",
+      "id": 4,
+      "phone": {
+        "type": "내선",
+        "number": "446"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "혁신경영TF",
+    "transferableBranches": null,
+    "departmentID": 9,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "173"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "21",
+        "name": "공공개발처"
+      }
+    ],
+    "deptName": "안전환경파트",
+    "transferableBranches": null,
+    "departmentID": 10,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "363"
+    },
+    "parentDept": {
+      "name": "공공개발처",
+      "id": 21,
+      "phone": {
+        "type": "내선",
+        "number": "415"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "16",
+        "name": "기획혁신처"
+      }
+    ],
+    "deptName": "고객홍보파트",
+    "transferableBranches": null,
+    "departmentID": 11,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "432"
+    },
+    "parentDept": {
+      "name": "기획혁신처",
+      "id": 16,
+      "phone": {
+        "type": "내선",
+        "number": "431"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "16",
+        "name": "기획혁신처"
+      }
+    ],
+    "deptName": "기획재무파트",
+    "transferableBranches": null,
+    "departmentID": 12,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "431"
+    },
+    "parentDept": {
+      "name": "기획혁신처",
+      "id": 16,
+      "phone": {
+        "type": "내선",
+        "number": "431"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "21",
+        "name": "공공개발처"
+      }
+    ],
+    "deptName": "상생협력파트",
+    "transferableBranches": null,
+    "departmentID": 13,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "415"
+    },
+    "parentDept": {
+      "name": "공공개발처",
+      "id": 21,
+      "phone": {
+        "type": "내선",
+        "number": "415"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "상임감사",
+    "transferableBranches": null,
+    "departmentID": 14,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "445"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "14",
+        "name": "상임감사"
+      }
+    ],
+    "deptName": "청렴감사실",
+    "transferableBranches": null,
+    "departmentID": 15,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "445"
+    },
+    "parentDept": {
+      "name": "상임감사",
+      "id": 14,
+      "phone": {
+        "type": "내선",
+        "number": "445"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "기획혁신처",
+    "transferableBranches": null,
+    "departmentID": 16,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "431"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "2",
+        "name": "경영지원처"
+      }
+    ],
+    "deptName": "인사총무파트",
+    "transferableBranches": null,
+    "departmentID": 17,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "433"
+    },
+    "parentDept": {
+      "name": "경영지원처",
+      "id": 2,
+      "phone": {
+        "type": "내선",
+        "number": "433"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "2",
+        "name": "경영지원처"
+      }
+    ],
+    "deptName": "회계계약파트",
+    "transferableBranches": null,
+    "departmentID": 18,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "434"
+    },
+    "parentDept": {
+      "name": "경영지원처",
+      "id": 2,
+      "phone": {
+        "type": "내선",
+        "number": "433"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "보상마케팅처",
+    "transferableBranches": null,
+    "departmentID": 19,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "413"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "19",
+        "name": "보상마케팅처"
+      }
+    ],
+    "deptName": "마케팅파트",
+    "transferableBranches": null,
+    "departmentID": 20,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "437"
+    },
+    "parentDept": {
+      "name": "보상마케팅처",
+      "id": 19,
+      "phone": {
+        "type": "내선",
+        "number": "413"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "공공개발처",
+    "transferableBranches": null,
+    "departmentID": 21,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "415"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "21",
+        "name": "공공개발처"
+      }
+    ],
+    "deptName": "공공개발파트",
+    "transferableBranches": null,
+    "departmentID": 22,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "439"
+    },
+    "parentDept": {
+      "name": "공공개발처",
+      "id": 21,
+      "phone": {
+        "type": "내선",
+        "number": "415"
+      }
+    }
+  },
+  {
+    "depth": 1,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "deptName": "주거복지처",
+    "transferableBranches": null,
+    "departmentID": 23,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "441"
+    },
+    "parentDept": {
+      "name": "경상북도개발공사",
+      "id": 1,
+      "phone": {
+        "type": "내선",
+        "number": "005"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "23",
+        "name": "주거복지처"
+      }
+    ],
+    "deptName": "주거재생파트",
+    "transferableBranches": null,
+    "departmentID": 24,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "441"
+    },
+    "parentDept": {
+      "name": "주거복지처",
+      "id": 23,
+      "phone": {
+        "type": "내선",
+        "number": "441"
+      }
+    }
+  },
+  {
+    "depth": 2,
+    "hierarchy": [
+      {
+        "id": "1",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "23",
+        "name": "주거복지처"
+      }
+    ],
+    "deptName": "대행사업파트",
+    "transferableBranches": null,
+    "departmentID": 25,
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "phone": {
+      "type": "내선",
+      "number": "442"
+    },
+    "parentDept": {
+      "name": "주거복지처",
+      "id": 23,
+      "phone": {
+        "type": "내선",
+        "number": "441"
+      }
+    }
+  }
+]
