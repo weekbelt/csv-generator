@@ -1,0 +1,6081 @@
+[
+  {
+    "staffID": 1,
+    "firstName": "정현",
+    "lastName": "오",
+    "fullName": "오정현",
+    "phone": {
+      "type": "내선",
+      "number": "112"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "437"
+    },
+    "jobs": [
+      "택지분양",
+      "토지분양",
+      "산업단지분양",
+      "용지매매계약",
+      "분양대금수납",
+      "연체자관리",
+      "실거래신고",
+      "면적정산",
+      "보존등기",
+      "토지사용승락",
+      "소유권이전",
+      "명의변경",
+      "대금납부확인서",
+      "발급",
+      "현물자산",
+      "재산관리",
+      "휴게소",
+      "임대",
+      "운영관리",
+      "소송",
+      "조성원가심의위원회",
+      "업무계획",
+      "행정사무",
+      "감사",
+      "리스크회의"
+    ],
+    "departmentID": 3,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "마케팅파트",
+    "email": "gbdc1@generated.email",
+    "positions": [
+      "부장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 2,
+    "firstName": "선영",
+    "lastName": "이",
+    "fullName": "이선영",
+    "phone": {
+      "type": "내선",
+      "number": "113"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "437"
+    },
+    "jobs": [
+      "공공임대아파트",
+      "공공임대주택",
+      "임대아파트",
+      "청년주택",
+      "공급계획",
+      "공급공고",
+      "계약체결",
+      "입주자관리",
+      "임대보증금",
+      "임대료산정",
+      "수납",
+      "연체자관리",
+      "관리사무소관리",
+      "bsc성과"
+    ],
+    "departmentID": 3,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "마케팅파트",
+    "email": "gbdc2@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 3,
+    "firstName": "성현",
+    "lastName": "윤",
+    "fullName": "윤성현",
+    "phone": {
+      "type": "내선",
+      "number": "114"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "437"
+    },
+    "jobs": [
+      "청년주택",
+      "공공임대아파트",
+      "공공임대주택",
+      "임대아파트",
+      "공급계회",
+      "계약체결",
+      "입주자관리",
+      "수납",
+      "상가분양업무",
+      "세입징수결의",
+      "세입실적보고",
+      "경영평가"
+    ],
+    "departmentID": 3,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "마케팅파트",
+    "email": "gbdc3@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 4,
+    "firstName": "대원",
+    "lastName": "하",
+    "fullName": "하대원",
+    "phone": {
+      "type": "내선",
+      "number": "115"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "437"
+    },
+    "jobs": [
+      "택지",
+      "토지분양",
+      "산업단지",
+      "분양업무",
+      "용지매매계약",
+      "분양대금수납",
+      "연체자관리",
+      "실거래신고",
+      "면적정산",
+      "보존등기",
+      "토지사용승락",
+      "소유권이전",
+      "실거래신고",
+      "면적정산",
+      "보존등기",
+      "명의변경",
+      "대금납부"
+    ],
+    "departmentID": 3,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "마케팅파트",
+    "email": "gbdc4@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 5,
+    "firstName": "성환",
+    "lastName": "김",
+    "fullName": "김성환",
+    "phone": {
+      "type": "내선",
+      "number": "011"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "445"
+    },
+    "jobs": [
+      "감사업무",
+      "익명시스템"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "청렴감사실",
+    "email": "gbdc5@generated.email",
+    "positions": [
+      "실장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 6,
+    "firstName": "애경",
+    "lastName": "서",
+    "fullName": "서애경",
+    "phone": {
+      "type": "내선",
+      "number": "031"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "445"
+    },
+    "jobs": [
+      "일상감사",
+      "사무감사",
+      "정기감사",
+      "특별감사",
+      "청렴도평가",
+      "윤리경영",
+      "부패방지",
+      "권익위",
+      "제도개선"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "청렴감사실",
+    "email": "gbdc6@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 7,
+    "firstName": "청수",
+    "lastName": "장",
+    "fullName": "장청수",
+    "phone": {
+      "type": "내선",
+      "number": "032"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "445"
+    },
+    "jobs": [
+      "감사종합계획",
+      "일상감사",
+      "건축감사",
+      "정기감사",
+      "특별감사",
+      "대외감사",
+      "내외감사",
+      "조사"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "청렴감사실",
+    "email": "gbdc7@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 8,
+    "firstName": "청우",
+    "lastName": "이",
+    "fullName": "이청우",
+    "phone": {
+      "type": "내선",
+      "number": "033"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "445"
+    },
+    "jobs": [
+      "일상감사",
+      "토목감사",
+      "정기감사",
+      "특별감사",
+      "대외감사",
+      "내외감사",
+      "조사",
+      "서무"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "청렴감사실",
+    "email": "gbdc8@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 9,
+    "firstName": "세훈",
+    "lastName": "전",
+    "fullName": "전세훈",
+    "phone": {
+      "type": "내선",
+      "number": "041"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "431"
+    },
+    "jobs": [
+      "기획혁신파트",
+      "경영평가",
+      "혁신평가"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "기획혁신파트",
+    "email": "gbdc9@generated.email",
+    "positions": [
+      "파트리더",
+      "파트장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 10,
+    "firstName": "정애",
+    "lastName": "심",
+    "fullName": "심정애",
+    "phone": {
+      "type": "내선",
+      "number": "042"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "431"
+    },
+    "jobs": [
+      "경여평가",
+      "실적관리",
+      "보고서",
+      "평가",
+      "피드백",
+      "경영성과",
+      "경영목표",
+      "CSR",
+      "사회적책임",
+      "지방공사협의회",
+      "UDC",
+      "사장지시사항",
+      "지시사항"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "기획혁신파트",
+    "email": "gbdc10@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 11,
+    "firstName": "은상",
+    "lastName": "정",
+    "fullName": "정은상",
+    "phone": {
+      "type": "내선",
+      "number": "045"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "431"
+    },
+    "jobs": [
+      "예산편성",
+      "예산배정",
+      "예산운영",
+      "예산통제",
+      "재정신속집행",
+      "채권",
+      "용지보상채권",
+      "자금관리",
+      "자금수급",
+      "운영계획",
+      "차입금",
+      "이자",
+      "공사채",
+      "공사채발행",
+      "공사채승인",
+      "재정실무협의회"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "기획혁신파트",
+    "email": "gbdc11@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 12,
+    "firstName": "수진",
+    "lastName": "박",
+    "fullName": "박수진",
+    "phone": {
+      "type": "내선",
+      "number": "043"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "431"
+    },
+    "jobs": [
+      "실적관리",
+      "보고서",
+      "평가",
+      "피드백",
+      "혁신평가",
+      "행정",
+      "의회업무",
+      "행정사무감사",
+      "성과공유제",
+      "주요업무보고"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "기획혁신파트",
+    "email": "gbdc12@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 13,
+    "firstName": "문경",
+    "lastName": "강",
+    "fullName": "강문경",
+    "phone": {
+      "type": "내선",
+      "number": "044"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "431"
+    },
+    "jobs": [
+      "재정운영",
+      "리스크",
+      "리스크관리",
+      "경영수지",
+      "출자업무",
+      "출자",
+      "사업비",
+      "사업비정산"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "기획혁신파트",
+    "email": "gbdc13@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 14,
+    "firstName": "성무",
+    "lastName": "하",
+    "fullName": "하성무",
+    "phone": {
+      "type": "내선",
+      "number": "046"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "431"
+    },
+    "jobs": [
+      "BSC",
+      "BSC운영",
+      "PMS",
+      "지표관리",
+      "목표관리",
+      "실적평가",
+      "중장기",
+      "경영전략",
+      "이사회운영",
+      "변경등기",
+      "경영평가",
+      "사무인수인계"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "기획혁신파트",
+    "email": "gbdc14@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 15,
+    "firstName": "정미",
+    "lastName": "김",
+    "fullName": "김정미",
+    "phone": {
+      "type": "내선",
+      "number": "047"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "431"
+    },
+    "jobs": [
+      "제안운영",
+      "제도운영",
+      "통합마일리지",
+      "제규정",
+      "제정",
+      "개정시행",
+      "사규",
+      "경영공시",
+      "공공데이터",
+      "행정",
+      "요청자료회신",
+      "회신",
+      "간부회의",
+      "서무"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "기획혁신파트",
+    "email": "gbdc15@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 16,
+    "firstName": "현환",
+    "lastName": "김",
+    "fullName": "김현환",
+    "phone": {
+      "type": "내선",
+      "number": "051"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "432"
+    },
+    "jobs": [
+      "공사",
+      "CS",
+      "사회공헌",
+      "홍보"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "고객홍보파트",
+    "email": "gbdc16@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 17,
+    "firstName": "현태",
+    "lastName": "장",
+    "fullName": "장현태",
+    "phone": {
+      "type": "내선",
+      "number": "052"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "432"
+    },
+    "jobs": [
+      "정보공개",
+      "정보공개종합평가",
+      "국민신문고",
+      "공사홍보물",
+      "홍보물",
+      "홍보채널",
+      "홍보채널제작",
+      "홍보채널관리",
+      "홍보관",
+      "한옥시범주택",
+      "제세공과금",
+      "지출",
+      "고문변호사",
+      "소송"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "고객홍보파트",
+    "email": "gbdc17@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 18,
+    "firstName": "영식",
+    "lastName": "이",
+    "fullName": "이영식",
+    "phone": {
+      "type": "내선",
+      "number": "055"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "432"
+    },
+    "jobs": [
+      "공사언론",
+      "홍보계획",
+      "보도자료",
+      "언론보도",
+      "출입기자단",
+      "신도시홍보관",
+      "한옥시범주택",
+      "시설관리"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "고객홍보파트",
+    "email": "gbdc18@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 19,
+    "firstName": "정훈",
+    "lastName": "윤",
+    "fullName": "윤정훈",
+    "phone": {
+      "type": "내선",
+      "number": "054"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "432"
+    },
+    "jobs": [
+      "홍보계획",
+      "CS",
+      "중장기계획",
+      "단기계획",
+      "고객만족도",
+      "VOC",
+      "고객모니터",
+      "사회공헌활동",
+      "BSC",
+      "예산",
+      "경영평가"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "고객홍보파트",
+    "email": "gbdc19@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 20,
+    "firstName": "주영",
+    "lastName": "김",
+    "fullName": "김주영",
+    "phone": {
+      "type": "내선",
+      "number": "062"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "인사관리",
+      "승진",
+      "승급",
+      "인사발령",
+      "근무성적",
+      "상훈",
+      "징계",
+      "직원채용",
+      "일자리",
+      "임원추천위원회",
+      "인사위원회",
+      "운영실무",
+      "복무관리",
+      "경력개발",
+      "비정규직",
+      "기간제",
+      "무기근로자",
+      "비정규직",
+      "조직관리",
+      "조직개편",
+      "조직진단",
+      "조직활성화",
+      "WLB",
+      "조직혁신",
+      "내부고객만족도"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc20@generated.email",
+    "positions": [
+      "부장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 21,
+    "firstName": "민경",
+    "lastName": "김",
+    "fullName": "김민경",
+    "phone": {
+      "type": "내선",
+      "number": "063"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "노무",
+      "노동조합",
+      "단체협약",
+      "임금협약",
+      "노사협의회",
+      "구제신청",
+      "비정규직",
+      "파견",
+      "용역",
+      "비정규직전환",
+      "인권경영",
+      "성고충",
+      "상담",
+      "성희롱",
+      "성폭력",
+      "성희롱예방",
+      "성폭력예방",
+      "사후조치",
+      "사옥관리",
+      "사옥임대",
+      "구내식당",
+      "관사",
+      "기숙사",
+      "CCTV",
+      "재난관리",
+      "안전관리",
+      "재난",
+      "에너지절약",
+      "복리후생",
+      "문화공연",
+      "로또런치",
+      "직원휴양시설",
+      "급식비",
+      "통신비",
+      "복지제도",
+      "상해보험",
+      "사내동호회",
+      "동호회",
+      "근무복",
+      "건강검진",
+      "가족친화경영",
+      "골목상권",
+      "전용화폐",
+      "경영평가",
+      "BSC",
+      "업무보고"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc21@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 22,
+    "firstName": "상인",
+    "lastName": "이",
+    "fullName": "이상인",
+    "phone": {
+      "type": "내선",
+      "number": "064"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "정보화",
+      "전산운영",
+      "차세대통합시스템",
+      "운영",
+      "관리",
+      "그룹웨어",
+      "전자결제",
+      "홈페이지",
+      "고객의소리",
+      "전산유지보수",
+      "전산",
+      "개인정보보호",
+      "네트워크",
+      "서버운영",
+      "통신업무",
+      "전화번호"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc22@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 23,
+    "firstName": "은혜",
+    "lastName": "오",
+    "fullName": "오은혜",
+    "phone": {
+      "type": "내선",
+      "number": "066"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "임직원교육",
+      "교육계획",
+      "해외연수",
+      "리더쉽",
+      "온라인직무교육",
+      "워크숍",
+      "인건비관리",
+      "인건비",
+      "연봉계약",
+      "급여지급",
+      "연말정산",
+      "4대보험",
+      "국민연금",
+      "건강보험",
+      "고용보험",
+      "산재보험",
+      "퇴직금",
+      "퇴직연금",
+      "휴가관리",
+      "유연근무",
+      "당직명령",
+      "자료취합",
+      "예산",
+      "자금",
+      "사내근로복지기금",
+      "대부신청",
+      "지급결정"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc23@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 24,
+    "firstName": "준우",
+    "lastName": "조",
+    "fullName": "조준우",
+    "phone": {
+      "type": "내선",
+      "number": "067"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "정보화추진",
+      "전산운영",
+      "정보화",
+      "차세대통합시스템",
+      "통합시스템",
+      "통합시스템구축",
+      "운영관리",
+      "그룹웨어",
+      "전자결제",
+      "홈페이지",
+      "전산유지보수",
+      "유지보수",
+      "개인정보보호",
+      "네트워크",
+      "서버운영",
+      "통신업무",
+      "전화번호",
+      "전산용품"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc24@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 25,
+    "firstName": "용찬",
+    "lastName": "권",
+    "fullName": "권용찬",
+    "phone": {
+      "type": "내선",
+      "number": "071"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "기록물",
+      "기록관",
+      "역도팀",
+      "선수채용",
+      "연봉계약",
+      "운영계획",
+      "예산수립",
+      "전지훈련",
+      "대회참가",
+      "포상금",
+      "역도훈련장",
+      "시설물관리",
+      "의전",
+      "행사",
+      "취임식",
+      "이임식",
+      "퇴임식",
+      "시무식",
+      "종무식",
+      "창립기념일",
+      "직원단합",
+      "직원단합행사",
+      "부서단합행사",
+      "대외행사",
+      "기공식",
+      "도서관리",
+      "사무용품",
+      "문서접수",
+      "민원대장",
+      "직인",
+      "법인",
+      "법인인감카드",
+      "금고관리"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc25@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 26,
+    "firstName": "은주",
+    "lastName": "임",
+    "fullName": "임은주",
+    "phone": {
+      "type": "내선",
+      "number": "072"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "인건비",
+      "급여",
+      "임직원",
+      "연봉계약",
+      "급여지급",
+      "연말정산",
+      "4대보험",
+      "국민연금",
+      "건강보험",
+      "고용보험",
+      "산재보험",
+      "신고",
+      "납부",
+      "퇴직금",
+      "퇴직연금",
+      "복리후생",
+      "Fun경영",
+      "문화공연",
+      "로또런치타임",
+      "직원휴양시설",
+      "콘도",
+      "급식비",
+      "통신비",
+      "선택적복지제도",
+      "단체상해보험",
+      "사내동호회",
+      "근무복",
+      "건강검진",
+      "가족친화경영",
+      "골목상권",
+      "전용화폐",
+      "경영평가"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc26@generated.email",
+    "positions": [
+      "계장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 27,
+    "firstName": "영만",
+    "lastName": "고",
+    "fullName": "고영만",
+    "phone": {
+      "type": "내선",
+      "number": "068"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "운전",
+      "차량관리",
+      "임차",
+      "차량임차",
+      "배차",
+      "경조업무",
+      "축의금",
+      "조의금",
+      "화환"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc27@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 28,
+    "firstName": "지은",
+    "lastName": "이",
+    "fullName": "이지은",
+    "phone": {
+      "type": "내선",
+      "number": "005"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "433"
+    },
+    "jobs": [
+      "임원실",
+      "비서"
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc28@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 29,
+    "firstName": "성철",
+    "lastName": "권",
+    "fullName": "권성철",
+    "phone": {
+      "type": "내선",
+      "number": "081"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "434"
+    },
+    "jobs": [
+      "회계파트",
+      "공공구매",
+      "경영평가",
+      "경영평가정부권장정책",
+      "지정금고",
+      "계약",
+      "감독",
+      "검사"
+    ],
+    "departmentID": 10,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "회계계약파트",
+    "email": "gbdc29@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 30,
+    "firstName": "용주",
+    "lastName": "박",
+    "fullName": "박용주",
+    "phone": {
+      "type": "내선",
+      "number": "082"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "434"
+    },
+    "jobs": [
+      "공사입찰",
+      "계약업무",
+      "관급자재",
+      "관급자재구매",
+      "제안입찰공고",
+      "자료취합",
+      "경영평가",
+      "BSC",
+      "업무보고"
+    ],
+    "departmentID": 10,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "회계계약파트",
+    "email": "gbdc30@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 31,
+    "firstName": "주엽",
+    "lastName": "이",
+    "fullName": "이주엽",
+    "phone": {
+      "type": "내선",
+      "number": "083"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "434"
+    },
+    "jobs": [
+      "관급자재",
+      "관급자재구매",
+      "회게",
+      "결산",
+      "구분회계",
+      "세무",
+      "국세",
+      "지방세"
+    ],
+    "departmentID": 10,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "회계계약파트",
+    "email": "gbdc31@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 32,
+    "firstName": "주혁",
+    "lastName": "최",
+    "fullName": "최주혁",
+    "phone": {
+      "type": "내선",
+      "number": "086"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "434"
+    },
+    "jobs": [
+      "회계",
+      "결산",
+      "예산실적",
+      "자금지출",
+      "집행통제",
+      "배정",
+      "세무",
+      "국세",
+      "지방세",
+      "부가세",
+      "원천세"
+    ],
+    "departmentID": 10,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "회계계약파트",
+    "email": "gbdc32@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 33,
+    "firstName": "지례",
+    "lastName": "문",
+    "fullName": "문지혜",
+    "phone": {
+      "type": "내선",
+      "number": "085"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "434"
+    },
+    "jobs": [
+      "회계",
+      "결산",
+      "세무",
+      "지출마감",
+      "자금지출",
+      "집행통제",
+      "배정",
+      "자료취합",
+      "서무"
+    ],
+    "departmentID": 10,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "회계계약파트",
+    "email": "gbdc33@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 34,
+    "firstName": "한섭",
+    "lastName": "박",
+    "fullName": "박한섭",
+    "phone": {
+      "type": "내선",
+      "number": "101"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "435"
+    },
+    "jobs": [
+      "자체사업",
+      "용지보상업무",
+      "보상계획",
+      "예산수립",
+      "소송",
+      "도청이전신도시",
+      "건설사업",
+      "업무지원",
+      "경산",
+      "일반산단",
+      "경주",
+      "동천지구",
+      "경산화장품",
+      "경산화장품특화지구",
+      "경산상림지구",
+      "청도방지지구",
+      "군위남산지구",
+      "수탁사업",
+      "용지보상업무",
+      "보상계획",
+      "예산수립",
+      "진입도로",
+      "경산지식산업지구",
+      "복선전철"
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc34@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 35,
+    "firstName": "지열",
+    "lastName": "박",
+    "fullName": "박지열",
+    "phone": {
+      "type": "내선",
+      "number": "091"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "435"
+    },
+    "jobs": [
+      "안심",
+      "하양",
+      "복선전철",
+      "보상업무",
+      "민원처리",
+      "소송",
+      "서무",
+      "행정사무감사"
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc35@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 36,
+    "firstName": "석진",
+    "lastName": "황보",
+    "fullName": "황보석진",
+    "phone": {
+      "type": "내선",
+      "number": "102"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "435"
+    },
+    "jobs": [
+      "경산산림지구",
+      "도시개발사업",
+      "보상업무",
+      "민원처리",
+      "소송",
+      "준공사업지구",
+      "업무지원",
+      "경영평가"
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc36@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 37,
+    "firstName": "희주",
+    "lastName": "채",
+    "fullName": "채희주",
+    "phone": {
+      "type": "내선",
+      "number": "092"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "435"
+    },
+    "jobs": [
+      "경주동천지구",
+      "도시개발사업",
+      "보상업무",
+      "보상현황",
+      "보상금",
+      "민원처리",
+      "소송",
+      "군위남산지구"
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc37@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 38,
+    "firstName": "성주",
+    "lastName": "윤",
+    "fullName": "윤성주",
+    "phone": {
+      "type": "내선",
+      "number": "093"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "435"
+    },
+    "jobs": [
+      "경산화장품특화지구",
+      "보상업무",
+      "보상현황",
+      "보상금",
+      "민원처리",
+      "소송",
+      "BSC"
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc38@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 39,
+    "firstName": "정기",
+    "lastName": "이",
+    "fullName": "이정기",
+    "phone": {
+      "type": "내선",
+      "number": "103"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "435"
+    },
+    "jobs": [
+      "경산지식산업지구",
+      "진입도로",
+      "보상업무",
+      "보상현황",
+      "보상금지급",
+      "민원처리",
+      "소송",
+      "안심",
+      "하양",
+      "복선전철",
+      "경산상림지구도시개발",
+      "보상업무",
+      "보상현황",
+      "보상금",
+      "민원처리",
+      "자금",
+      "예산"
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc39@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 40,
+    "firstName": "종형",
+    "lastName": "이",
+    "fullName": "이종형",
+    "phone": {
+      "type": "내선",
+      "number": "104"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "435"
+    },
+    "jobs": [
+      "경주동천지구",
+      "도시개발사업",
+      "보상업무",
+      "보상현황",
+      "보상금",
+      "민원처리",
+      "소송",
+      "업무보고",
+      "제안"
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc40@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 41,
+    "firstName": "정윤",
+    "lastName": "서",
+    "fullName": "서정윤",
+    "phone": {
+      "type": "내선",
+      "number": "094"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "435"
+    },
+    "jobs": [
+      "경산지식산업지구",
+      "진입도로",
+      "보상업무",
+      "민원처리",
+      "안심",
+      "하양",
+      "복선전철",
+      "보상업무",
+      "민원처리",
+      "소송"
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc41@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 42,
+    "firstName": "상덕",
+    "lastName": "김",
+    "fullName": "김상덕",
+    "phone": {
+      "type": "내선",
+      "number": "121"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "438"
+    },
+    "jobs": [
+      "미래사업파트"
+    ],
+    "departmentID": 13,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "미래사업파트",
+    "email": "gbdc42@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 43,
+    "firstName": "창헌",
+    "lastName": "조",
+    "fullName": "조창헌",
+    "phone": {
+      "type": "내선",
+      "number": "123"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "438"
+    },
+    "jobs": [
+      "신규사업",
+      "신규사업발굴",
+      "사전타당성",
+      "조사용역",
+      "검토용역",
+      "발주",
+      "감독",
+      "투자심의위원회",
+      "이사회",
+      "도의회",
+      "기획",
+      "개발사업",
+      "사업추진전략",
+      "마스터플랜",
+      "용역"
+    ],
+    "departmentID": 13,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "미래사업파트",
+    "email": "gbdc43@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 44,
+    "firstName": "용모",
+    "lastName": "김",
+    "fullName": "김용모",
+    "phone": {
+      "type": "내선",
+      "number": "127"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "438"
+    },
+    "jobs": [
+      "신규사업",
+      "신규사업발굴",
+      "용역",
+      "조사용역",
+      "발주",
+      "이사회",
+      "도의회",
+      "사업추진",
+      "서무"
+    ],
+    "departmentID": 13,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "미래사업파트",
+    "email": "gbdc44@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 45,
+    "firstName": "성민",
+    "lastName": "우",
+    "fullName": "우성민",
+    "phone": {
+      "type": "내선",
+      "number": "128"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "438"
+    },
+    "jobs": [
+      "신규사업",
+      "신규사업발굴",
+      "건축",
+      "토목",
+      "용역",
+      "검토",
+      "발주",
+      "감독",
+      "투자심의위원회",
+      "이사회",
+      "도의회",
+      "BSC",
+      "성과관리",
+      "경영평가",
+      "서무"
+    ],
+    "departmentID": 13,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "미래사업파트",
+    "email": "gbdc45@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 46,
+    "firstName": "승호",
+    "lastName": "지",
+    "fullName": "지승호",
+    "phone": {
+      "type": "내선",
+      "number": "132"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "439"
+    },
+    "jobs": [
+      "경산상림",
+      "재활산업특화단지",
+      "산업특화단지",
+      "재활산업",
+      "고령",
+      "곽촌지구",
+      "도시개발",
+      "경영평가",
+      "BSC"
+    ],
+    "departmentID": 14,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "공공개발파트",
+    "email": "gbdc46@generated.email",
+    "positions": [
+      "부장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 47,
+    "firstName": "대환",
+    "lastName": "이",
+    "fullName": "이대환",
+    "phone": {
+      "type": "내선",
+      "number": "137"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "439"
+    },
+    "jobs": [
+      "군위",
+      "남산지구",
+      "생활환경",
+      "정비사업",
+      "청도",
+      "방지지구",
+      "생활환경정비사업",
+      "서무",
+      "경영평가",
+      "BSC"
+    ],
+    "departmentID": 14,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "공공개발파트",
+    "email": "gbdc47@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 48,
+    "firstName": "진기",
+    "lastName": "김",
+    "fullName": "김진기",
+    "phone": {
+      "type": "내선",
+      "number": "138"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "439"
+    },
+    "jobs": [
+      "경주",
+      "동천지구",
+      "도시개발",
+      "기술자문위원회",
+      "서무",
+      "경영평가",
+      "BSC",
+      "업무보고"
+    ],
+    "departmentID": 14,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "공공개발파트",
+    "email": "gbdc48@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 49,
+    "firstName": "경민",
+    "lastName": "박",
+    "fullName": "박경민",
+    "phone": {
+      "type": "내선",
+      "number": "139"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "439"
+    },
+    "jobs": [
+      "칠곡",
+      "중리지구",
+      "도시개발사업",
+      "자금수급",
+      "자급수급계획",
+      "예산",
+      "서무",
+      "경영평가",
+      "BSC"
+    ],
+    "departmentID": 14,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "공공개발파트",
+    "email": "gbdc49@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 50,
+    "firstName": "성근",
+    "lastName": "임",
+    "fullName": "임성근",
+    "phone": {
+      "type": "내선",
+      "number": "131"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "440"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 15,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "안전재생파트",
+    "email": "gbdc50@generated.email",
+    "positions": [
+      "파트장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 51,
+    "firstName": "진환",
+    "lastName": "임",
+    "fullName": "임진환",
+    "phone": {
+      "type": "내선",
+      "number": "362"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "440"
+    },
+    "jobs": [
+      "재난",
+      "안전",
+      "계획",
+      "계획수립",
+      "안전관리",
+      "공사사옥",
+      "사옥",
+      "현장점검",
+      "간담회",
+      "초기대응",
+      "상황실",
+      "예보",
+      "수준평가",
+      "CSI",
+      "종합정보망",
+      "기획",
+      "제도개선",
+      "유관기관",
+      "도시재생사업",
+      "용역감독",
+      "용역",
+      "감독",
+      "BSC",
+      "경영평가"
+    ],
+    "departmentID": 15,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "안전재생파트",
+    "email": "gbdc51@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 52,
+    "firstName": "민기",
+    "lastName": "최",
+    "fullName": "최민기",
+    "phone": {
+      "type": "내선",
+      "number": "363"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "440"
+    },
+    "jobs": [
+      "도시재생",
+      "발굴",
+      "용역",
+      "감독",
+      "용역감독",
+      "투자심의위원회",
+      "이사회",
+      "도의회",
+      "사업추진",
+      "공사사옥",
+      "사옥",
+      "공사",
+      "안전관리",
+      "현장점검",
+      "초기대응",
+      "상황실",
+      "리스크",
+      "BSC"
+    ],
+    "departmentID": 15,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "안전재생파트",
+    "email": "gbdc52@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 53,
+    "firstName": "계동",
+    "lastName": "이",
+    "fullName": "이계동",
+    "phone": {
+      "type": "내선",
+      "number": "364"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "440"
+    },
+    "jobs": [
+      "도시재생사업",
+      "도시재생",
+      "투자심의위원회",
+      "이사회",
+      "도의회",
+      "기획",
+      "제도",
+      "개선",
+      "교육",
+      "도시재생지원센터",
+      "설치",
+      "지원",
+      "공사사옥",
+      "공사",
+      "사옥",
+      "재난",
+      "안전",
+      "현장점검",
+      "간담회",
+      "초기대응",
+      "상황실",
+      "예보",
+      "재난",
+      "안전",
+      "교육관리",
+      "교육",
+      "경영평가",
+      "BSC",
+      "예산",
+      "예산관리",
+      "서무"
+    ],
+    "departmentID": 15,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "안전재생파트",
+    "email": "gbdc53@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 54,
+    "firstName": "석호",
+    "lastName": "이",
+    "fullName": "이석호",
+    "phone": {
+      "type": "내선",
+      "number": "021"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc54@generated.email",
+    "positions": [
+      "파트장",
+      "파트리더"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 55,
+    "firstName": "상현",
+    "lastName": "김",
+    "fullName": "김상현",
+    "phone": {
+      "type": "내선",
+      "number": "143"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      "의성",
+      "도동지구",
+      "도시재생",
+      "연계사업",
+      "단지계획",
+      "제반허가",
+      "제반인허가",
+      "신규사업",
+      "추진",
+      "행정사무",
+      "감사",
+      "대외언론"
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc55@generated.email",
+    "positions": [
+      "부장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 56,
+    "firstName": "양호",
+    "lastName": "조",
+    "fullName": "조양호",
+    "phone": {
+      "type": "내선",
+      "number": "142"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      "신도시",
+      "공공임대주택",
+      "임대주택건립",
+      "사후제반",
+      "제반",
+      "하자보수",
+      "민원",
+      "신규사업",
+      "발굴",
+      "추진",
+      "의성",
+      "도동지구",
+      "행복주택",
+      "건립사업",
+      "건축",
+      "행정사무",
+      "대외언론",
+      "기관요청자료",
+      "취합"
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc56@generated.email",
+    "positions": [
+      "부장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 57,
+    "firstName": "영만",
+    "lastName": "손",
+    "fullName": "손영만",
+    "phone": {
+      "type": "내선",
+      "number": "300"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      "노동조합",
+      "상근"
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc57@generated.email",
+    "positions": [
+      "부장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 58,
+    "firstName": "정홍",
+    "lastName": "이",
+    "fullName": "이정홍",
+    "phone": {
+      "type": "내선",
+      "number": "144"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      "포항",
+      "초곡지구",
+      "공공주택",
+      "공공주택건립",
+      "신규사업",
+      "추진",
+      "BSC",
+      "경영평가",
+      "예산",
+      "자금수급"
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc58@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 59,
+    "firstName": "수진",
+    "lastName": "이",
+    "fullName": "이수진",
+    "phone": {
+      "type": "내선",
+      "number": "145"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      "포항",
+      "청년주택",
+      "청년주택건립",
+      "사옥",
+      "공사사옥",
+      "복지동",
+      "하자보수",
+      "보수"
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc59@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 60,
+    "firstName": "재광",
+    "lastName": "남",
+    "fullName": "남재광",
+    "phone": {
+      "type": "내선",
+      "number": "146"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      "신도시",
+      "공공임대주택",
+      "공공임대주택건립",
+      "전기",
+      "통신",
+      "전기소방",
+      "소방",
+      "하자관리",
+      "포항",
+      "청년주택",
+      "용역",
+      "통신감리",
+      "경산",
+      "일반산업단지",
+      "전기공사",
+      "공공개발처시행",
+      "BSC",
+      "경영평가",
+      "법인카드",
+      "법인카드지출"
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc60@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 61,
+    "firstName": "상진",
+    "lastName": "이",
+    "fullName": "이상진",
+    "phone": {
+      "type": "내선",
+      "number": "148"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      "신도시",
+      "공공임대주택",
+      "공공임대주택건립",
+      "건축",
+      "하자관리",
+      "민원",
+      "봉화",
+      "춘양",
+      "영양",
+      "동부",
+      "행복주택",
+      "행복주택건립",
+      "서무",
+      "업무계획"
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc61@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 62,
+    "firstName": "동윤",
+    "lastName": "한",
+    "fullName": "한동윤",
+    "phone": {
+      "type": "내선",
+      "number": "147"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "441"
+    },
+    "jobs": [
+      "신도시",
+      "공공임대주택",
+      "공공임대주택건립",
+      "기계설비",
+      "기계소방",
+      "하자관리",
+      "포항",
+      "청년주택",
+      "서무"
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc62@generated.email",
+    "positions": [
+      "계장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 63,
+    "firstName": "석호",
+    "lastName": "이",
+    "fullName": "이석호",
+    "phone": {
+      "type": "내선",
+      "number": "021"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "442"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 18,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "일반대행사업파트",
+    "email": "gbdc63@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 64,
+    "firstName": "영도",
+    "lastName": "박",
+    "fullName": "박영도",
+    "phone": {
+      "type": "내선",
+      "number": "161"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "442"
+    },
+    "jobs": [
+      "신규사업"
+    ],
+    "departmentID": 18,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "일반대행사업파트",
+    "email": "gbdc64@generated.email",
+    "positions": [
+      "파트장",
+      "파트리더"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 65,
+    "firstName": "동욱",
+    "lastName": "정",
+    "fullName": "정동욱",
+    "phone": {
+      "type": "내선",
+      "number": "163"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "442"
+    },
+    "jobs": [
+      "건축",
+      "재활병원",
+      "동해안",
+      "119특구단",
+      "청송소방서",
+      "봉화소방서",
+      "의성건강산업센터",
+      "건강산업센터",
+      "위탁사업",
+      "수탁사업",
+      "완료사업지구",
+      "사업지구",
+      "하자보수",
+      "신규사업",
+      "위탁",
+      "수탁",
+      "협약",
+      "예산",
+      "사업비"
+    ],
+    "departmentID": 18,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "일반대행사업파트",
+    "email": "gbdc65@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 66,
+    "firstName": "충근",
+    "lastName": "이",
+    "fullName": "이충근",
+    "phone": {
+      "type": "내선",
+      "number": "164"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "442"
+    },
+    "jobs": [
+      "전기",
+      "통신업무",
+      "재활병원",
+      "동해안",
+      "119특구단",
+      "청송소방서",
+      "봉화소방서",
+      "의성건강사업센터",
+      "위탁",
+      "수탁",
+      "사업지구",
+      "하자보수",
+      "예산편성",
+      "사업비",
+      "BSC",
+      "행정사무",
+      "경영평가"
+    ],
+    "departmentID": 18,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "일반대행사업파트",
+    "email": "gbdc66@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 67,
+    "firstName": "자민",
+    "lastName": "구",
+    "fullName": "구자민",
+    "phone": {
+      "type": "내선",
+      "number": "165"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "442"
+    },
+    "jobs": [
+      "건축",
+      "재활병원",
+      "동해안",
+      "119특구단",
+      "청송소방서",
+      "봉화소방서",
+      "의성건강산업센터",
+      "위탁",
+      "수탁",
+      "사업지구",
+      "하자보수"
+    ],
+    "departmentID": 18,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "일반대행사업파트",
+    "email": "gbdc67@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 68,
+    "firstName": "세정",
+    "lastName": "김",
+    "fullName": "김세정",
+    "phone": {
+      "type": "내선",
+      "number": "167"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "442"
+    },
+    "jobs": [
+      "건축",
+      "동해안",
+      "119특구단",
+      "청송소방서",
+      "의성건강산업센터",
+      "위탁",
+      "수탁",
+      "서무",
+      "고객관리"
+    ],
+    "departmentID": 18,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "일반대행사업파트",
+    "email": "gbdc68@generated.email",
+    "positions": [
+      "계장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 69,
+    "firstName": "두하",
+    "lastName": "김",
+    "fullName": "김두하",
+    "phone": {
+      "type": "내선",
+      "number": "023"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "443"
+    },
+    "jobs": [
+      "신도시사업단총괄"
+    ],
+    "departmentID": 20,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "계획파트",
+    "email": "gbdc69@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 70,
+    "firstName": "민균",
+    "lastName": "김",
+    "fullName": "김민균",
+    "phone": {
+      "type": "내선",
+      "number": "181"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "443"
+    },
+    "jobs": [
+      "계획파트",
+      "개발계획",
+      "실시계획",
+      "인가",
+      "추진업무",
+      "영향평가",
+      "신도시",
+      "스마트도시",
+      "건설사업"
+    ],
+    "departmentID": 20,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "계획파트",
+    "email": "gbdc70@generated.email",
+    "positions": [
+      "파트리더",
+      "파트장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 71,
+    "firstName": "윤종",
+    "lastName": "이",
+    "fullName": "이윤종",
+    "phone": {
+      "type": "내선",
+      "number": "182"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "443"
+    },
+    "jobs": [
+      "지구지정",
+      "개발계획",
+      "실시계획",
+      "기본설계",
+      "실시설계",
+      "용역",
+      "실시설계용역",
+      "감독",
+      "지구단위계획",
+      "교육환경평가",
+      "학교",
+      "경관계획",
+      "신도시",
+      "지방도",
+      "한옥마을",
+      "마스터플랜",
+      "호민지",
+      "수변생태공원",
+      "실시설계",
+      "설계",
+      "하류부",
+      "배수로",
+      "정비공사",
+      "공공시설사업",
+      "신도시",
+      "법령",
+      "검토",
+      "성별영향",
+      "성별영향평가",
+      "여성친화도시",
+      "관리",
+      "계획",
+      "도시군계획시설",
+      "업무계획",
+      "보고서류",
+      "규정",
+      "개정"
+    ],
+    "departmentID": 20,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "계획파트",
+    "email": "gbdc71@generated.email",
+    "positions": [
+      "이윤종"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 72,
+    "firstName": "근윤",
+    "lastName": "고",
+    "fullName": "고근윤",
+    "phone": {
+      "type": "내선",
+      "number": "183"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "443"
+    },
+    "jobs": [
+      "교통영향분석",
+      "환경영향평가",
+      "수질오염총량",
+      "에너지사용계획",
+      "사전재해영향성",
+      "사후환경영향조사",
+      "농지",
+      "산지",
+      "국유재산",
+      "공유재산",
+      "재산",
+      "무상귀속",
+      "용도폐지",
+      "배수지",
+      "배수지증설",
+      "확정측량",
+      "산지복구",
+      "대체산림조성",
+      "폐기물처리시설",
+      "GIS",
+      "지구지정",
+      "개발계획",
+      "기본설계",
+      "실시설계용역",
+      "감독",
+      "호민지",
+      "수변생태공원",
+      "리스크"
+    ],
+    "departmentID": 20,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "계획파트",
+    "email": "gbdc72@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 73,
+    "firstName": "기만",
+    "lastName": "도",
+    "fullName": "도기만",
+    "phone": {
+      "type": "내선",
+      "number": "184"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "443"
+    },
+    "jobs": [
+      "도시통합운영센터",
+      "건립",
+      "사후관리",
+      "전기공사",
+      "용역",
+      "스마트도시",
+      "시스템",
+      "구축",
+      "조사설계",
+      "호민지",
+      "수변생태공원"
+    ],
+    "departmentID": 20,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "계획파트",
+    "email": "gbdc73@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 74,
+    "firstName": "준범",
+    "lastName": "이",
+    "fullName": "이준범",
+    "phone": {
+      "type": "내선",
+      "number": "185"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "443"
+    },
+    "jobs": [
+      "지구지정",
+      "개발계획",
+      "실시계획",
+      "기본설계",
+      "용역",
+      "감독",
+      "지구단위계획",
+      "계획수립",
+      "교육환경평가",
+      "학교",
+      "경관계획",
+      "신도시",
+      "지방도",
+      "한옥마을",
+      "마스터플랜",
+      "수변생태공원",
+      "하류부",
+      "배수로",
+      "정비공사",
+      "공공시설사업",
+      "건축",
+      "건축인허가",
+      "건축인허가민원",
+      "교통영향분석",
+      "환경영향평가",
+      "수질오염",
+      "수질오염총량",
+      "에너지사용",
+      "사전재해",
+      "검토",
+      "사후환경",
+      "영향조사",
+      "농지",
+      "산지",
+      "국유재산",
+      "공유재산",
+      "무상귀속",
+      "농업용수",
+      "배수지",
+      "확정측량",
+      "산지복구",
+      "대체산림조성",
+      "폐기물",
+      "GIS"
+    ],
+    "departmentID": 20,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "계획파트",
+    "email": "gbdc74@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 75,
+    "firstName": "병조",
+    "lastName": "최",
+    "fullName": "최병조",
+    "phone": {
+      "type": "내선",
+      "number": "186"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "443"
+    },
+    "jobs": [
+      "전기간선시설",
+      "전기공사",
+      "스마트도시",
+      "시스템",
+      "감독",
+      "설계용역",
+      "조사설계",
+      "경영평가",
+      "BSC",
+      "예산",
+      "자금",
+      "CS",
+      "서무"
+    ],
+    "departmentID": 20,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "계획파트",
+    "email": "gbdc75@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 76,
+    "firstName": "승복",
+    "lastName": "최",
+    "fullName": "최승복",
+    "phone": {
+      "type": "내선",
+      "number": "191"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "444"
+    },
+    "jobs": [
+      "조성파트",
+      "조성공사",
+      "건설사업",
+      "용역",
+      "건설사업관리"
+    ],
+    "departmentID": 21,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "조성파트",
+    "email": "gbdc76@generated.email",
+    "positions": [
+      "파트장",
+      "파트리더"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 77,
+    "firstName": "동우",
+    "lastName": "김",
+    "fullName": "김동우",
+    "phone": {
+      "type": "내선",
+      "number": "192"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "444"
+    },
+    "jobs": [
+      "2단계",
+      "조성공사",
+      "공사관리관",
+      "원가",
+      "공정관리",
+      "하수처리",
+      "하수처리시설설치",
+      "호민지",
+      "수변생태공원",
+      "리스크"
+    ],
+    "departmentID": 21,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "조성파트",
+    "email": "gbdc77@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 78,
+    "firstName": "동진",
+    "lastName": "민",
+    "fullName": "민동진",
+    "phone": {
+      "type": "내선",
+      "number": "194"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "444"
+    },
+    "jobs": [
+      "2단계",
+      "조성공사",
+      "공사관리관",
+      "품질",
+      "관급자재",
+      "관리",
+      "토목",
+      "조경",
+      "호민지",
+      "수변생태공원",
+      "BSC지표",
+      "BSC"
+    ],
+    "departmentID": 21,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "조성파트",
+    "email": "gbdc78@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 79,
+    "firstName": "재웅",
+    "lastName": "장",
+    "fullName": "장재웅",
+    "phone": {
+      "type": "내선",
+      "number": "193"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "444"
+    },
+    "jobs": [
+      "2단계",
+      "조성공사",
+      "공사관리관",
+      "환경",
+      "환경영향평가",
+      "우수처리시설",
+      "초기우수처리시설",
+      "건설사업관리용역",
+      "용역",
+      "주민생계조합",
+      "1단계",
+      "하자관리",
+      "경관단지",
+      "임시체육시설",
+      "경영실적보고서"
+    ],
+    "departmentID": 21,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "조성파트",
+    "email": "gbdc79@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 80,
+    "firstName": "준형",
+    "lastName": "김",
+    "fullName": "김준형",
+    "phone": {
+      "type": "내선",
+      "number": "373"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "444"
+    },
+    "jobs": [
+      "2단계",
+      "조성공사",
+      "공사관리",
+      "호민지",
+      "수변생태공원",
+      "1단계",
+      "하자관리",
+      "경관단지",
+      "임시체육시설",
+      "조성공사",
+      "사후평가",
+      "CS",
+      "고객만족",
+      "통합경영공시",
+      "지출",
+      "서무"
+    ],
+    "departmentID": 21,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "조성파트",
+    "email": "gbdc80@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 81,
+    "firstName": "승복",
+    "lastName": "최",
+    "fullName": "최승복",
+    "phone": {
+      "type": "내선",
+      "number": "191"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "444"
+    },
+    "jobs": [
+      "건축디자인총괄"
+    ],
+    "departmentID": 22,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "건축디자인TF팀",
+    "email": "gbdc81@generated.email",
+    "positions": [
+      "파트리더",
+      "파트장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 82,
+    "firstName": "준형",
+    "lastName": "김",
+    "fullName": "김준형",
+    "phone": {
+      "type": "내선",
+      "number": "373"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "444"
+    },
+    "jobs": [
+      "건축코디네이터",
+      "자문계획",
+      "요청",
+      "결과보고",
+      "지출",
+      "경관단지",
+      "용역",
+      "가로경관",
+      "공동주택",
+      "디자인가이드라인",
+      "디자인특화지구",
+      "코디네이터",
+      "디자인",
+      "디자인컨설팅",
+      "CS",
+      "고객만족",
+      "서무"
+    ],
+    "departmentID": 22,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "건축디자인TF팀",
+    "email": "gbdc82@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 83,
+    "firstName": "종능",
+    "lastName": "은",
+    "fullName": "은종능",
+    "phone": {
+      "type": "내선",
+      "number": "301"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "유교문화파트총괄",
+      "사무",
+      "운용관리"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc83@generated.email",
+    "positions": [
+      "파트장",
+      "파트리더"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 84,
+    "firstName": "영기",
+    "lastName": "황",
+    "fullName": "황영기",
+    "phone": {
+      "type": "내선",
+      "number": "311"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "건축",
+      "전시물",
+      "전시물제작",
+      "전시물설치"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc84@generated.email",
+    "positions": [
+      "부장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 85,
+    "firstName": "상완",
+    "lastName": "마",
+    "fullName": "마상완",
+    "phone": {
+      "type": "내선",
+      "number": "312"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "토목",
+      "한국문화테마파크",
+      "한국문화",
+      "테마파크"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc85@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 86,
+    "firstName": "형국",
+    "lastName": "김",
+    "fullName": "김형국",
+    "phone": {
+      "type": "내선",
+      "number": "302"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "본단지",
+      "인가",
+      "허가",
+      "행정절차",
+      "계획",
+      "기반시설",
+      "실시설계",
+      "제영향평가",
+      "용역",
+      "기반시설"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc86@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 87,
+    "firstName": "경수",
+    "lastName": "김",
+    "fullName": "김경수",
+    "phone": {
+      "type": "내선",
+      "number": "304"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "탐방로",
+      "제반",
+      "하수처리시설",
+      "선비공원",
+      "박물관",
+      "컨벤션",
+      "경영평가",
+      "BSC",
+      "안전관리"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc87@generated.email",
+    "positions": [
+      "차장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 88,
+    "firstName": "봉기",
+    "lastName": "전",
+    "fullName": "전봉기",
+    "phone": {
+      "type": "내선",
+      "number": "315"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "본단지",
+      "기반시설",
+      "건설폐기물",
+      "폐기물",
+      "용역",
+      "현장관리",
+      "기본실시설계",
+      "품질관리"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc88@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 89,
+    "firstName": "춘호",
+    "lastName": "손",
+    "fullName": "손춘호",
+    "phone": {
+      "type": "내선",
+      "number": "306"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "총사업비",
+      "자율조정",
+      "국비집행",
+      "대관",
+      "자료요청",
+      "행정사무",
+      "사무감사",
+      "정보공개청구",
+      "대관요청",
+      "대외기관",
+      "공개요청"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc89@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 90,
+    "firstName": "승학",
+    "lastName": "이",
+    "fullName": "이승학",
+    "phone": {
+      "type": "내선",
+      "number": "316"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "선비공원",
+      "박물관",
+      "컨벤션",
+      "제용역",
+      "용역",
+      "감독",
+      "사업비",
+      "자율조정",
+      "국비집행",
+      "예산편성",
+      "자금수급계획"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc90@generated.email",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 91,
+    "firstName": "용호",
+    "lastName": "임",
+    "fullName": "임용호",
+    "phone": {
+      "type": "내선",
+      "number": "314"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "한국테마파크",
+      "한국테마파크건립",
+      "용역",
+      "감독",
+      "서무"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc91@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 92,
+    "firstName": "진호",
+    "lastName": "배",
+    "fullName": "배진호",
+    "phone": {
+      "type": "내선",
+      "number": "307"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "전시물",
+      "제작설치",
+      "서무",
+      "업무추진비",
+      "대행사업비",
+      "예산지출",
+      "부서운영비"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc92@generated.email",
+    "positions": [
+      "계장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 93,
+    "firstName": "재성",
+    "lastName": "안",
+    "fullName": "안재성",
+    "phone": {
+      "type": "내선",
+      "number": "317"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "446"
+    },
+    "jobs": [
+      "기계설비",
+      "기계소방",
+      "서무",
+      "차량",
+      "사무기기"
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc93@generated.email",
+    "positions": [
+      "계장"
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 94,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "446"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "428"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 24,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "23",
+        "name": "유교문화사업단"
+      }
+    ],
+    "department": "유교문화파트",
+    "email": "gbdc94@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 95,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "428"
+    },
+    "phone2": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 23,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "유교문화사업단",
+    "email": "gbdc95@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 96,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "444"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "426"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 22,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "건축디자인TF팀",
+    "email": "gbdc96@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 97,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "444"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "426"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 21,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "조성파트",
+    "email": "gbdc97@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 98,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "443"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "426"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 20,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "19",
+        "name": "신도시사업단"
+      }
+    ],
+    "department": "계획파트",
+    "email": "gbdc98@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 99,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "426"
+    },
+    "phone2": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 19,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "신도시사업단",
+    "email": "gbdc99@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 100,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "442"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "425"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 18,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "일반대행사업파트",
+    "email": "gbdc100@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 101,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "441"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "425"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 17,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "16",
+        "name": "주거복지처"
+      }
+    ],
+    "department": "주거복지파트",
+    "email": "gbdc101@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 102,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "425"
+    },
+    "phone2": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 16,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "주거복지처",
+    "email": "gbdc102@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 103,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "440"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "424"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 15,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "안전재생파트",
+    "email": "gbdc103@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 104,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "439"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "424"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 14,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "공공개발파트",
+    "email": "gbdc104@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 105,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "438"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "424"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 13,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "12",
+        "name": "공공개발처"
+      }
+    ],
+    "department": "미래사업파트",
+    "email": "gbdc105@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 106,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "424"
+    },
+    "phone2": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 12,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "공공개발처",
+    "email": "gbdc106@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 107,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "435"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "423"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 11,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상파트",
+    "email": "gbdc107@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 108,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "434"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "422"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 10,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "회계계약파트",
+    "email": "gbdc108@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 109,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "433"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "422"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 9,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "8",
+        "name": "경영지원처"
+      }
+    ],
+    "department": "인사총무파트",
+    "email": "gbdc109@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 110,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "422"
+    },
+    "phone2": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 8,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "경영지원처",
+    "email": "gbdc110@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 111,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "432"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "421"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "고객홍보파트",
+    "email": "gbdc111@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 112,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "431"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "421"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "5",
+        "name": "기획혁신처"
+      }
+    ],
+    "department": "기획혁신파트",
+    "email": "gbdc112@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 113,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "421"
+    },
+    "phone2": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 5,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "기획혁신처",
+    "email": "gbdc113@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 114,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "445"
+    },
+    "phone2": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "청렴감사실",
+    "email": "gbdc114@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 115,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "phone2": null,
+    "jobs": [
+      ""
+    ],
+    "departmentID": 1,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [],
+    "department": "경북개발공사",
+    "email": "gbdc115@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 116,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "423"
+    },
+    "phone2": {
+      "type": "외부국선",
+      "number": "054-650-3000"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 2,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      }
+    ],
+    "department": "보상마케팅처",
+    "email": "gbdc116@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 117,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "437"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "423"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 3,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "마케팅파트",
+    "email": "gbdc117@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  },
+  {
+    "staffID": 118,
+    "firstName": "",
+    "lastName": "대표번호",
+    "fullName": "대표번호",
+    "phone": {
+      "type": "내선",
+      "number": "436"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "423"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 25,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "transferPrefix": "",
+        "id": "82963fba-9e92-4aa2-b698-7666829b4465",
+        "name": "경북개발공사"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "경북개발공사"
+      },
+      {
+        "id": "2",
+        "name": "보상마케팅처"
+      }
+    ],
+    "department": "보상수탁TF팀",
+    "email": "gbdc118@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "admin": false
+  }
+]
