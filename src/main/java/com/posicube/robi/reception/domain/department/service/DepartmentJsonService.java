@@ -20,6 +20,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import javax.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
@@ -41,10 +42,7 @@ public class DepartmentJsonService {
         saveDepartmentDataFrame(departmentDF, branchId);
         List<DepartmentJson> departmentJsonList = getDepartmentJsonList();
 
-        String filePath = "/Users/joohyuk/Documents/GitHub/csv-generator/src/main/resources/json/dongnae";
-        String saveFileName = File.separator + "department.json";
-        File departmentJsonFile = JsonUtil.createDepartmentJsonFile(filePath, saveFileName, departmentJsonList, objectMapper);
-        return new FileSystemResource(departmentJsonFile);
+        return JsonUtil.getByteArrayResource(departmentJsonList, objectMapper);
     }
 
     private List<DepartmentJson> getDepartmentJsonList() {

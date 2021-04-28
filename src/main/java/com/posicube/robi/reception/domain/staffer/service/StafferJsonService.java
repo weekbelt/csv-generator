@@ -12,7 +12,6 @@ import com.posicube.robi.reception.domain.staffer.StafferSeries;
 import com.posicube.robi.reception.domain.staffer.repository.StafferSeriesRepository;
 import com.posicube.robi.reception.util.CsvReaderUtil;
 import com.posicube.robi.reception.util.JsonUtil;
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,7 +22,6 @@ import java.util.stream.Collectors;
 import javax.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -45,12 +43,7 @@ public class StafferJsonService {
         saveStafferDataFrame(stafferDF, branchId);
 
         List<StafferJson> stafferJsonList = getStafferJsonList();
-
-        String filePath = "/Users/joohyuk/Documents/GitHub/csv-generator/src/main/resources/json/dongnae";
-        String saveFileName = File.separator + "staffer.json";
-
-        File stafferJsonFile = JsonUtil.createStafferJsonFile(filePath, saveFileName, stafferJsonList, objectMapper);
-        return new FileSystemResource(stafferJsonFile);
+        return JsonUtil.getByteArrayResource(stafferJsonList, objectMapper);
     }
 
     private List<StafferJson> getStafferJsonList() {
