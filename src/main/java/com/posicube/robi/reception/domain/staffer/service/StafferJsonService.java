@@ -39,14 +39,14 @@ public class StafferJsonService {
     private final StafferSeriesRepository stafferSeriesRepository;
 
     public Resource generateDirectoryStaffer(String branchId) throws CsvValidationException, IOException {
-        ClassPathResource stafferCsv = new ClassPathResource("csv/gbdc/staffer.csv");
+        ClassPathResource stafferCsv = new ClassPathResource("csv/dongnae/staffer.csv");
         List<String[]> stafferDF = csvReaderUtil.convertCsvResourceToDataFrame(stafferCsv);
 
         saveStafferDataFrame(stafferDF, branchId);
 
         List<StafferJson> stafferJsonList = getStafferJsonList();
 
-        String filePath = "/Users/joohyuk/Documents/GitHub/csv-generator/src/main/resources/json/gbdc";
+        String filePath = "/Users/joohyuk/Documents/GitHub/csv-generator/src/main/resources/json/dongnae";
         String saveFileName = File.separator + "staffer.json";
 
         File stafferJsonFile = JsonUtil.createStafferJsonFile(filePath, saveFileName, stafferJsonList, objectMapper);

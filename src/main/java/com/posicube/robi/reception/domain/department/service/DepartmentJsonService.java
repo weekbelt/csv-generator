@@ -36,12 +36,12 @@ public class DepartmentJsonService {
     private final DepartmentSeriesRepository departmentSeriesRepository;
 
     public Resource generateDirectoryDepartment(String branchId) throws CsvValidationException, IOException {
-        List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/gbdc/department.csv"));
+        List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/dongnae/department.csv"));
 
         saveDepartmentDataFrame(departmentDF, branchId);
         List<DepartmentJson> departmentJsonList = getDepartmentJsonList();
 
-        String filePath = "/Users/joohyuk/Documents/GitHub/csv-generator/src/main/resources/json/gbdc";
+        String filePath = "/Users/joohyuk/Documents/GitHub/csv-generator/src/main/resources/json/dongnae";
         String saveFileName = File.separator + "department.json";
         File departmentJsonFile = JsonUtil.createDepartmentJsonFile(filePath, saveFileName, departmentJsonList, objectMapper);
         return new FileSystemResource(departmentJsonFile);
