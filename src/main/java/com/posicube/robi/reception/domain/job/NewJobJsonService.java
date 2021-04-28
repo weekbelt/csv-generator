@@ -45,10 +45,11 @@ public class NewJobJsonService {
         stafferJsonList.forEach(stafferJson -> {
             final List<String> jobs = stafferJson.getJobs();
             jobs.forEach(jobName -> {
-                if (!jobRepository.existsByName(jobName)) {
+                String trimJob = jobName.trim();
+                if (!jobRepository.existsByName(trimJob)) {
                     Job job = Job.builder()
                         .id(UUID.randomUUID().toString())
-                        .name(jobName)
+                        .name(trimJob)
                         .depth(1)
                         .branchId(stafferJson.getBchID())
                         .build();

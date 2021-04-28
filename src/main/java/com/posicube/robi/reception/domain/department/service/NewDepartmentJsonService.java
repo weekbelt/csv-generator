@@ -66,8 +66,7 @@ public class NewDepartmentJsonService {
         if (departmentJson.getParentDept() != null) {
             final Phone phone = Phone.builder()
                 .number(departmentJson.getParentDept().getPhone().getNumber())
-                .type(departmentJson.getParentDept().getPhone().getType().equals("내선")
-                    || departmentJson.getParentDept().getPhone().getType().equals("INWARD_DIALING") ? "INWARD_DIALING" : "OUTWARD_DIALING")
+                .type("INWARD_DIALING")
                 .build();
             return NewDepartmentJson.ParentDept.builder()
                 .id(String.valueOf(departmentJson.getParentDept().getId()))
