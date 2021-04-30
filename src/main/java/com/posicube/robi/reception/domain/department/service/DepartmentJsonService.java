@@ -11,8 +11,8 @@ import com.posicube.robi.reception.domain.department.DepartmentSeries;
 import com.posicube.robi.reception.domain.department.repository.DepartmentSeriesRepository;
 import com.posicube.robi.reception.util.CsvReaderUtil;
 import com.posicube.robi.reception.util.JsonUtil;
-import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -44,7 +44,7 @@ public class DepartmentJsonService {
 
     private List<DepartmentJson> getDepartmentJsonList() {
         List<DepartmentJson> departmentJsonList = new ArrayList<>();
-        List<DepartmentSeries> departmentSeriesList = departmentSeriesRepository.findAll();
+        List<DepartmentSeries> departmentSeriesList = departmentSeriesRepository.findAll().stream().sorted(Comparator.comparing(DepartmentSeries::getDepartmentCode).reversed()).collect(Collectors.toList());
         for (DepartmentSeries departmentSeries : departmentSeriesList) {
             List<DepartmentJson.Hierarchy> hierarchyList = getHierarchyList(departmentSeries);
             JsonNode phone = getPhone(departmentSeries);
@@ -77,8 +77,7 @@ public class DepartmentJsonService {
                 break;
             }
         }
-        return hierarchyList;
-//        return hierarchyList.stream().sorted(Comparator.comparing(DepartmentJson.Hierarchy::getId)).collect(Collectors.toList());
+        return hierarchyList.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
     }
 
     private JsonNode getPhone(DepartmentSeries departmentSeries) {

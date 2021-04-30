@@ -3,6 +3,7 @@ package com.posicube.robi.reception.domain.staffer;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.posicube.robi.reception.domain.department.DepartmentJson;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -63,9 +64,15 @@ public class StafferJson {
     @NoArgsConstructor
     @Data
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public static class Department {
+    public static class Department implements Comparable{
 
         private String id;
         private String name;
+
+        @Override
+        public int compareTo(Object o) {
+            StafferJson.Department hierarchy = (StafferJson.Department) o;
+            return Integer.compare(Integer.parseInt(hierarchy.getId()), Integer.parseInt(id));
+        }
     }
 }

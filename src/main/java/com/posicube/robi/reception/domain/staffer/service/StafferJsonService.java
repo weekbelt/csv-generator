@@ -15,6 +15,7 @@ import com.posicube.robi.reception.util.JsonUtil;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -94,7 +95,7 @@ public class StafferJsonService {
                 break;
             }
         }
-        return hierarchyList.stream().sorted(Comparator.comparing(Department::getId)).collect(Collectors.toList());
+        return hierarchyList.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
     }
 
     private StafferJson.Phone getStafferPhone(String number) {

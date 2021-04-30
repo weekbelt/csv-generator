@@ -29,10 +29,16 @@ public class DepartmentJson {
     @NoArgsConstructor
     @Data
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public static class Hierarchy {
+    public static class Hierarchy implements Comparable {
 
         private String id;
         private String name;
+
+        @Override
+        public int compareTo(Object o) {
+            DepartmentJson.Hierarchy hierarchy = (DepartmentJson.Hierarchy) o;
+            return Integer.compare(Integer.parseInt(hierarchy.getId()), Integer.parseInt(id));
+        }
     }
 
     @Builder
