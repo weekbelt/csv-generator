@@ -1,0 +1,288 @@
+[
+  // 직원 추가
+  {
+    "staffID": 579,
+    "firstName": "태순",
+    "lastName": "김",
+    "fullName": "김태순",
+    "phone": {
+      "type": "내선",
+      "number": "6910"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "4461"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 68,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "58",
+        "name": "평생교육과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "department": "동래읍성도서관계",
+    "email": "8a9fb55f-923b-4f62-b3bd-caf6a48f174b@generate.com",
+    "positions": [
+      ""
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 599,
+    "firstName": "한구",
+    "lastName": "정",
+    "fullName": "정한구",
+    "phone": {
+      "type": "내선",
+      "number": "4438"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "4431"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 71,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "59",
+        "name": "청소과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "department": "청소계",
+    "email": "559af65c-a858-4746-a333-691bc6237c6b@generate.com",
+    "positions": [
+      ""
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 601,
+    "firstName": "남훈",
+    "lastName": "이",
+    "fullName": "이남훈",
+    "phone": {
+      "type": "내선",
+      "number": "4438"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "4431"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 71,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "59",
+        "name": "청소과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "department": "청소계",
+    "email": "762b3a74-620d-4f21-9830-94118f3b1320@generate.com",
+    "positions": [
+      ""
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 613,
+    "firstName": "예령",
+    "lastName": "전",
+    "fullName": "전예령",
+    "phone": {
+      "type": "내선",
+      "number": "4387"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "4381"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 74,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "60",
+        "name": "환경위생과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "department": "환경관리계",
+    "email": "48f02215-38a7-498c-9353-c4074f3a37de@generate.com",
+    "positions": [
+      ""
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  // phone 번호 변경
+  {
+    "staffID": 592,
+    "firstName": "순정",
+    "lastName": "안",
+    "fullName": "안순정",
+    "phone": {
+      "type": "내선",
+      "number": "4439"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "4431"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 59,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "department": "청소과",
+    "email": "3a5d2df1-1cb0-470d-9ea9-1cf8b4a35013@generate.com",
+    "positions": [
+      "과장"
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  {
+    "staffID": 614,
+    "firstName": "정민",
+    "lastName": "이",
+    "fullName": "이정민",
+    "phone": {
+      "type": "내선",
+      "number": "4385"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "4381"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 74,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "60",
+        "name": "환경위생과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "department": "환경관리계",
+    "email": "cea9fe06-2f38-4311-acfb-b3c13f7030ee@generate.com",
+    "positions": [
+      ""
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  },
+  // 번호, 부서 변경
+  {
+    "staffID": 621,
+    "firstName": "상호",
+    "lastName": "신",
+    "fullName": "신상호",
+    "phone": {
+      "type": "내선",
+      "number": "4391"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "4381"
+    },
+    "jobs": [
+      ""
+    ],
+    "departmentID": 75,
+    "entityDisplayName": "staffer",
+    "transferableBranches": null,
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "동래구청"
+      },
+      {
+        "id": "60",
+        "name": "환경위생과"
+      },
+      {
+        "id": "7",
+        "name": "문화환경국"
+      }
+    ],
+    "department": "환경지도계",
+    "email": "1b08414f-10f9-4412-a66e-b75ca7bd675e@generate.com",
+    "positions": [
+      ""
+    ],
+    "bchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "admin": false
+  }
+]

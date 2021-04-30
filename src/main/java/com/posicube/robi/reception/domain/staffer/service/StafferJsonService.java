@@ -115,7 +115,7 @@ public class StafferJsonService {
     private void saveStafferDataFrame(List<String[]> stafferDF, String branchId) {
         for (String[] series : stafferDF) {
             String position = series[2];
-            if (position.equals("주무관")) {
+            if (position.contains("주무관")) {
                 position = "";
             }
             StafferSeries stafferSeries = StafferSeries.builder()

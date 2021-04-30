@@ -11,7 +11,6 @@ import com.posicube.robi.reception.domain.department.DepartmentSeries;
 import com.posicube.robi.reception.domain.department.repository.DepartmentSeriesRepository;
 import com.posicube.robi.reception.util.CsvReaderUtil;
 import com.posicube.robi.reception.util.JsonUtil;
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -20,9 +19,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import javax.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
-import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -36,7 +33,7 @@ public class DepartmentJsonService {
     private final CsvReaderUtil csvReaderUtil;
     private final DepartmentSeriesRepository departmentSeriesRepository;
 
-    public Resource generateDirectoryDepartment(String branchId) throws CsvValidationException, IOException {
+    public Resource generateDirectoryDepartment(String branchId) throws CsvValidationException {
         List<String[]> departmentDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/dongnae/department.csv"));
 
         saveDepartmentDataFrame(departmentDF, branchId);
@@ -80,7 +77,8 @@ public class DepartmentJsonService {
                 break;
             }
         }
-        return hierarchyList.stream().sorted(Comparator.comparing(DepartmentJson.Hierarchy::getId)).collect(Collectors.toList());
+        return hierarchyList;
+//        return hierarchyList.stream().sorted(Comparator.comparing(DepartmentJson.Hierarchy::getId)).collect(Collectors.toList());
     }
 
     private JsonNode getPhone(DepartmentSeries departmentSeries) {
