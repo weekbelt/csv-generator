@@ -31,6 +31,7 @@ public class DepartmentJsonService {
 
     private final ObjectMapper objectMapper;
     private final CsvReaderUtil csvReaderUtil;
+    private final JsonUtil jsonUtil;
     private final DepartmentSeriesRepository departmentSeriesRepository;
 
     public Resource generateDirectoryDepartment(String branchId) throws CsvValidationException {
@@ -39,7 +40,7 @@ public class DepartmentJsonService {
         saveDepartmentDataFrame(departmentDF, branchId);
         List<DepartmentJson> departmentJsonList = getDepartmentJsonList();
 
-        return JsonUtil.getByteArrayResource(departmentJsonList, objectMapper);
+        return jsonUtil.getByteArrayResource(departmentJsonList, objectMapper);
     }
 
     private List<DepartmentJson> getDepartmentJsonList() {

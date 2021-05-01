@@ -20,6 +20,7 @@ import org.springframework.util.ResourceUtils;
 public class NewPositionJsonService {
 
     private final ObjectMapper objectMapper;
+    private final JsonUtil jsonUtil;
     private final PositionRepository positionRepository;
 
     public Resource generateNewPosition() throws IOException {
@@ -37,7 +38,7 @@ public class NewPositionJsonService {
             .build()
         ).collect(Collectors.toList());
 
-        return JsonUtil.getByteArrayResource(newPositionJsonList, objectMapper);
+        return jsonUtil.getByteArrayResource(newPositionJsonList, objectMapper);
     }
 
     private void savePositions(List<StafferJson> stafferJsonList) {

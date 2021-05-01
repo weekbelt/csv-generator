@@ -1,0 +1,5809 @@
+[
+  {
+    "id": "1",
+    "name": "보령시",
+    "phone": {
+      "type": "내선",
+      "number": "3114"
+    },
+    "parentDept": null,
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "4",
+    "name": "시장실",
+    "phone": {
+      "type": "내선",
+      "number": "3004"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "5",
+    "name": "부시장실",
+    "phone": {
+      "type": "내선",
+      "number": "3011"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6",
+    "name": "기획감사실",
+    "phone": {
+      "type": "내선",
+      "number": "3110"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "7",
+    "name": "홍보미디어실",
+    "phone": {
+      "type": "내선",
+      "number": "3160"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "8",
+    "name": "안전행정국",
+    "phone": {
+      "type": "내선",
+      "number": "3031"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "10",
+    "name": "경제도시국",
+    "phone": {
+      "type": "내선",
+      "number": "3032"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "11",
+    "name": "해양수산관광국",
+    "phone": {
+      "type": "내선",
+      "number": "3033"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "12",
+    "name": "박람회지원본부",
+    "phone": {
+      "type": "내선",
+      "number": "3061"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "13",
+    "name": "보건소",
+    "phone": {
+      "type": "내선",
+      "number": "3034"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "14",
+    "name": "농업기술센터",
+    "phone": {
+      "type": "내선",
+      "number": "3035"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "15",
+    "name": "원산도출장소",
+    "phone": {
+      "type": "내선",
+      "number": "4607"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "16",
+    "name": "의회",
+    "phone": {
+      "type": "내선",
+      "number": "4024"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "17",
+    "name": "웅천읍사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0800"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "18",
+    "name": "주포면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0801"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "19",
+    "name": "주교면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0802"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "20",
+    "name": "오천면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0803"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "21",
+    "name": "천북면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0804"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "22",
+    "name": "청소면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0805"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "23",
+    "name": "청라면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0806"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "24",
+    "name": "남포면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0807"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "25",
+    "name": "주산면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0808"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "26",
+    "name": "미산면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0809"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "27",
+    "name": "성주면사무소",
+    "phone": {
+      "type": "내선",
+      "number": "0810"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "28",
+    "name": "대천1동주민센터",
+    "phone": {
+      "type": "내선",
+      "number": "0811"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "29",
+    "name": "대천2동주민센터",
+    "phone": {
+      "type": "내선",
+      "number": "0812"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "30",
+    "name": "대천3동주민센터",
+    "phone": {
+      "type": "내선",
+      "number": "0813"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "31",
+    "name": "대천4동주민센터",
+    "phone": {
+      "type": "내선",
+      "number": "0814"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "32",
+    "name": "대천5동주민센터",
+    "phone": {
+      "type": "내선",
+      "number": "0815"
+    },
+    "parentDept": {
+      "id": "1",
+      "name": "보령시",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3114"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "33",
+    "name": "자치행정과",
+    "phone": {
+      "type": "내선",
+      "number": "3210"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "34",
+    "name": "안전총괄과",
+    "phone": {
+      "type": "내선",
+      "number": "3260"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "35",
+    "name": "교육체육과",
+    "phone": {
+      "type": "내선",
+      "number": "3310"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "36",
+    "name": "충남체전준비단",
+    "phone": {
+      "type": "내선",
+      "number": "2612"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "37",
+    "name": "주민생활지원과",
+    "phone": {
+      "type": "내선",
+      "number": "3360"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "38",
+    "name": "문화새마을과",
+    "phone": {
+      "type": "내선",
+      "number": "3410"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "39",
+    "name": "민원지적과",
+    "phone": {
+      "type": "내선",
+      "number": "3460"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "40",
+    "name": "세무과",
+    "phone": {
+      "type": "내선",
+      "number": "3510"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "41",
+    "name": "회계과",
+    "phone": {
+      "type": "내선",
+      "number": "3560"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "42",
+    "name": "사회복지과",
+    "phone": {
+      "type": "내선",
+      "number": "3610"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "43",
+    "name": "환경보호과",
+    "phone": {
+      "type": "내선",
+      "number": "3660"
+    },
+    "parentDept": {
+      "id": "8",
+      "name": "안전행정국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3031"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "54",
+    "name": "지역경제과",
+    "phone": {
+      "type": "내선",
+      "number": "3710"
+    },
+    "parentDept": {
+      "id": "10",
+      "name": "경제도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3032"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "55",
+    "name": "건축허가과",
+    "phone": {
+      "type": "내선",
+      "number": "3760"
+    },
+    "parentDept": {
+      "id": "10",
+      "name": "경제도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3032"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "56",
+    "name": "건설과",
+    "phone": {
+      "type": "내선",
+      "number": "3810"
+    },
+    "parentDept": {
+      "id": "10",
+      "name": "경제도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3032"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "57",
+    "name": "도시재생과",
+    "phone": {
+      "type": "내선",
+      "number": "3860"
+    },
+    "parentDept": {
+      "id": "10",
+      "name": "경제도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3032"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "58",
+    "name": "도로과",
+    "phone": {
+      "type": "내선",
+      "number": "3910"
+    },
+    "parentDept": {
+      "id": "10",
+      "name": "경제도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3032"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "59",
+    "name": "교통과",
+    "phone": {
+      "type": "내선",
+      "number": "3960"
+    },
+    "parentDept": {
+      "id": "10",
+      "name": "경제도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3032"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "60",
+    "name": "산림공원과",
+    "phone": {
+      "type": "내선",
+      "number": "4060"
+    },
+    "parentDept": {
+      "id": "10",
+      "name": "경제도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3032"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "61",
+    "name": "수도과",
+    "phone": {
+      "type": "내선",
+      "number": "4110"
+    },
+    "parentDept": {
+      "id": "10",
+      "name": "경제도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3032"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "62",
+    "name": "해양정책과",
+    "phone": {
+      "type": "내선",
+      "number": "6510"
+    },
+    "parentDept": {
+      "id": "11",
+      "name": "해양수산관광국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3033"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "63",
+    "name": "관광과",
+    "phone": {
+      "type": "내선",
+      "number": "6560"
+    },
+    "parentDept": {
+      "id": "11",
+      "name": "해양수산관광국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3033"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "64",
+    "name": "박람회지원단",
+    "phone": {
+      "type": "내선",
+      "number": "3050"
+    },
+    "parentDept": {
+      "id": "11",
+      "name": "해양수산관광국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3033"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "65",
+    "name": "미래사업과",
+    "phone": {
+      "type": "내선",
+      "number": "6710"
+    },
+    "parentDept": {
+      "id": "11",
+      "name": "해양수산관광국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3033"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "66",
+    "name": "수산과",
+    "phone": {
+      "type": "내선",
+      "number": "6760"
+    },
+    "parentDept": {
+      "id": "11",
+      "name": "해양수산관광국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3033"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "67",
+    "name": "해수욕장경영과",
+    "phone": {
+      "type": "내선",
+      "number": "6810"
+    },
+    "parentDept": {
+      "id": "11",
+      "name": "해양수산관광국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3033"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "68",
+    "name": "박람회기획단",
+    "phone": {
+      "type": "내선",
+      "number": "3060"
+    },
+    "parentDept": {
+      "id": "12",
+      "name": "박람회지원본부",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": null
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "69",
+    "name": "박람회시설단",
+    "phone": {
+      "type": "내선",
+      "number": "3080"
+    },
+    "parentDept": {
+      "id": "12",
+      "name": "박람회지원본부",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": null
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "70",
+    "name": "보건행정과",
+    "phone": {
+      "type": "내선",
+      "number": "5910"
+    },
+    "parentDept": {
+      "id": "13",
+      "name": "보건소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3034"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "71",
+    "name": "건강증진과",
+    "phone": {
+      "type": "내선",
+      "number": "5960"
+    },
+    "parentDept": {
+      "id": "13",
+      "name": "보건소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3034"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "72",
+    "name": "농업정책과",
+    "phone": {
+      "type": "내선",
+      "number": "7610"
+    },
+    "parentDept": {
+      "id": "14",
+      "name": "농업기술센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3035"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "73",
+    "name": "농업지원과",
+    "phone": {
+      "type": "내선",
+      "number": "7660"
+    },
+    "parentDept": {
+      "id": "14",
+      "name": "농업기술센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3035"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "74",
+    "name": "축산과",
+    "phone": {
+      "type": "내선",
+      "number": "7910"
+    },
+    "parentDept": {
+      "id": "14",
+      "name": "농업기술센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3035"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "75",
+    "name": "친환경기술과",
+    "phone": {
+      "type": "내선",
+      "number": "7960"
+    },
+    "parentDept": {
+      "id": "14",
+      "name": "농업기술센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3035"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "76",
+    "name": "의회사무국",
+    "phone": {
+      "type": "내선",
+      "number": "4024"
+    },
+    "parentDept": {
+      "id": "16",
+      "name": "의회",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4024"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "77",
+    "name": "원산도출장소",
+    "phone": {
+      "type": "내선",
+      "number": "4607"
+    },
+    "parentDept": {
+      "id": "20",
+      "name": "오천면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0803"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "78",
+    "name": "어항출장소",
+    "phone": {
+      "type": "내선",
+      "number": "4606"
+    },
+    "parentDept": {
+      "id": "20",
+      "name": "오천면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0803"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "79",
+    "name": "웅천보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0901"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "80",
+    "name": "주포보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0902"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "81",
+    "name": "주교보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0903"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "82",
+    "name": "오천보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0904"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "83",
+    "name": "천북보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0905"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "84",
+    "name": "청소보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0906"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "85",
+    "name": "청라보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0907"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "86",
+    "name": "주산보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0908"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "87",
+    "name": "미산보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0909"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "88",
+    "name": "성주보건지소",
+    "phone": {
+      "type": "내선",
+      "number": "0910"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "89",
+    "name": "교성보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0911"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "90",
+    "name": "원산도보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0912"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "91",
+    "name": "삽시도보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0913"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "92",
+    "name": "외연도보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0914"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "93",
+    "name": "효자도보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0915"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "94",
+    "name": "장고도보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0916"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "95",
+    "name": "고대도보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0917"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "96",
+    "name": "녹도보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0918"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "97",
+    "name": "호도보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0919"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "98",
+    "name": "학성보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0920"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "99",
+    "name": "장은보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0921"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "100",
+    "name": "장현보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0922"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "101",
+    "name": "양기보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0923"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "102",
+    "name": "삼현보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0924"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "103",
+    "name": "황교보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0925"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "104",
+    "name": "수곡보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0926"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "105",
+    "name": "봉성보건진료소",
+    "phone": {
+      "type": "내선",
+      "number": "0927"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "106",
+    "name": "북부지구지소",
+    "phone": {
+      "type": "내선",
+      "number": "7656"
+    },
+    "parentDept": {
+      "id": "73",
+      "name": "농업지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "107",
+    "name": "중부지구지소",
+    "phone": {
+      "type": "내선",
+      "number": "7657"
+    },
+    "parentDept": {
+      "id": "73",
+      "name": "농업지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "108",
+    "name": "남부지구지소",
+    "phone": {
+      "type": "내선",
+      "number": "7658"
+    },
+    "parentDept": {
+      "id": "73",
+      "name": "농업지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "109",
+    "name": "산림휴양팀",
+    "phone": {
+      "type": "내선",
+      "number": "4056"
+    },
+    "parentDept": {
+      "id": "60",
+      "name": "산림공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4060"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "110",
+    "name": "청사관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3554"
+    },
+    "parentDept": {
+      "id": "41",
+      "name": "회계과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3560"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "111",
+    "name": "진료팀",
+    "phone": {
+      "type": "내선",
+      "number": "5904"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "112",
+    "name": "원예특작팀",
+    "phone": {
+      "type": "내선",
+      "number": "7952"
+    },
+    "parentDept": {
+      "id": "75",
+      "name": "친환경기술과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "113",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4732"
+    },
+    "parentDept": {
+      "id": "24",
+      "name": "남포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0807"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "114",
+    "name": "가축방역팀",
+    "phone": {
+      "type": "내선",
+      "number": "7902"
+    },
+    "parentDept": {
+      "id": "74",
+      "name": "축산과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "115",
+    "name": "수도행정팀",
+    "phone": {
+      "type": "내선",
+      "number": "4101"
+    },
+    "parentDept": {
+      "id": "61",
+      "name": "수도과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "116",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4822"
+    },
+    "parentDept": {
+      "id": "27",
+      "name": "성주면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "117",
+    "name": "세정팀",
+    "phone": {
+      "type": "내선",
+      "number": "3501"
+    },
+    "parentDept": {
+      "id": "40",
+      "name": "세무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "118",
+    "name": "의정팀",
+    "phone": {
+      "type": "내선",
+      "number": "4024"
+    },
+    "parentDept": {
+      "id": "76",
+      "name": "의회사무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4024"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "119",
+    "name": "수산자원팀",
+    "phone": {
+      "type": "내선",
+      "number": "6752"
+    },
+    "parentDept": {
+      "id": "66",
+      "name": "수산과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "120",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4572"
+    },
+    "parentDept": {
+      "id": "19",
+      "name": "주교면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0802"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "121",
+    "name": "보건행정팀",
+    "phone": {
+      "type": "내선",
+      "number": "5901"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "122",
+    "name": "교통지도팀",
+    "phone": {
+      "type": "내선",
+      "number": "3952"
+    },
+    "parentDept": {
+      "id": "59",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "123",
+    "name": "전산팀",
+    "phone": {
+      "type": "내선",
+      "number": "3153"
+    },
+    "parentDept": {
+      "id": "7",
+      "name": "홍보미디어실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3160"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "124",
+    "name": "건축허가팀",
+    "phone": {
+      "type": "내선",
+      "number": "3752"
+    },
+    "parentDept": {
+      "id": "55",
+      "name": "건축허가과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "125",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4543"
+    },
+    "parentDept": {
+      "id": "18",
+      "name": "주포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0801"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "126",
+    "name": "복구지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "3252"
+    },
+    "parentDept": {
+      "id": "34",
+      "name": "안전총괄과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3260"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "127",
+    "name": "무창포운영팀",
+    "phone": {
+      "type": "내선",
+      "number": "6802"
+    },
+    "parentDept": {
+      "id": "67",
+      "name": "해수욕장경영과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "128",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4971"
+    },
+    "parentDept": {
+      "id": "32",
+      "name": "대천5동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0815"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "129",
+    "name": "해양정책팀",
+    "phone": {
+      "type": "내선",
+      "number": "6501"
+    },
+    "parentDept": {
+      "id": "62",
+      "name": "해양정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "130",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4851"
+    },
+    "parentDept": {
+      "id": "28",
+      "name": "대천1동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0811"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "131",
+    "name": "계약팀",
+    "phone": {
+      "type": "내선",
+      "number": "3552"
+    },
+    "parentDept": {
+      "id": "41",
+      "name": "회계과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3560"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "132",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4941"
+    },
+    "parentDept": {
+      "id": "31",
+      "name": "대천4동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0814"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "133",
+    "name": "도서관팀",
+    "phone": {
+      "type": "내선",
+      "number": "3302"
+    },
+    "parentDept": {
+      "id": "35",
+      "name": "교육체육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3310"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "134",
+    "name": "농촌개발팀",
+    "phone": {
+      "type": "내선",
+      "number": "3802"
+    },
+    "parentDept": {
+      "id": "56",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "135",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4882"
+    },
+    "parentDept": {
+      "id": "29",
+      "name": "대천2동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0812"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "136",
+    "name": "도시재생사업팀",
+    "phone": {
+      "type": "내선",
+      "number": "3854"
+    },
+    "parentDept": {
+      "id": "57",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3860"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "137",
+    "name": "가족관계등록팀",
+    "phone": {
+      "type": "내선",
+      "number": "3452"
+    },
+    "parentDept": {
+      "id": "39",
+      "name": "민원지적과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3460"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "138",
+    "name": "건강증진팀",
+    "phone": {
+      "type": "내선",
+      "number": "5951"
+    },
+    "parentDept": {
+      "id": "71",
+      "name": "건강증진과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "139",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4702"
+    },
+    "parentDept": {
+      "id": "23",
+      "name": "청라면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0806"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "140",
+    "name": "문예회관팀",
+    "phone": {
+      "type": "내선",
+      "number": "3403"
+    },
+    "parentDept": {
+      "id": "38",
+      "name": "문화새마을과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3410"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "141",
+    "name": "여성청소년팀",
+    "phone": {
+      "type": "내선",
+      "number": "9200"
+    },
+    "parentDept": {
+      "id": "42",
+      "name": "사회복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "142",
+    "name": "관광개발팀",
+    "phone": {
+      "type": "내선",
+      "number": "6552"
+    },
+    "parentDept": {
+      "id": "63",
+      "name": "관광과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6560"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "143",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4672"
+    },
+    "parentDept": {
+      "id": "22",
+      "name": "청소면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0805"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "144",
+    "name": "환경지도팀",
+    "phone": {
+      "type": "내선",
+      "number": "3653"
+    },
+    "parentDept": {
+      "id": "43",
+      "name": "환경보호과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "145",
+    "name": "감사팀",
+    "phone": {
+      "type": "내선",
+      "number": "3102"
+    },
+    "parentDept": {
+      "id": "6",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "146",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4502"
+    },
+    "parentDept": {
+      "id": "17",
+      "name": "웅천읍사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0800"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "147",
+    "name": "지역경제팀",
+    "phone": {
+      "type": "내선",
+      "number": "3701"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "148",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4792"
+    },
+    "parentDept": {
+      "id": "26",
+      "name": "미산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0809"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "149",
+    "name": "국도77호개통팀",
+    "phone": {
+      "type": "내선",
+      "number": "6702"
+    },
+    "parentDept": {
+      "id": "65",
+      "name": "미래사업과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "150",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4911"
+    },
+    "parentDept": {
+      "id": "30",
+      "name": "대천3동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0813"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "151",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4761"
+    },
+    "parentDept": {
+      "id": "25",
+      "name": "주산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0808"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "152",
+    "name": "복지기획팀",
+    "phone": {
+      "type": "내선",
+      "number": "3351"
+    },
+    "parentDept": {
+      "id": "37",
+      "name": "주민생활지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3360"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "153",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4972"
+    },
+    "parentDept": {
+      "id": "32",
+      "name": "대천5동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0815"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "154",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4733"
+    },
+    "parentDept": {
+      "id": "24",
+      "name": "남포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0807"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "155",
+    "name": "국비TF팀",
+    "phone": {
+      "type": "내선",
+      "number": "3107"
+    },
+    "parentDept": {
+      "id": "6",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "156",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4675"
+    },
+    "parentDept": {
+      "id": "22",
+      "name": "청소면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0805"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "157",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4601"
+    },
+    "parentDept": {
+      "id": "20",
+      "name": "오천면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0803"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "158",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4642"
+    },
+    "parentDept": {
+      "id": "21",
+      "name": "천북면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0804"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "159",
+    "name": "어업지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "6753"
+    },
+    "parentDept": {
+      "id": "66",
+      "name": "수산과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "160",
+    "name": "민원복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "6852"
+    },
+    "parentDept": {
+      "id": "15",
+      "name": "원산도출장소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4607"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "161",
+    "name": "전략사업팀",
+    "phone": {
+      "type": "내선",
+      "number": "6701"
+    },
+    "parentDept": {
+      "id": "65",
+      "name": "미래사업과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "162",
+    "name": "산림보호팀",
+    "phone": {
+      "type": "내선",
+      "number": "4052"
+    },
+    "parentDept": {
+      "id": "60",
+      "name": "산림공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4060"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "163",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4703"
+    },
+    "parentDept": {
+      "id": "23",
+      "name": "청라면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0806"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "164",
+    "name": "시정팀",
+    "phone": {
+      "type": "내선",
+      "number": "3202"
+    },
+    "parentDept": {
+      "id": "33",
+      "name": "자치행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3210"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "165",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4912"
+    },
+    "parentDept": {
+      "id": "30",
+      "name": "대천3동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0813"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "166",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4823"
+    },
+    "parentDept": {
+      "id": "27",
+      "name": "성주면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "167",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4674"
+    },
+    "parentDept": {
+      "id": "22",
+      "name": "청소면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0805"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "168",
+    "name": "부속실",
+    "phone": {
+      "type": "내선",
+      "number": "5910"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "169",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4852"
+    },
+    "parentDept": {
+      "id": "28",
+      "name": "대천1동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0811"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "170",
+    "name": "도시디자인팀",
+    "phone": {
+      "type": "내선",
+      "number": "3853"
+    },
+    "parentDept": {
+      "id": "57",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3860"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "171",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4503"
+    },
+    "parentDept": {
+      "id": "17",
+      "name": "웅천읍사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0800"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "172",
+    "name": "의장부속실",
+    "phone": {
+      "type": "내선",
+      "number": "4012"
+    },
+    "parentDept": {
+      "id": "76",
+      "name": "의회사무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4024"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "173",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4793"
+    },
+    "parentDept": {
+      "id": "26",
+      "name": "미산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0809"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "174",
+    "name": "지역개발팀",
+    "phone": {
+      "type": "내선",
+      "number": "3803"
+    },
+    "parentDept": {
+      "id": "56",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "175",
+    "name": "문화재관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "6553"
+    },
+    "parentDept": {
+      "id": "63",
+      "name": "관광과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6560"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "176",
+    "name": "농산팀",
+    "phone": {
+      "type": "내선",
+      "number": "7602"
+    },
+    "parentDept": {
+      "id": "72",
+      "name": "농업정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "177",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4573"
+    },
+    "parentDept": {
+      "id": "19",
+      "name": "주교면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0802"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "178",
+    "name": "건축신고팀",
+    "phone": {
+      "type": "내선",
+      "number": "3753"
+    },
+    "parentDept": {
+      "id": "55",
+      "name": "건축허가과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "179",
+    "name": "차량등록팀",
+    "phone": {
+      "type": "내선",
+      "number": "3453"
+    },
+    "parentDept": {
+      "id": "39",
+      "name": "민원지적과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3460"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "180",
+    "name": "해양관광개발팀",
+    "phone": {
+      "type": "내선",
+      "number": "6702"
+    },
+    "parentDept": {
+      "id": "65",
+      "name": "미래사업과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "181",
+    "name": "인사팀",
+    "phone": {
+      "type": "내선",
+      "number": "3203"
+    },
+    "parentDept": {
+      "id": "33",
+      "name": "자치행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3210"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "182",
+    "name": "연구개발팀",
+    "phone": {
+      "type": "내선",
+      "number": "7953"
+    },
+    "parentDept": {
+      "id": "75",
+      "name": "친환경기술과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "183",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4704"
+    },
+    "parentDept": {
+      "id": "23",
+      "name": "청라면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0806"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "184",
+    "name": "방문보건팀",
+    "phone": {
+      "type": "내선",
+      "number": "5952"
+    },
+    "parentDept": {
+      "id": "71",
+      "name": "건강증진과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "185",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "6851"
+    },
+    "parentDept": {
+      "id": "15",
+      "name": "원산도출장소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4607"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "186",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4544"
+    },
+    "parentDept": {
+      "id": "18",
+      "name": "주포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0801"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "187",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4883"
+    },
+    "parentDept": {
+      "id": "29",
+      "name": "대천2동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0812"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "188",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4734"
+    },
+    "parentDept": {
+      "id": "24",
+      "name": "남포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0807"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "189",
+    "name": "지도기획팀",
+    "phone": {
+      "type": "내선",
+      "number": "7651"
+    },
+    "parentDept": {
+      "id": "73",
+      "name": "농업지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "190",
+    "name": "동물자원팀",
+    "phone": {
+      "type": "내선",
+      "number": "7903"
+    },
+    "parentDept": {
+      "id": "74",
+      "name": "축산과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "191",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4504"
+    },
+    "parentDept": {
+      "id": "17",
+      "name": "웅천읍사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0800"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "192",
+    "name": "민방위팀",
+    "phone": {
+      "type": "내선",
+      "number": "3253"
+    },
+    "parentDept": {
+      "id": "34",
+      "name": "안전총괄과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3260"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "193",
+    "name": "청소환경팀",
+    "phone": {
+      "type": "내선",
+      "number": "3654"
+    },
+    "parentDept": {
+      "id": "43",
+      "name": "환경보호과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "194",
+    "name": "조사팀",
+    "phone": {
+      "type": "내선",
+      "number": "3103"
+    },
+    "parentDept": {
+      "id": "6",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "195",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4824"
+    },
+    "parentDept": {
+      "id": "27",
+      "name": "성주면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "196",
+    "name": "시설관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "6803"
+    },
+    "parentDept": {
+      "id": "67",
+      "name": "해수욕장경영과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "197",
+    "name": "특사경지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "3204"
+    },
+    "parentDept": {
+      "id": "33",
+      "name": "자치행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3210"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "198",
+    "name": "자치인권팀",
+    "phone": {
+      "type": "내선",
+      "number": "3246"
+    },
+    "parentDept": {
+      "id": "33",
+      "name": "자치행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3210"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "199",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4973"
+    },
+    "parentDept": {
+      "id": "32",
+      "name": "대천5동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0815"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "200",
+    "name": "보육지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "3603"
+    },
+    "parentDept": {
+      "id": "42",
+      "name": "사회복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "201",
+    "name": "의사팀",
+    "phone": {
+      "type": "내선",
+      "number": "4025"
+    },
+    "parentDept": {
+      "id": "76",
+      "name": "의회사무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4024"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "202",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4574"
+    },
+    "parentDept": {
+      "id": "19",
+      "name": "주교면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0802"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "203",
+    "name": "해양치유산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "6704"
+    },
+    "parentDept": {
+      "id": "65",
+      "name": "미래사업과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "204",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4794"
+    },
+    "parentDept": {
+      "id": "26",
+      "name": "미산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0809"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "205",
+    "name": "부속실",
+    "phone": {
+      "type": "내선",
+      "number": "3710"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "206",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4731"
+    },
+    "parentDept": {
+      "id": "24",
+      "name": "남포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0807"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "207",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4673"
+    },
+    "parentDept": {
+      "id": "22",
+      "name": "청소면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0805"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "208",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4705"
+    },
+    "parentDept": {
+      "id": "23",
+      "name": "청라면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0806"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "209",
+    "name": "도시재생정책팀",
+    "phone": {
+      "type": "내선",
+      "number": "3852"
+    },
+    "parentDept": {
+      "id": "57",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3860"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "210",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4501"
+    },
+    "parentDept": {
+      "id": "17",
+      "name": "웅천읍사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0800"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "211",
+    "name": "정보통신팀",
+    "phone": {
+      "type": "내선",
+      "number": "3154"
+    },
+    "parentDept": {
+      "id": "7",
+      "name": "홍보미디어실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3160"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "212",
+    "name": "치매관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "5955"
+    },
+    "parentDept": {
+      "id": "71",
+      "name": "건강증진과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "213",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4825"
+    },
+    "parentDept": {
+      "id": "27",
+      "name": "성주면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "214",
+    "name": "토지정책팀",
+    "phone": {
+      "type": "내선",
+      "number": "3454"
+    },
+    "parentDept": {
+      "id": "39",
+      "name": "민원지적과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3460"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "215",
+    "name": "예산팀",
+    "phone": {
+      "type": "내선",
+      "number": "3103"
+    },
+    "parentDept": {
+      "id": "6",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "216",
+    "name": "하천팀",
+    "phone": {
+      "type": "내선",
+      "number": "3804"
+    },
+    "parentDept": {
+      "id": "56",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "217",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4913"
+    },
+    "parentDept": {
+      "id": "30",
+      "name": "대천3동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0813"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "218",
+    "name": "서무팀",
+    "phone": {
+      "type": "내선",
+      "number": "3201"
+    },
+    "parentDept": {
+      "id": "33",
+      "name": "자치행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3210"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "219",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4735"
+    },
+    "parentDept": {
+      "id": "24",
+      "name": "남포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0807"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "220",
+    "name": "교통시설팀",
+    "phone": {
+      "type": "내선",
+      "number": "3953"
+    },
+    "parentDept": {
+      "id": "59",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "221",
+    "name": "도시재생센터",
+    "phone": {
+      "type": "내선",
+      "number": "3854"
+    },
+    "parentDept": {
+      "id": "57",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3860"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "222",
+    "name": "개발팀",
+    "phone": {
+      "type": "내선",
+      "number": "4505"
+    },
+    "parentDept": {
+      "id": "17",
+      "name": "웅천읍사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0800"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "223",
+    "name": "재산관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3553"
+    },
+    "parentDept": {
+      "id": "41",
+      "name": "회계과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3560"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "224",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4571"
+    },
+    "parentDept": {
+      "id": "19",
+      "name": "주교면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0802"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "225",
+    "name": "건축물유지관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3754"
+    },
+    "parentDept": {
+      "id": "55",
+      "name": "건축허가과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "226",
+    "name": "통합관제팀",
+    "phone": {
+      "type": "내선",
+      "number": "3254"
+    },
+    "parentDept": {
+      "id": "34",
+      "name": "안전총괄과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3260"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "227",
+    "name": "환경관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3651"
+    },
+    "parentDept": {
+      "id": "43",
+      "name": "환경보호과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "228",
+    "name": "체전기획팀",
+    "phone": {
+      "type": "내선",
+      "number": "2601"
+    },
+    "parentDept": {
+      "id": "36",
+      "name": "충남체전준비단",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": null
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "229",
+    "name": "평생교육팀",
+    "phone": {
+      "type": "내선",
+      "number": "3301"
+    },
+    "parentDept": {
+      "id": "35",
+      "name": "교육체육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3310"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "230",
+    "name": "수산행정팀",
+    "phone": {
+      "type": "내선",
+      "number": "6751"
+    },
+    "parentDept": {
+      "id": "66",
+      "name": "수산과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "231",
+    "name": "건축행정팀",
+    "phone": {
+      "type": "내선",
+      "number": "3751"
+    },
+    "parentDept": {
+      "id": "55",
+      "name": "건축허가과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "232",
+    "name": "대천운영팀",
+    "phone": {
+      "type": "내선",
+      "number": "6801"
+    },
+    "parentDept": {
+      "id": "67",
+      "name": "해수욕장경영과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "233",
+    "name": "산림경영팀",
+    "phone": {
+      "type": "내선",
+      "number": "4051"
+    },
+    "parentDept": {
+      "id": "60",
+      "name": "산림공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4060"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "234",
+    "name": "경리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3551"
+    },
+    "parentDept": {
+      "id": "41",
+      "name": "회계과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3560"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "235",
+    "name": "문화예술팀",
+    "phone": {
+      "type": "내선",
+      "number": "3401"
+    },
+    "parentDept": {
+      "id": "38",
+      "name": "문화새마을과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3410"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "236",
+    "name": "도시계획팀",
+    "phone": {
+      "type": "내선",
+      "number": "3851"
+    },
+    "parentDept": {
+      "id": "57",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3860"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "237",
+    "name": "도로시설팀",
+    "phone": {
+      "type": "내선",
+      "number": "3901"
+    },
+    "parentDept": {
+      "id": "58",
+      "name": "도로과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "238",
+    "name": "민원봉사팀",
+    "phone": {
+      "type": "내선",
+      "number": "3451"
+    },
+    "parentDept": {
+      "id": "39",
+      "name": "민원지적과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3460"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "239",
+    "name": "축산팀",
+    "phone": {
+      "type": "내선",
+      "number": "7901"
+    },
+    "parentDept": {
+      "id": "74",
+      "name": "축산과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "240",
+    "name": "홍보팀",
+    "phone": {
+      "type": "내선",
+      "number": "3151"
+    },
+    "parentDept": {
+      "id": "7",
+      "name": "홍보미디어실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3160"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "241",
+    "name": "정책기획팀",
+    "phone": {
+      "type": "내선",
+      "number": "3101"
+    },
+    "parentDept": {
+      "id": "6",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "242",
+    "name": "작물환경팀",
+    "phone": {
+      "type": "내선",
+      "number": "7951"
+    },
+    "parentDept": {
+      "id": "75",
+      "name": "친환경기술과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "243",
+    "name": "관광진흥팀",
+    "phone": {
+      "type": "내선",
+      "number": "6551"
+    },
+    "parentDept": {
+      "id": "63",
+      "name": "관광과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6560"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "244",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4881"
+    },
+    "parentDept": {
+      "id": "29",
+      "name": "대천2동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0812"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "245",
+    "name": "농정팀",
+    "phone": {
+      "type": "내선",
+      "number": "7601"
+    },
+    "parentDept": {
+      "id": "72",
+      "name": "농업정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "246",
+    "name": "안전정책팀",
+    "phone": {
+      "type": "내선",
+      "number": "3251"
+    },
+    "parentDept": {
+      "id": "34",
+      "name": "안전총괄과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3260"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "247",
+    "name": "경로복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "3601"
+    },
+    "parentDept": {
+      "id": "42",
+      "name": "사회복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "248",
+    "name": "교통행정팀",
+    "phone": {
+      "type": "내선",
+      "number": "3951"
+    },
+    "parentDept": {
+      "id": "59",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "249",
+    "name": "건설행정팀",
+    "phone": {
+      "type": "내선",
+      "number": "3801"
+    },
+    "parentDept": {
+      "id": "56",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "250",
+    "name": "학교급식팀",
+    "phone": {
+      "type": "내선",
+      "number": "7603"
+    },
+    "parentDept": {
+      "id": "72",
+      "name": "농업정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "251",
+    "name": "자활의료팀",
+    "phone": {
+      "type": "내선",
+      "number": "3352"
+    },
+    "parentDept": {
+      "id": "37",
+      "name": "주민생활지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3360"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "252",
+    "name": "도로관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3902"
+    },
+    "parentDept": {
+      "id": "58",
+      "name": "도로과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "253",
+    "name": "재산과표팀",
+    "phone": {
+      "type": "내선",
+      "number": "3502"
+    },
+    "parentDept": {
+      "id": "40",
+      "name": "세무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "254",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4575"
+    },
+    "parentDept": {
+      "id": "19",
+      "name": "주교면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0802"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "255",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4853"
+    },
+    "parentDept": {
+      "id": "28",
+      "name": "대천1동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0811"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "256",
+    "name": "문화의전당팀",
+    "phone": {
+      "type": "내선",
+      "number": "3404"
+    },
+    "parentDept": {
+      "id": "38",
+      "name": "문화새마을과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3410"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "257",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4671"
+    },
+    "parentDept": {
+      "id": "22",
+      "name": "청소면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0805"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "258",
+    "name": "감염병관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "5902"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "259",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4942"
+    },
+    "parentDept": {
+      "id": "31",
+      "name": "대천4동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0814"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "260",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4762"
+    },
+    "parentDept": {
+      "id": "25",
+      "name": "주산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0808"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "261",
+    "name": "기업유치팀",
+    "phone": {
+      "type": "내선",
+      "number": "3702"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "262",
+    "name": "섬자원개발팀",
+    "phone": {
+      "type": "내선",
+      "number": "6502"
+    },
+    "parentDept": {
+      "id": "62",
+      "name": "해양정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "263",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4643"
+    },
+    "parentDept": {
+      "id": "21",
+      "name": "천북면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0804"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "264",
+    "name": "산림자원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4053"
+    },
+    "parentDept": {
+      "id": "60",
+      "name": "산림공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4060"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "265",
+    "name": "아동친화드림팀",
+    "phone": {
+      "type": "내선",
+      "number": "3604"
+    },
+    "parentDept": {
+      "id": "42",
+      "name": "사회복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "266",
+    "name": "수산산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "6754"
+    },
+    "parentDept": {
+      "id": "66",
+      "name": "수산과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "267",
+    "name": "맞춤형복지",
+    "phone": {
+      "type": "내선",
+      "number": "4853"
+    },
+    "parentDept": {
+      "id": "28",
+      "name": "대천1동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0811"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "268",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4602"
+    },
+    "parentDept": {
+      "id": "20",
+      "name": "오천면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0803"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "269",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "6853"
+    },
+    "parentDept": {
+      "id": "15",
+      "name": "원산도출장소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4607"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "270",
+    "name": "마을공동체팀",
+    "phone": {
+      "type": "내선",
+      "number": "3855"
+    },
+    "parentDept": {
+      "id": "57",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3860"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "271",
+    "name": "홍보팀",
+    "phone": {
+      "type": "내선",
+      "number": "3151"
+    },
+    "parentDept": {
+      "id": "76",
+      "name": "의회사무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4024"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "272",
+    "name": "조명팀",
+    "phone": {
+      "type": "내선",
+      "number": "3954"
+    },
+    "parentDept": {
+      "id": "59",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "273",
+    "name": "주택팀",
+    "phone": {
+      "type": "내선",
+      "number": "3754"
+    },
+    "parentDept": {
+      "id": "55",
+      "name": "건축허가과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "274",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4506"
+    },
+    "parentDept": {
+      "id": "17",
+      "name": "웅천읍사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0800"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "275",
+    "name": "의회법무팀",
+    "phone": {
+      "type": "내선",
+      "number": "3105"
+    },
+    "parentDept": {
+      "id": "6",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "276",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4603"
+    },
+    "parentDept": {
+      "id": "20",
+      "name": "오천면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0803"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "277",
+    "name": "정신건강팀",
+    "phone": {
+      "type": "내선",
+      "number": "5953"
+    },
+    "parentDept": {
+      "id": "71",
+      "name": "건강증진과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "278",
+    "name": "어촌어항팀",
+    "phone": {
+      "type": "내선",
+      "number": "6755"
+    },
+    "parentDept": {
+      "id": "66",
+      "name": "수산과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "279",
+    "name": "체육지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "3303"
+    },
+    "parentDept": {
+      "id": "35",
+      "name": "교육체육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3310"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "280",
+    "name": "지적관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3455"
+    },
+    "parentDept": {
+      "id": "39",
+      "name": "민원지적과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3460"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "281",
+    "name": "인구정책팀",
+    "phone": {
+      "type": "내선",
+      "number": "3106"
+    },
+    "parentDept": {
+      "id": "6",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "282",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4604"
+    },
+    "parentDept": {
+      "id": "20",
+      "name": "오천면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0803"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "283",
+    "name": "수질관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3655"
+    },
+    "parentDept": {
+      "id": "43",
+      "name": "환경보호과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "284",
+    "name": "토지이용남부팀",
+    "phone": {
+      "type": "내선",
+      "number": "3755"
+    },
+    "parentDept": {
+      "id": "55",
+      "name": "건축허가과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "285",
+    "name": "남부토지이용팀",
+    "phone": {
+      "type": "내선",
+      "number": "3756"
+    },
+    "parentDept": {
+      "id": "55",
+      "name": "건축허가과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "286",
+    "name": "지적정보팀",
+    "phone": {
+      "type": "내선",
+      "number": "3456"
+    },
+    "parentDept": {
+      "id": "39",
+      "name": "민원지적과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3460"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "287",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4701"
+    },
+    "parentDept": {
+      "id": "23",
+      "name": "청라면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0806"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "288",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4541"
+    },
+    "parentDept": {
+      "id": "18",
+      "name": "주포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0801"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "289",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4821"
+    },
+    "parentDept": {
+      "id": "27",
+      "name": "성주면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0810"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "290",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4641"
+    },
+    "parentDept": {
+      "id": "21",
+      "name": "천북면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0804"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "291",
+    "name": "관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "4102"
+    },
+    "parentDept": {
+      "id": "61",
+      "name": "수도과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "292",
+    "name": "징수팀",
+    "phone": {
+      "type": "내선",
+      "number": "3503"
+    },
+    "parentDept": {
+      "id": "40",
+      "name": "세무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "293",
+    "name": "공원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4054"
+    },
+    "parentDept": {
+      "id": "60",
+      "name": "산림공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4060"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "294",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4943"
+    },
+    "parentDept": {
+      "id": "31",
+      "name": "대천4동주민센터",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0814"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "295",
+    "name": "총무팀",
+    "phone": {
+      "type": "내선",
+      "number": "4791"
+    },
+    "parentDept": {
+      "id": "26",
+      "name": "미산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0809"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "296",
+    "name": "마케팅지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "7604"
+    },
+    "parentDept": {
+      "id": "72",
+      "name": "농업정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "297",
+    "name": "일자리정책팀",
+    "phone": {
+      "type": "내선",
+      "number": "3703"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "298",
+    "name": "주민생활지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4763"
+    },
+    "parentDept": {
+      "id": "25",
+      "name": "주산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0808"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "299",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4644"
+    },
+    "parentDept": {
+      "id": "21",
+      "name": "천북면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0804"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "300",
+    "name": "통합조사관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3353"
+    },
+    "parentDept": {
+      "id": "37",
+      "name": "주민생활지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3360"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "301",
+    "name": "해양환경항만팀",
+    "phone": {
+      "type": "내선",
+      "number": "6503"
+    },
+    "parentDept": {
+      "id": "62",
+      "name": "해양정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "302",
+    "name": "체육시설관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3304"
+    },
+    "parentDept": {
+      "id": "35",
+      "name": "교육체육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3310"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "303",
+    "name": "북부토지이용팀",
+    "phone": {
+      "type": "내선",
+      "number": "3757"
+    },
+    "parentDept": {
+      "id": "55",
+      "name": "건축허가과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3760"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "304",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4605"
+    },
+    "parentDept": {
+      "id": "20",
+      "name": "오천면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0803"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "305",
+    "name": "모자보건팀",
+    "phone": {
+      "type": "내선",
+      "number": "5954"
+    },
+    "parentDept": {
+      "id": "71",
+      "name": "건강증진과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5960"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "306",
+    "name": "일자리지원센터",
+    "phone": {
+      "type": "내선",
+      "number": "3703"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "307",
+    "name": "장애인지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "3604"
+    },
+    "parentDept": {
+      "id": "42",
+      "name": "사회복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3610"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "308",
+    "name": "지적재조사팀",
+    "phone": {
+      "type": "내선",
+      "number": "3457"
+    },
+    "parentDept": {
+      "id": "39",
+      "name": "민원지적과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3460"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "309",
+    "name": "인력육성팀",
+    "phone": {
+      "type": "내선",
+      "number": "7652"
+    },
+    "parentDept": {
+      "id": "73",
+      "name": "농업지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "310",
+    "name": "의약팀",
+    "phone": {
+      "type": "내선",
+      "number": "5903"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "311",
+    "name": "녹지조경팀",
+    "phone": {
+      "type": "내선",
+      "number": "4055"
+    },
+    "parentDept": {
+      "id": "60",
+      "name": "산림공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4060"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "312",
+    "name": "세외수입체납팀",
+    "phone": {
+      "type": "내선",
+      "number": "3504"
+    },
+    "parentDept": {
+      "id": "40",
+      "name": "세무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "313",
+    "name": "산업단지조성팀",
+    "phone": {
+      "type": "내선",
+      "number": "3704"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "314",
+    "name": "산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "4764"
+    },
+    "parentDept": {
+      "id": "25",
+      "name": "주산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0808"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "315",
+    "name": "행복키움지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "3354"
+    },
+    "parentDept": {
+      "id": "37",
+      "name": "주민생활지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3360"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "316",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4645"
+    },
+    "parentDept": {
+      "id": "21",
+      "name": "천북면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0804"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "317",
+    "name": "체전운영팀",
+    "phone": {
+      "type": "내선",
+      "number": "2602"
+    },
+    "parentDept": {
+      "id": "36",
+      "name": "충남체전준비단",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": null
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "318",
+    "name": "전문위원실",
+    "phone": {
+      "type": "내선",
+      "number": "4021"
+    },
+    "parentDept": {
+      "id": "76",
+      "name": "의회사무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4024"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "319",
+    "name": "세입관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3505"
+    },
+    "parentDept": {
+      "id": "40",
+      "name": "세무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "320",
+    "name": "도시계획도로팀",
+    "phone": {
+      "type": "내선",
+      "number": "3903"
+    },
+    "parentDept": {
+      "id": "58",
+      "name": "도로과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "321",
+    "name": "맞춤형복지팀",
+    "phone": {
+      "type": "내선",
+      "number": "4765"
+    },
+    "parentDept": {
+      "id": "25",
+      "name": "주산면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0808"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "322",
+    "name": "기업지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "3705"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "323",
+    "name": "종합복지관팀",
+    "phone": {
+      "type": "내선",
+      "number": "3355"
+    },
+    "parentDept": {
+      "id": "37",
+      "name": "주민생활지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3360"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "324",
+    "name": "상수도팀",
+    "phone": {
+      "type": "내선",
+      "number": "4103"
+    },
+    "parentDept": {
+      "id": "61",
+      "name": "수도과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "325",
+    "name": "생활자원팀",
+    "phone": {
+      "type": "내선",
+      "number": "7653"
+    },
+    "parentDept": {
+      "id": "73",
+      "name": "농업지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "326",
+    "name": "대기환경팀",
+    "phone": {
+      "type": "내선",
+      "number": "3652"
+    },
+    "parentDept": {
+      "id": "43",
+      "name": "환경보호과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "327",
+    "name": "세원관리팀",
+    "phone": {
+      "type": "내선",
+      "number": "3506"
+    },
+    "parentDept": {
+      "id": "40",
+      "name": "세무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3510"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "328",
+    "name": "위생팀",
+    "phone": {
+      "type": "내선",
+      "number": "5905"
+    },
+    "parentDept": {
+      "id": "70",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "5910"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "329",
+    "name": "에너지산업팀",
+    "phone": {
+      "type": "내선",
+      "number": "3706"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "330",
+    "name": "귀농지원팀",
+    "phone": {
+      "type": "내선",
+      "number": "7654"
+    },
+    "parentDept": {
+      "id": "73",
+      "name": "농업지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "331",
+    "name": "새마을팀",
+    "phone": {
+      "type": "내선",
+      "number": "3402"
+    },
+    "parentDept": {
+      "id": "38",
+      "name": "문화새마을과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3410"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "332",
+    "name": "민원팀",
+    "phone": {
+      "type": "내선",
+      "number": "4542"
+    },
+    "parentDept": {
+      "id": "18",
+      "name": "주포면사무소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "0801"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "333",
+    "name": "하수도팀",
+    "phone": {
+      "type": "내선",
+      "number": "4104"
+    },
+    "parentDept": {
+      "id": "61",
+      "name": "수도과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4110"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "334",
+    "name": "에너지전환대응TF팀",
+    "phone": {
+      "type": "내선",
+      "number": "3706"
+    },
+    "parentDept": {
+      "id": "54",
+      "name": "지역경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3710"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "335",
+    "name": "미디어팀",
+    "phone": {
+      "type": "내선",
+      "number": "3152"
+    },
+    "parentDept": {
+      "id": "7",
+      "name": "홍보미디어실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "3160"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "336",
+    "name": "농업기계팀",
+    "phone": {
+      "type": "내선",
+      "number": "7655"
+    },
+    "parentDept": {
+      "id": "73",
+      "name": "농업지원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "7660"
+      }
+    },
+    "branchID": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  }
+]

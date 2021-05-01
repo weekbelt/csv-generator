@@ -16,7 +16,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -34,6 +33,7 @@ public class StafferJsonService {
 
     private final ObjectMapper objectMapper;
     private final CsvReaderUtil csvReaderUtil;
+    private final JsonUtil jsonUtil;
     private final DepartmentSeriesRepository departmentSeriesRepository;
     private final StafferSeriesRepository stafferSeriesRepository;
 
@@ -44,7 +44,7 @@ public class StafferJsonService {
         saveStafferDataFrame(stafferDF, branchId);
 
         List<StafferJson> stafferJsonList = getStafferJsonList();
-        return JsonUtil.getByteArrayResource(stafferJsonList, objectMapper);
+        return jsonUtil.getByteArrayResource(stafferJsonList, objectMapper);
     }
 
     private List<StafferJson> getStafferJsonList() {

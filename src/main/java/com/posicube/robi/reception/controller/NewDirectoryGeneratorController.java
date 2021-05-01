@@ -26,8 +26,8 @@ public class NewDirectoryGeneratorController {
     private final NewPositionJsonService newPositionJsonService;
 
     @GetMapping("/v1/generate/new-department")
-    public ResponseEntity<Resource> generateNewDepartment() throws IOException {
-        Resource newStafferJsonResource = newDepartmentJsonService.generateNewDepartment();
+    public ResponseEntity<Resource> generateNewDepartment(String branchName) throws IOException {
+        Resource newStafferJsonResource = newDepartmentJsonService.generateNewDepartment(branchName);
         return getResponseEntity(newStafferJsonResource, "department.json");
     }
 

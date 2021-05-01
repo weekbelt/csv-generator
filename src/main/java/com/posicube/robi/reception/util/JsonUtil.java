@@ -1,43 +1,53 @@
 package com.posicube.robi.reception.util;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.posicube.robi.reception.domain.department.DepartmentJson;
-import com.posicube.robi.reception.domain.staffer.StafferJson;
 import com.posicube.robi.reception.exception.JsonFileHandlingException;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Paths;
 import java.util.List;
+import javax.annotation.PostConstruct;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.tomcat.util.http.fileupload.FileUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ByteArrayResource;
+import org.springframework.stereotype.Component;
 
 @Slf4j
+@RequiredArgsConstructor
+@Component
 public class JsonUtil {
 
-    public static File createDepartmentJsonFile(String filePath, String saveFileName, List<DepartmentJson> departmentJsonList, ObjectMapper objectMapper) throws IOException {
-        try {
-            File file = new File(filePath + saveFileName);
-            objectMapper.writeValue(Paths.get(filePath + saveFileName).toFile(), departmentJsonList);
-            return file;
-        } catch (IOException e) {
-            throw new IOException("Cannot save DepartmentJson file", e);
+    @Value("${file.storage.json.local}")
+    private String newJsonFilePath;
+
+    private final ObjectMapper objectMapper;
+
+    @PostConstruct
+    private void init() {
+        File folder = new File(this.newJsonFilePath);
+        if (!folder.exists()) {
+            try {
+                FileUtils.forceMkdir(folder);
+            } catch (IOException e) {
+                throw new JsonFileHandlingException("Json Folder Create Error", e);
+            }
         }
     }
 
-    public static File createStafferJsonFile(String filePath, String saveFileName, List<StafferJson> stafferJsonList, ObjectMapper objectMapper) throws IOException {
+    public File createJsonFile(String saveFileName, List<?> jsonList) {
         try {
-            File file = new File(filePath + saveFileName);
-            objectMapper.writeValue(Paths.get(filePath + saveFileName).toFile(), stafferJsonList);
+            File file = new File(newJsonFilePath + saveFileName);
+            objectMapper.writeValue(Paths.get(newJsonFilePath + saveFileName).toFile(), jsonList);
             return file;
         } catch (IOException e) {
-            throw new IOException("Cannot save Staffer file", e);
+            throw new JsonFileHandlingException("Cannot create Json file", e);
         }
     }
 
-    public static ByteArrayResource getByteArrayResource(List<?> jsonList, ObjectMapper objectMapper) {
+    public ByteArrayResource getByteArrayResource(List<?> jsonList, ObjectMapper objectMapper) {
         try {
             String result = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonList);
             final byte[] bytes = result.getBytes(StandardCharsets.UTF_8);

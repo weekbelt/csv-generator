@@ -24,6 +24,7 @@ import org.springframework.util.ResourceUtils;
 public class NewStafferJsonService {
 
     private final ObjectMapper objectMapper;
+    private final JsonUtil jsonUtil;
 
     public Resource generateNewStaffer() throws IOException {
         objectMapper.configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY, true);
@@ -50,7 +51,7 @@ public class NewStafferJsonService {
                 .build();
         }).collect(Collectors.toList());
 
-        return JsonUtil.getByteArrayResource(newStafferJsonList, objectMapper);
+        return jsonUtil.getByteArrayResource(newStafferJsonList, objectMapper);
     }
 
     private Phone createPhone(StafferJson stafferJson) {
