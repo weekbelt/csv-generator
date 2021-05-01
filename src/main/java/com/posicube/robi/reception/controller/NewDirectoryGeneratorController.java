@@ -38,8 +38,8 @@ public class NewDirectoryGeneratorController {
     }
 
     @GetMapping("/v1/generate/new-job")
-    public ResponseEntity<Resource> generateNewJob() throws IOException {
-        final Resource resource = newJobJsonService.generateNewJob();
+    public ResponseEntity<Resource> generateNewJob(String branchName) throws IOException {
+        final Resource resource = newJobJsonService.generateNewJob(branchName);
         return getResponseEntity(resource, "job.json");
     }
 
