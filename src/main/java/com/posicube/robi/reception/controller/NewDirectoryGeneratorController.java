@@ -44,8 +44,8 @@ public class NewDirectoryGeneratorController {
     }
 
     @GetMapping("/v1/generate/new-position")
-    public ResponseEntity<Resource> generateNewPosition() throws IOException {
-        final Resource resource = newPositionJsonService.generateNewPosition();
+    public ResponseEntity<Resource> generateNewPosition(String branchName) throws IOException {
+        final Resource resource = newPositionJsonService.generateNewPosition(branchName);
         return getResponseEntity(resource, "position.json");
     }
 
