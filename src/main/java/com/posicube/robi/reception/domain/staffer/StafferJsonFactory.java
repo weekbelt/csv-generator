@@ -1,7 +1,7 @@
 package com.posicube.robi.reception.domain.staffer;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.posicube.robi.reception.domain.department.DepartmentSeries;
+import com.posicube.robi.reception.domain.department.dto.DepartmentSeries;
 import com.posicube.robi.reception.domain.staffer.StafferJson.Department;
 import java.util.List;
 import java.util.UUID;

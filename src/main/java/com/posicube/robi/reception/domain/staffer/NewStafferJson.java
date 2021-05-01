@@ -35,6 +35,10 @@ public class NewStafferJson {
 
     private String branchId;
 
+    public void setNewDepartmentId(String newDepartmentId) {
+        this.departmentId = newDepartmentId;
+    }
+
     @Builder
     @AllArgsConstructor
     @NoArgsConstructor

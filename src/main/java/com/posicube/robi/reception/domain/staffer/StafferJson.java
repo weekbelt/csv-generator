@@ -3,7 +3,6 @@ package com.posicube.robi.reception.domain.staffer;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.posicube.robi.reception.domain.department.DepartmentJson;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -3,7 +3,7 @@ package com.posicube.robi.reception.domain.staffer.service;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvValidationException;
-import com.posicube.robi.reception.domain.department.DepartmentSeries;
+import com.posicube.robi.reception.domain.department.dto.DepartmentSeries;
 import com.posicube.robi.reception.domain.department.repository.DepartmentSeriesRepository;
 import com.posicube.robi.reception.domain.staffer.StafferJson;
 import com.posicube.robi.reception.domain.staffer.StafferJson.Department;

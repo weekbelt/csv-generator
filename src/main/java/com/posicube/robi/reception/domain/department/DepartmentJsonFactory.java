@@ -1,8 +1,10 @@
 package com.posicube.robi.reception.domain.department;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.posicube.robi.reception.domain.department.DepartmentJson.Hierarchy;
-import com.posicube.robi.reception.domain.department.DepartmentJson.ParentDept;
+import com.posicube.robi.reception.domain.department.dto.DepartmentJson;
+import com.posicube.robi.reception.domain.department.dto.DepartmentJson.Hierarchy;
+import com.posicube.robi.reception.domain.department.dto.DepartmentJson.ParentDept;
+import com.posicube.robi.reception.domain.department.dto.DepartmentSeries;
 import java.util.List;
 
 public class DepartmentJsonFactory {

@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.department;
+package com.posicube.robi.reception.domain.department.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.List;
@@ -26,6 +26,10 @@ public class NewDepartmentJson {
 
     private List<String> synonyms;
 
+    public void setNewDepartmentId(String newDepartmentId) {
+        this.id = newDepartmentId;
+    }
+
     @Builder
     @AllArgsConstructor
     @NoArgsConstructor
@@ -36,6 +40,10 @@ public class NewDepartmentJson {
         private String id;
         private String name;
         private Phone phone;
+
+        public void setNewParentDepartmentId(String newDepartmentId) {
+            this.id = newDepartmentId;
+        }
     }
 
     @Builder

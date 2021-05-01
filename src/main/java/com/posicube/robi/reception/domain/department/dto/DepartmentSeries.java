@@ -1,4 +1,4 @@
-package com.posicube.robi.reception.domain.department;
+package com.posicube.robi.reception.domain.department.dto;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
