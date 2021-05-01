@@ -7,12 +7,10 @@ import com.posicube.robi.reception.domain.department.DepartmentConverter;
 import com.posicube.robi.reception.domain.department.DepartmentJson;
 import com.posicube.robi.reception.domain.department.NewDepartmentJson;
 import com.posicube.robi.reception.util.JsonUtil;
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
-import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -31,12 +29,8 @@ public class NewDepartmentJsonService {
         List<DepartmentJson> departmentJsonList = objectMapper.readValue(ResourceUtils.getFile("classpath:json/" + branchName + "/old/department.json"), new TypeReference<>() {
         });
 
-        List<NewDepartmentJson> newDepartmentJsonList = departmentJsonList.stream()
-            .map(DepartmentConverter::convertToNewDepartmentJson).collect(Collectors.toList());
+        List<NewDepartmentJson> newDepartmentJsonList = departmentJsonList.stream().map(DepartmentConverter::convertToNewDepartmentJson).collect(Collectors.toList());
 
-        File departmentJsonFile = jsonUtil.createJsonFile("department.json", newDepartmentJsonList);
-        return new FileSystemResource(departmentJsonFile);
-
-//        return JsonUtil.getByteArrayResource(newDepartmentJsonList, objectMapper);
+        return jsonUtil.getByteArrayResource(newDepartmentJsonList, objectMapper);
     }
 }

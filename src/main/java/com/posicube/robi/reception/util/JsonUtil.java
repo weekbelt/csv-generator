@@ -20,6 +20,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class JsonUtil {
 
+    private static String EXTENSION = ".json";
+
     @Value("${file.storage.json.local}")
     private String newJsonFilePath;
 
@@ -40,7 +42,7 @@ public class JsonUtil {
     public File createJsonFile(String saveFileName, List<?> jsonList) {
         try {
             File file = new File(newJsonFilePath + saveFileName);
-            objectMapper.writeValue(Paths.get(newJsonFilePath + saveFileName).toFile(), jsonList);
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(Paths.get(newJsonFilePath + saveFileName + EXTENSION).toFile(), jsonList);
             return file;
         } catch (IOException e) {
             throw new JsonFileHandlingException("Cannot create Json file", e);

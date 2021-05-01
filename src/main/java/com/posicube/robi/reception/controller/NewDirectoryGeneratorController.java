@@ -32,8 +32,8 @@ public class NewDirectoryGeneratorController {
     }
 
     @GetMapping("/v1/generate/new-staffer")
-    public ResponseEntity<Resource> generateNewStaffer() throws IOException {
-        Resource newStafferJsonResource = newStafferJsonService.generateNewStaffer();
+    public ResponseEntity<Resource> generateNewStaffer(String branchName) throws IOException {
+        Resource newStafferJsonResource = newStafferJsonService.generateNewStaffer(branchName);
         return getResponseEntity(newStafferJsonResource, "staffer.json");
     }
 
