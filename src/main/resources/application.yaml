@@ -1,0 +1,6 @@
+server:
+  port: 8088
+file:
+  storage:
+    json:
+      local: uploads/json
