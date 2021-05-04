@@ -1,0 +1,1340 @@
+[
+  {
+    "id": "2bbaef52-bdee-4e0a-955c-70dbd36a1683",
+    "name": "시장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "014df32e-4578-4f29-abd2-60db007e101d",
+    "name": "과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "310f8fe0-9f40-44be-855a-9ce366639e99",
+    "name": "사회복지과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9b685d9e-b8ca-4be3-aaca-b3bad59227c5",
+    "name": "교통과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e89cfd4e-64d8-4112-88b4-017be5c40e49",
+    "name": "해양정책과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1a7fe258-0753-4a6b-9870-a7f523c1e67f",
+    "name": "농업지원과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "fc0b83fb-e767-4562-b6db-9177e3e33cfd",
+    "name": "교육체육과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "62f4263c-0fe3-4a19-bb75-4b65294f9d84",
+    "name": "안전총괄과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0d68dd76-76e0-4a9e-8850-0511621c9fbc",
+    "name": "면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d25d3e86-7c7c-44c1-bca6-7c3e4717cf0c",
+    "name": "주포면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "98166738-e8ae-4963-ae89-4b9ab4919682",
+    "name": "청소면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "5753110a-04b5-4474-841b-c6a7e803f9f5",
+    "name": "국장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "7a496784-7a07-4b97-af9e-66a96cb965da",
+    "name": "의회사무국장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9d851c0a-3c40-4da4-a6fa-25311200d717",
+    "name": "세무과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d820fb9e-6958-4708-924d-bdabb0d80d5b",
+    "name": "동장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d661fc10-2c14-4d2a-be1f-71e8cbe5bcf4",
+    "name": "대천2동장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "8763983d-4f8c-472a-9040-91a5f15d4668",
+    "name": "건강증진과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "2f303ee0-b6d4-4b9d-b669-d02af1ebc692",
+    "name": "축산과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "64698312-83a7-45cc-b110-c6f6b7650ab4",
+    "name": "도로과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ef92aa22-40ff-4a85-82c1-0feb410698c1",
+    "name": "대천1동장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1891d1db-42e6-45f1-83aa-0291ec074d92",
+    "name": "환경보호과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "5a266c79-0b50-4816-bcaf-d7ca4199ece5",
+    "name": "친환경기술과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "88f591e2-9110-4f99-82ad-ecb729fa445b",
+    "name": "산림공원과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ebaf4c12-795a-4867-b2f3-d6dbbccc1863",
+    "name": "수산과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "bb3a423b-6974-420b-aec3-582d0a24599c",
+    "name": "관광과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d18ea362-8541-4eb7-b9ce-200cd7671b9a",
+    "name": "청라면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d83685dd-689f-49c6-97eb-81fe5405aa71",
+    "name": "회계과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e3265099-0229-46a8-85fd-5c82bfc624be",
+    "name": "지역경제과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "5e211d74-d331-41e8-8cff-2af8eed0faec",
+    "name": "건설과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "5253706b-2199-42d4-b4df-8622cb235fc8",
+    "name": "해수욕장경영과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6c29ddae-2f82-49fa-ae87-600498f4e71c",
+    "name": "도시재생과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0d462bdf-0792-453e-be6a-9690ddcf49fe",
+    "name": "자치행정과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d79c7971-6a3a-4442-a716-ae307895f487",
+    "name": "천북면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1608559d-438b-46a0-90a4-178c5c8f6279",
+    "name": "수도과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "de4ef212-962a-4b02-9215-f0a4c5379dbc",
+    "name": "민원지적과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "662f2c3a-6ac2-49c7-8441-40e8e6e7be84",
+    "name": "해양수산관광국장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "624007dc-c22c-49d3-ae2a-06a43c046aab",
+    "name": "오천면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "c37f5375-4003-45c6-b93e-f2c807793d58",
+    "name": "건축허가과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0229e186-7fa2-4f45-a1b4-a07bb02e8d03",
+    "name": "팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ad7aa1bd-2dec-4e61-8d32-7373a2a7f4b1",
+    "name": "수도행정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "3eadf36f-7724-41b4-910a-cfc0422a931b",
+    "name": "세정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "2c3212f0-4de3-45a9-adfb-f7dc09861307",
+    "name": "민원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "72148109-33a4-416e-b537-c88ee49ef4e1",
+    "name": "전산팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6fb3bcad-4e0c-4b36-b6c9-87c820ff2ef2",
+    "name": "주민생활지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "787ead17-d8e3-405b-bafd-4b82d90580bc",
+    "name": "복구지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "90ad2221-c425-4b10-bccb-80ced74b23c8",
+    "name": "도서관팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d7a21724-e257-447c-997a-2e9388a5815b",
+    "name": "미래사업과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "f5ddc58c-7b17-4ac3-bd12-92a7d22aaf8d",
+    "name": "가족관계등록팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "89d6a4f7-ccf8-4381-a07d-4403ee22c883",
+    "name": "여성청소년팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ae4a3960-6b51-413e-b1f9-4743809946d2",
+    "name": "대천3동장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "086ca303-1cf8-4220-8f0c-bc0a4fe9e8ac",
+    "name": "주산면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0b7ad29e-ca7d-42f7-8ffe-a6f290f2064b",
+    "name": "복지기획팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "49261071-225a-464b-bf8c-5f803241a57a",
+    "name": "맞춤형복지팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6e3857eb-bd2c-4cdc-8b7a-ad6ad8afec0f",
+    "name": "어업지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0798e435-6547-497f-9de4-fe4c82d8e775",
+    "name": "민원복지팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "430d161f-029f-4d18-8db2-5781d1e3030c",
+    "name": "전략사업팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "79dd512d-d4dd-4e7b-99a3-7979605be0a2",
+    "name": "산림보호팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "4bdd359b-7d70-4ea5-a4c1-6bd566803bd6",
+    "name": "도시디자인팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "2c4927e8-7283-4e69-8fd3-fd23403c79b7",
+    "name": "지역개발팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ac20554c-e64e-430e-95ff-b7a61d5729e2",
+    "name": "건축신고팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "77b1ca63-8289-438f-9c21-50a2fabde48a",
+    "name": "차량등록팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ad66556e-83b3-4087-b408-542b448fdd0b",
+    "name": "해양관광개발팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "61c03086-978c-468b-886d-ee98454efb28",
+    "name": "인사팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e0e643f2-559c-4dd9-b2da-8e5dbd7cc588",
+    "name": "방문보건팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "58000316-6e51-4237-afd2-9e9c4d94018b",
+    "name": "산업팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1083d4d8-7e53-413c-b6ec-0260e2b33203",
+    "name": "동물자원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1b3d96bf-fa10-41fe-9be3-4a8d46be649a",
+    "name": "청소환경팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0e7955bb-7454-4d30-9549-71a244d2405e",
+    "name": "조사팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "f04afe4e-6ebf-44f9-baa0-c7555c4d0af6",
+    "name": "시설관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0e844166-b9f0-4e10-a92d-fc01345a3e21",
+    "name": "특사경지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d865cd5b-3660-4822-ae74-042d6dd0757b",
+    "name": "자치인권팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1b918b13-55f5-43a8-8059-aaeeaafbaf1c",
+    "name": "보육지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "06db3840-1b1d-4110-b88e-a34a137a9fa1",
+    "name": "의사팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "b59c3900-7cd1-4c3f-bba4-d204dff8ac40",
+    "name": "해양치유산업팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "41bd60ec-03be-46c2-b089-2463259b7756",
+    "name": "도시재생정책팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a34306f8-652d-41ba-a0e0-b99ed0aac77d",
+    "name": "정보통신팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "b75f16b1-b112-47e5-8b03-26fa29fb5700",
+    "name": "토지정책팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "b279b4f0-fcfa-4b39-bd84-4a58e54b7f41",
+    "name": "예산팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "b0301129-13e2-4c44-94ec-0ea83abc4620",
+    "name": "하천팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "f09aee57-0c97-4f3b-af96-71df2ed5bc6c",
+    "name": "교통시설팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9246b79e-02a7-4650-8d6c-ef16051eb4a7",
+    "name": "개발팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "b61eaf84-190f-4023-88a6-6e21e070e6e5",
+    "name": "재산관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "fb861451-1d30-4968-a48a-47664f70f6f7",
+    "name": "건축물유지관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "642e3d0d-4354-455c-b802-9f8260fe6ce5",
+    "name": "통합관제팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "47a85e49-e430-48c5-bc30-98493ae3d48c",
+    "name": "환경관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "de62efb0-7c3a-4ed8-b6a6-ce5f81798852",
+    "name": "건강증진팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "83b8a92c-39c7-4927-b33f-a8261f3fdc6e",
+    "name": "평생교육팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "474cdf68-2689-4b8d-b8ec-6b8bfbcac6cc",
+    "name": "수산행정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ed7a3d97-cb7a-4afc-b234-0e9cad900201",
+    "name": "건축행정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "eb775135-8b9b-4bc7-b02a-1fd4b9dbfa16",
+    "name": "대천운영팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9b4a5318-7502-40ca-856e-86c5ef4e9748",
+    "name": "산림경영팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "3f776fa8-685d-4e99-a487-78f4c670371d",
+    "name": "경리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a36570de-b82a-4060-8ca0-73e4a4a90230",
+    "name": "문화예술팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "cbcb5997-3b74-4299-b467-d45ee37955b5",
+    "name": "도시계획팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d5230b08-9262-4344-98ec-4e4d087dd2ee",
+    "name": "도로시설팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "cce721ed-d9d4-4ebc-8a7b-e414afdff215",
+    "name": "민원봉사팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "82c06701-71d8-4ebd-9fac-30a0fb8add3a",
+    "name": "축산팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "3ea1b768-ca3b-4efb-99f9-2268c423c64c",
+    "name": "총무팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "671bfc14-0885-4dc3-b0cc-f5161e64b811",
+    "name": "정책기획팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "484b84d1-0f02-4104-be64-1c24c01ebc80",
+    "name": "작물환경팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e089d8de-994c-4e63-973d-707a94044f2f",
+    "name": "농정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "c37f61f2-ec80-40dc-9a19-99a2f87ac455",
+    "name": "경로복지팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e94cbdeb-a764-4469-84a4-17a03a9c1e3b",
+    "name": "교통행정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "5ae1b050-2dbc-444b-8295-72b30112ac55",
+    "name": "자활의료팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "fe04753e-2cb0-4227-9e33-5bd6e4c6ebed",
+    "name": "도로관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "3c74a91d-f9d7-4c61-ab77-2e1344fac9ea",
+    "name": "재산과표팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "00fbc602-f9ad-474f-8dfb-9e43658913bb",
+    "name": "서무팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e3097fa2-9403-48ba-abda-ae28fcbb2a81",
+    "name": "문화의전당팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "abfffbf9-fd67-46c7-b46c-bf4511a16db0",
+    "name": "기업유치팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "cb043abc-fba3-4a96-8822-ddb5a1ac1bea",
+    "name": "섬자원개발팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "000a4e25-03ae-422b-9b61-214b2f276d5a",
+    "name": "산림자원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "cbe10c32-2efe-4999-b472-38247ac45f39",
+    "name": "아동친화드림팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "299b5130-fcb0-4f75-9fb3-e3c554ca5217",
+    "name": "청사관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "757fd536-9c44-434d-960c-d1cabb691baf",
+    "name": "홍보팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a323ba3b-814d-40a6-ae64-c970fb07a445",
+    "name": "조명팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "f7684785-1798-41bb-a010-723d4e502433",
+    "name": "주택팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6cb03255-973e-4595-b5ae-47bbab0d6df0",
+    "name": "의회법무팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "43c88405-9d54-4103-9cd6-a63ec321bd0d",
+    "name": "정신건강팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "8101b92c-c320-47fd-8d5d-330eeb83c591",
+    "name": "체육지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "915c8bb6-792d-4f82-8b1a-a4f415e4d4ec",
+    "name": "인구정책팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e23ebafe-10bf-434b-9f1e-004225320c5c",
+    "name": "수질관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "3bf5bc9e-c78f-4e1b-b0e9-ce7c8392bee1",
+    "name": "토지이용남부팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "be6bb5a7-9062-4bd6-a8e8-975abcdfdca5",
+    "name": "지적정보팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "2e2e8e2a-2daf-409d-882c-786553cf33e4",
+    "name": "국비TF팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "b8cf449c-b92b-43aa-8166-5f3cfce9f9a4",
+    "name": "지도기획팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "845a563f-46b7-4691-8ad6-877d94abb275",
+    "name": "관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "527b4cd2-3fa4-4228-bdaf-f4342e2f3759",
+    "name": "징수팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "8ea6ae91-fda4-42a9-81f9-19579dd2275f",
+    "name": "공원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "36ebd7a9-f2ec-4cf0-bc0e-bdd8d238b758",
+    "name": "통합조사관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "da3f243e-763d-4539-8671-e57c4daca7e0",
+    "name": "체육시설관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "73a270d7-a686-4c41-a84d-39915d985ebf",
+    "name": "모자보건팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "affa7a04-a072-4eb3-91a5-dfa9cfe63040",
+    "name": "장애인지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "26433442-837a-41ef-8c11-46f660778a3b",
+    "name": "치매관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "02b43bf0-d2cf-4d05-9ebc-eaa15f3dd524",
+    "name": "지적재조사팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ce6061fb-c06b-4936-a4bf-d1eefb9d5f85",
+    "name": "인력육성팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "8d16d58f-f321-4dbb-ba74-1af456c6eea1",
+    "name": "의약팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "40e307d7-d6fa-4e22-bf27-57ef0ac102af",
+    "name": "녹지조경팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ef7df5a5-1d2b-4414-95c7-2b62a11d2a6c",
+    "name": "세외수입체납팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a9af5095-6bfd-4053-a8cd-43f316cd2067",
+    "name": "산업단지조성팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9156db40-0577-4eda-9867-56836bbb8823",
+    "name": "행복키움지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "8ff2f4dc-0c0d-496e-830d-c78e5a89bb89",
+    "name": "산림휴양팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "c0a5b160-cdec-4709-a8fe-5ec7f27770bd",
+    "name": "세입관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "fdbfa90e-a572-4827-b9b6-8f3d49b7a059",
+    "name": "진료팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "bdf85981-2ceb-43f0-812b-a8f1aedfead1",
+    "name": "도시계획도로팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "c42276b1-270f-4688-91a4-2daf29d9276d",
+    "name": "종합복지관팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a55a1ea1-0582-4e51-a119-ab6e43a5a1c2",
+    "name": "상수도팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "06de89f0-a8bc-45c9-8667-75d7c773ab97",
+    "name": "생활자원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d4829d89-d887-43b7-b737-5bc740965122",
+    "name": "대기환경팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "eb684d16-ef1b-415e-8aa7-8d5036f2b70a",
+    "name": "세원관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "91217048-244c-4f89-930c-80f39e00f0b9",
+    "name": "위생팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0e74eef2-8246-406e-9014-8f2bbdf6660f",
+    "name": "에너지산업팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d3a8d22b-34bc-479d-9371-ddc979949448",
+    "name": "귀농지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9f52d008-af69-4dc6-80e9-e1e0f0403100",
+    "name": "수산자원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1652fb31-62f0-445c-9df8-867debd40ebc",
+    "name": "도시재생사업팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a70793cc-6a9f-4349-ab77-84e320947b17",
+    "name": "농촌개발팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "8d144de0-85d0-49b0-8c3c-170d7ac9add4",
+    "name": "하수도팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6326ef42-36f3-4bc9-a4ea-e1bfbd0d7e48",
+    "name": "계약팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "83e9bd9b-16c9-483d-b5e8-c4717d95bfd4",
+    "name": "가축방역팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "378e6f91-5ba8-4038-9aa8-91d62ee4b617",
+    "name": "미디어팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "542c3cca-e177-4550-8f3c-deeb8158247d",
+    "name": "시정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "82d8c0a5-aeb0-4a67-b457-eac6178f9d6f",
+    "name": "농업기계팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "412bdcdd-7fc5-45c9-8955-f67a6b82b103",
+    "name": "감사팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1275eb9f-5276-44d4-8043-bfeda701240d",
+    "name": "원예특작팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "046118bd-26ea-441f-a5df-5fdebb300ed7",
+    "name": "무창포운영팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "2e032f7a-db83-48b9-a34e-e97caf060d31",
+    "name": "건축허가팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1424e039-0a5a-44ea-887f-59f909f5924b",
+    "name": "국도77호개통팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "f4bd76a1-5008-4d54-b614-ccad98315424",
+    "name": "소장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "23f70457-3e7c-4e8f-b1b4-5e2818d64ee8",
+    "name": "봉성보건진료소장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "0a8f7518-04e0-490a-b957-7032ac746b35",
+    "name": "수곡보건진료소장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "5739e17c-5140-44d6-a958-a33e58efd294",
+    "name": "삼현보건진료소",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6752755c-bdd0-4b46-ba50-47eb01ac6830",
+    "name": "외연도보건진료소",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e6e42be4-7084-432c-a76d-d7dd769a1405",
+    "name": "지소장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "c9d00d23-d978-4cf9-b6d7-5bb9a09f3e9c",
+    "name": "의사",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "828281d8-6349-47b6-b15a-9d56945ecf44",
+    "name": "중위",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "37dc1bf4-f69d-4d3b-a59a-472c81aaa729",
+    "name": "삽시도보건진료소장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "e7ba2fbe-266d-49d5-8bfd-463e059b4d82",
+    "name": "고대도보건진료소",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "868f7c8e-9ece-4daa-9784-b6eca2dad005",
+    "name": "호도보건진료소",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a372d5c4-61f4-4fd4-b279-d31e6750cbfc",
+    "name": "효자도보건진료소장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a6b60028-d0c3-4659-b8b9-38e3987b116e",
+    "name": "부시장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "44580033-7776-42f5-8105-6bc602e9aad4",
+    "name": "단장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "701b4d57-452f-46a3-b795-2ef017f8ced9",
+    "name": "충남체전준비단장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "1e7ea821-13b4-462b-bb06-cdc71c5d609c",
+    "name": "대천4동장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "37a80780-c0bb-41ce-97bc-520f23d66989",
+    "name": "성주면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "c6246809-5d58-4964-bfb4-ca83086b8401",
+    "name": "경제도시국장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "086eaead-4972-4907-8bce-1a5e272bb929",
+    "name": "보건행정과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9f312f62-443f-4281-b5bb-f8ff34cbcd7c",
+    "name": "남포면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "703e7231-18b0-4171-a56c-09240be2b597",
+    "name": "문화새마을과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9a3b507f-d750-4d68-bbae-d20742c8e4d5",
+    "name": "대천5동장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "bd181cfb-01c4-4dcb-8381-120eab6d6c45",
+    "name": "주민생활지원과장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ce996429-ae1e-4bc8-8f7f-f0a2a19f94c6",
+    "name": "주교면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "35ea3765-bc86-44d3-adc8-2072782e0f94",
+    "name": "읍장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "804adcf6-7bf9-4277-9c61-159dde35a52f",
+    "name": "웅천읍장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "b7f0c6f9-7913-4d97-9d89-76040b8b2ee4",
+    "name": "안전행정국장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "28301729-91a4-435a-a911-feee47b2747c",
+    "name": "해양정책팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6de44d3d-42a8-4a37-b10e-80eb48904afd",
+    "name": "문예회관팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ea09ba55-9df3-40e7-b923-217f8071e595",
+    "name": "선장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d9465b8e-c78b-4b46-8964-2bff769420ae",
+    "name": "환경지도팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "91007d28-b208-4283-aa6f-b3401aa68553",
+    "name": "미산면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d77aeaea-f2c0-4bba-a620-f30f269aa3c5",
+    "name": "지역경제팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "6adb69e8-02d3-4708-9596-5787d878b948",
+    "name": "문화재관리팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "f31a28be-4c17-4ad9-b3de-7f79d0a866c3",
+    "name": "농산팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "70f934d1-3338-4a34-8959-7d3e06a36d60",
+    "name": "연구개발팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "892205bf-0e39-41f0-8b76-3c1699baa3d3",
+    "name": "민방위팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "5dbd0461-2850-4c13-a11e-6410d22c5850",
+    "name": "부면장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "b5ecffc2-176c-439d-820c-781a5321f0fa",
+    "name": "체전기획팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "cd6095ce-8667-49df-a006-6db7cfb845d1",
+    "name": "보건행정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "2f7a2a85-5428-4a7a-8a3b-3d7d5a02966e",
+    "name": "관광진흥팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "9e1fd4fb-ff36-4e97-a2e0-9c567366c530",
+    "name": "안전정책팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "091c2f94-7f0a-42dd-bbf7-2f1015e98901",
+    "name": "건설행정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "89938e57-c714-4c86-a554-dc6787f8266d",
+    "name": "학교급식팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ef073cce-1fbb-4b65-b938-7f327e77e130",
+    "name": "수산산업팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "d17aa60c-e08f-4786-bad8-9bb9fce85958",
+    "name": "마을공동체팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "511eead9-d1c5-4543-9df8-83c4e2886dfa",
+    "name": "마케팅지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "a21c417d-fb9a-4737-ac40-9382b23d0fd2",
+    "name": "일자리정책팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "26f214e2-f916-484c-a9a2-986845432722",
+    "name": "해양환경항만팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "4ffba4c4-c3da-4f65-803d-87104678d765",
+    "name": "북부토지이용팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "94d08282-2028-496b-8bea-e2769a2a0901",
+    "name": "체전운영팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "dfdcf726-c8f7-43b4-8a63-696dd89663fe",
+    "name": "기업지원팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ebe26d2c-9df9-4d41-9c9f-41f1a3a9bad2",
+    "name": "의정팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "ca20ded1-0f30-4d67-b4e8-be4639ce4f69",
+    "name": "교통지도팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "da125a4d-1f7a-4875-a3af-a268595bb39a",
+    "name": "새마을팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "84833be8-d406-4c3e-8093-7449df501164",
+    "name": "에너지전환대응TF팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  },
+  {
+    "id": "62b471c2-3a01-4816-b351-89f6feada884",
+    "name": "관광개발팀장",
+    "branchId": "0dbf43a0-a168-11e9-a893-49ac915e00a7",
+    "synonyms": []
+  }
+]
