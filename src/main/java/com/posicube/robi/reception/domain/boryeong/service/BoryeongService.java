@@ -4,6 +4,7 @@ import com.opencsv.exceptions.CsvValidationException;
 import com.posicube.robi.reception.domain.boryeong.dto.BoryeongDto;
 import com.posicube.robi.reception.util.CsvReaderUtil;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.StringTokenizer;
 import lombok.RequiredArgsConstructor;
@@ -19,8 +20,9 @@ public class BoryeongService {
     private final CsvReaderUtil csvReaderUtil;
 
     public List<BoryeongDto> convertCsvToJson() throws CsvValidationException {
+        HashMap<String, String> checkDuple = new HashMap<>();
         List<BoryeongDto> list = new ArrayList<>();
-        List<String[]> chatBotDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/br/chatBot/보령시청_챗봇(0507).csv"));
+        List<String[]> chatBotDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/br/chatBot/보령시청_챗봇(0514).csv"));
 
         int largeCategoryNo = 0;
         int mediumCategoryNo1 = 1;
@@ -37,10 +39,15 @@ public class BoryeongService {
         String smallCategory1 = "";
         String smallCategory2 = "";
 
-
+        int maxRowCount = 322;
+        int rowCount = 1;
         for (String[] row : chatBotDF) {
-            BoryeongDto dto = new BoryeongDto();
+            rowCount++;
+            if ( rowCount == maxRowCount) {
+                break;
+            }
 
+            BoryeongDto dto = new BoryeongDto();
             largeCategory = checkNext(row[largeCategoryNo], largeCategory);
             dto.setLargeCategory(largeCategory.trim());
             mediumCategory1 = checkNext(row[mediumCategoryNo1], mediumCategory1);
@@ -59,10 +66,42 @@ public class BoryeongService {
                 String question = stringTokenizer.nextToken();
                 dto.getSimilarQuestion().add(question.trim());
             }
-            dto.setAnswer(row[answerNo].trim());
+
+            if (checkDuple(checkDuple, row[titleQuestionNo])) {
+                log.error(row[titleQuestionNo]);
+                throw new RuntimeException("Question Duplication Error");
+            }
+            else {
+                checkDuple.put(row[titleQuestionNo], "");
+                StringTokenizer tokenizer = new StringTokenizer(row[similarQuestionNo], System.lineSeparator());
+                while (tokenizer.hasMoreTokens()) {
+                    String question = tokenizer.nextToken();
+                    if (checkDuple(checkDuple, question)) {
+                        log.error(question);
+                        continue;
+                    }
+                    checkDuple.put(question, "");
+                }
+            }
+            stringTokenizer = new StringTokenizer(row[answerNo], System.lineSeparator());
+            StringBuilder builder = new StringBuilder();
+            while(stringTokenizer.hasMoreTokens()) {
+                String tokenString = stringTokenizer.nextToken().trim();
+                if ("<IMAGE>".equals(tokenString) || "<LINK>".equals(tokenString)) {
+                    builder.append(System.lineSeparator()).append(tokenString).append(System.lineSeparator());
+                } else {
+                    builder.append(tokenString).append(System.lineSeparator());
+                }
+            }
+            dto.setAnswer(builder.toString().trim());
+
             list.add(dto);
         }
         return list;
+    }
+
+    private boolean checkDuple(HashMap<String, String> checkDuple, String key) {
+        return checkDuple.containsKey(key);
     }
 
     private String checkNext(String row, String largeCategory) {
