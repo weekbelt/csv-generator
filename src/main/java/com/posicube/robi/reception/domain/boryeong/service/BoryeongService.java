@@ -22,50 +22,39 @@ public class BoryeongService {
     public List<BoryeongDto> convertCsvToJson() throws CsvValidationException {
         HashMap<String, String> checkDuple = new HashMap<>();
         List<BoryeongDto> list = new ArrayList<>();
-        List<String[]> chatBotDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/br/chatBot/보령시청_챗봇(0514).csv"));
+        List<String[]> chatBotDF = csvReaderUtil.convertCsvResourceToDataFrame(new ClassPathResource("csv/br/chatBot/보령시청_챗봇(0520).csv"));
 
         int largeCategoryNo = 0;
-        int mediumCategoryNo1 = 1;
-        int mediumCategoryNo2 = 2;
-        int smallCategoryNo1 = 3;
-        int smallCategoryNo2 = 4;
-        int titleQuestionNo = 5;
-        int similarQuestionNo = 6;
-        int answerNo = 7;
+        int mediumCategoryNo = 1;
+        int smallCategoryNo = 2;
+        int questionNameNo = 3;
+        int titleQuestionNo = 4;
+        int similarQuestionNo = 5;
+        int answerNo = 6;
+        int useFlag = 8;
+
+        final String imageUrl = "https://chatbot1.blob.core.windows.net/%24web/";
 
         String largeCategory = "";
-        String mediumCategory1 = "";
-        String mediumCategory2 = "";
-        String smallCategory1 = "";
-        String smallCategory2 = "";
+        String mediumCategory = "";
+        String smallCategory = "";
+        String questionName = "";
 
-        int maxRowCount = 322;
-        int rowCount = 1;
         for (String[] row : chatBotDF) {
-            rowCount++;
-            if ( rowCount == maxRowCount) {
-                break;
-            }
 
             BoryeongDto dto = new BoryeongDto();
             largeCategory = checkNext(row[largeCategoryNo], largeCategory);
             dto.setLargeCategory(largeCategory.trim());
-            mediumCategory1 = checkNext(row[mediumCategoryNo1], mediumCategory1);
-            dto.setMediumCategory1(mediumCategory1.trim());
-            mediumCategory2 = checkNext(row[mediumCategoryNo2], mediumCategory2);
-            dto.setMediumCategory2(mediumCategory2.trim());
-            smallCategory1 = checkNext(row[smallCategoryNo1], smallCategory1);
-            dto.setSmallCategory1(smallCategory1.trim());
-            smallCategory2 = checkNext(row[smallCategoryNo2], smallCategory2);
-            dto.setSmallCategory2(smallCategory2.trim());
-            dto.setTitleQuestion(row[titleQuestionNo]);
+            mediumCategory = checkNext(row[mediumCategoryNo], mediumCategory);
+            dto.setMediumCategory(mediumCategory.trim());
+            smallCategory = checkNext(row[smallCategoryNo], smallCategory);
+            dto.setSmallCategory(smallCategory.trim());
+            questionName = checkNext(row[questionNameNo], questionName);
+            dto.setQuestionName(questionName.trim());
+            dto.setTitleQuestion(row[titleQuestionNo].trim());
 
+            if (!"o".equals(row[useFlag])) continue;
             dto.setSimilarQuestion(new ArrayList<>());
-            StringTokenizer stringTokenizer = new StringTokenizer(row[similarQuestionNo], System.lineSeparator());
-            while(stringTokenizer.hasMoreTokens()) {
-                String question = stringTokenizer.nextToken();
-                dto.getSimilarQuestion().add(question.trim());
-            }
 
             if (checkDuple(checkDuple, row[titleQuestionNo])) {
                 log.error(row[titleQuestionNo]);
@@ -73,25 +62,60 @@ public class BoryeongService {
             }
             else {
                 checkDuple.put(row[titleQuestionNo], "");
-                StringTokenizer tokenizer = new StringTokenizer(row[similarQuestionNo], System.lineSeparator());
-                while (tokenizer.hasMoreTokens()) {
-                    String question = tokenizer.nextToken();
-                    if (checkDuple(checkDuple, question)) {
-                        log.error(question);
-                        continue;
-                    }
-                    checkDuple.put(question, "");
-                }
             }
+
+            StringTokenizer stringTokenizer = new StringTokenizer(row[similarQuestionNo], System.lineSeparator());
+            while (stringTokenizer.hasMoreTokens()) {
+                String question = stringTokenizer.nextToken().trim();
+                if (checkDuple(checkDuple, question)) {
+                    //log.error(question);
+                    continue;
+                }
+                checkDuple.put(question, "");
+                dto.getSimilarQuestion().add(question.trim());
+            }
+
             stringTokenizer = new StringTokenizer(row[answerNo], System.lineSeparator());
             StringBuilder builder = new StringBuilder();
+
+            boolean stringflag = false;
             while(stringTokenizer.hasMoreTokens()) {
                 String tokenString = stringTokenizer.nextToken().trim();
-                if ("<IMAGE>".equals(tokenString) || "<LINK>".equals(tokenString)) {
-                    builder.append(System.lineSeparator()).append(tokenString).append(System.lineSeparator());
+
+                if ("<IMAGE>".equals(tokenString)) {
+                    if (stringflag) {
+                        builder.append(System.lineSeparator());
+                        stringflag = false;
+                    }
+                    builder.append(tokenString).append(System.lineSeparator());
+                    tokenString = stringTokenizer.nextToken().trim();
+                    builder.append(tokenString).append(System.lineSeparator());
+                    tokenString = stringTokenizer.nextToken().trim();
+                    if (!tokenString.startsWith("http")) {
+                        if (!tokenString.endsWith(".png")) {
+                            log.error("not image :{}", tokenString);
+                        }
+                        builder.append(imageUrl).append(tokenString).append(System.lineSeparator()).append(System.lineSeparator());
+                    } else {
+                        builder.append(tokenString).append(System.lineSeparator()).append(System.lineSeparator());
+                    }
+                } else if ("<LINK>".equals(tokenString)) {
+                    if (stringflag) {
+                        builder.append(System.lineSeparator());
+                        stringflag = false;
+                    }
+                    builder.append(tokenString).append(System.lineSeparator());
+                    tokenString = stringTokenizer.nextToken().trim();
+                    builder.append(tokenString).append(System.lineSeparator());
+                    tokenString = stringTokenizer.nextToken().trim();
+                    builder.append(tokenString).append(System.lineSeparator());
+                    tokenString = stringTokenizer.nextToken().trim();
+                    builder.append(tokenString).append(System.lineSeparator()).append(System.lineSeparator());
                 } else {
+                    stringflag = true;
                     builder.append(tokenString).append(System.lineSeparator());
                 }
+
             }
             dto.setAnswer(builder.toString().trim());
 

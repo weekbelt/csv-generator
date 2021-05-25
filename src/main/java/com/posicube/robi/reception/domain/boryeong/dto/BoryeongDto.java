@@ -12,17 +12,14 @@ public class BoryeongDto {
     @JsonProperty("LC")
     private String largeCategory;
 
-    @JsonProperty("MC1")
-    private String mediumCategory1;
+    @JsonProperty("MC")
+    private String mediumCategory;
 
-    @JsonProperty("MC2")
-    private String mediumCategory2;
+    @JsonProperty("SC")
+    private String smallCategory;
 
-    @JsonProperty("SC1")
-    private String smallCategory1;
-
-    @JsonProperty("SC2")
-    private String smallCategory2;
+    @JsonProperty("QuestionName")
+    private String questionName;
 
     @JsonProperty("TitleQuestion")
     private String titleQuestion;
